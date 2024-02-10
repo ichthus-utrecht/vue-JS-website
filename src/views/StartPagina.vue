@@ -6,16 +6,7 @@
 </template>
 
 <script setup>
-import HeaderBalk from '../interactief/HeaderBalk.vue'
-</script>
-<!-- Waarom is dit 'script' terwijl de tutorials steeds 'script setup' gebruiken?-->
-<script> 
-export default {
-  name: 'HomePage',
-  props: {
-    msg: String
-  }
-}
+import HeaderBalk from '../components/interactief/HeaderBalk.vue'
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

@@ -1,0 +1,93 @@
+
+/*
+	ACTIVITEITEN/AGENDA
+	---------------
+*/
+
+#agendaContainer {
+    padding-top: 2rem;
+    padding-bottom: calc(2rem + 50px);
+}
+
+.agenda-calendar-legend-day {
+    width: 14%;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+    color: #1e2258;
+}
+
+.agenda-calendar-day {
+    width: 14%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    color: lightgray;
+}
+
+.day-active {
+    color: gray;
+}
+
+.agenda-calendar-month {
+    list-style: none;
+}
+
+.agenda-highlighted {
+    vertical-align: top;
+    height: 45vh;
+}
+
+.agenda-highlighted-events {
+    height: 100%;
+    padding-right: 2vh;
+    border-bottom: solid 2px #1e2258;
+    border-top: solid 2px #1e2258;
+    overflow-y: auto !important;
+}
+
+.agenda-highlighted-caption {
+    color: #1e2258;
+    font-size: 24px;
+}
+
+.agenda-highlighted-item:nth-of-type(1) {
+    border-top: solid 0 #1e2258;
+}
+
+.agenda-highlighted-item {
+    padding-top: 8px;
+    border-top: solid 1px lightgray;
+}
+
+.agenda-highlighted-item-caption {
+    color: #1e2258;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.agenda-highlighted-item-description {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
+
+.agenda-calendar-month-caption {
+    color: #1e2258;
+    font-size: 24px;
+    width: 20vw;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.agenda-calender-month-btn {
+    width: 40px;
+    text-align: center;
+    background: transparent;
+    border: 0;
+}
+
+.agenda-calender-month-btn:hover {
+    cursor: pointer;
+}
+
+#agendaHighlightedEvents, #agendaHighlightedUrl {
+    position: relative;
+}

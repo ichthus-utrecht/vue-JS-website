@@ -1,0 +1,47 @@
+hr {
+    vertical-align: middle;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-bottom-style: solid;
+    border-bottom-color: #1e2258;
+    border-bottom-width: 2px;
+    margin-top: 0.5vh;
+    margin-bottom: 2vh;
+    border-top: 0;
+    &.divider-thin {
+        border-bottom-width: 1px;
+        --deprecated: "Divider deprecated: use hr and bootstrap styling";
+    }
+    &.divider-bold {
+        border-bottom-width: 3px;
+        --deprecated: "Divider deprecated: use hr and bootstrap styling";
+    }
+    &.divider-small {
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+        --deprecated: "Divider deprecated: use hr and bootstrap styling";
+    }
+    &.divider-large {
+        margin-top: 4vh;
+        margin-bottom: 4vh;
+        --deprecated: "Divider deprecated: use hr and bootstrap styling";
+    }
+    &.divider-gray {
+        border-bottom-color: lightgray;
+    }
+    &.divider-white {
+        border-bottom-color: white;
+    }
+    &.divider-red {
+        border-bottom-color: #970046;
+    }
+    &.divider-blue {
+        border-bottom-color: #1e2258;
+    }
+}
+
+.section-divider {
+    vertical-align: bottom;
+    --deprecated: "Divider deprecated: use hr and bootstrap styling";
+}

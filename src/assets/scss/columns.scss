@@ -1,0 +1,63 @@
+
+/*	Kolommen */
+
+/* 1/16th column */
+.col-st-oos {
+    width: 6.25% !important;
+}
+
+/* 1/8th column */
+.col-st-oe {
+    width: 12.5% !important;
+}
+
+/* 1/6th column */
+.col-st-os {
+    width: 16.6666666% !important;
+}
+
+/* 1/6th column */
+.col-st-fi {
+    width: 20% !important;
+}
+
+/* 1/4th column */
+.col-st-of {
+    width: 25% !important;
+}
+
+/* 1/3rd column */
+.col-st-ot {
+    width: 33.3333332% !important;
+}
+
+/* 1/2nd column */
+.col-st-oh {
+    width: 50% !important;
+}
+
+/* 3/5nd column */
+.col-st-ff {
+    width: 60% !important;
+}
+
+/* 2/3rd column */
+.col-st-tt {
+    width: 66.6666667% !important;
+}
+
+/* 3/4th column */
+.col-st-tf {
+    width: 75% !important;
+}
+
+/* 5/6th column */
+.col-st-fs {
+    width: 87.5% !important;
+}
+
+/* whole column */
+.col-st-wh {
+    width: 100% !important;
+    --deprecated: "WARNING: Use .col-12";
+}

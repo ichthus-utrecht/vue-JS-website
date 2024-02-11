@@ -7,6 +7,13 @@ import BestuursInfo from '../views/vereniging/BestuursInfo.vue'
 import VisiePagina from '../views/vereniging/VisiePagina.vue'
 import PraktischPagina from '../views/activiteiten/PraktischPagina.vue'
 import JaarthemaPagina from '../views/vereniging/JaarthemaPagina.vue'
+import GeschiedenisPagina from '../views/vereniging/GeschiedenisPagina.vue'
+import LidWordenPagina from '../views/LidWordenPagina.vue'
+import AdverterenPagina from '../views/over/AdverterenPagina.vue'
+import ContactPagina from '../views/over/ContactPagina.vue'
+import ExternPagina from '../views/over/ExternPagina.vue'
+import VriendenIchthusPagina from '../views/over/VriendenIchthusPagina.vue'
+import AgendaPagina from '../views/activiteiten/AgendaPagina.vue'
 
 const routes = [
   {
@@ -52,6 +59,62 @@ const routes = [
     component: JaarthemaPagina,
     meta: {
       titel: "Jaarthema",
+    },
+  },
+  {
+    path: "/geschiedenis",
+    name: "GeschiedenisPagina",
+    component: GeschiedenisPagina,
+    meta: {
+      titel: "Geschiedenis",
+    },
+  },
+  {
+    path: "/lid-worden",
+    name: "LidWordenPagina",
+    component: LidWordenPagina,
+    meta: {
+      titel: "Lid worden",
+    },
+  },
+  {
+    path: "/adverteren",
+    name: "AdverterenPagina",
+    component: AdverterenPagina,
+    meta: {
+      titel: "Adverteren",
+    },
+  },
+  {
+    path: "/contact",
+    name: "ContactPagina",
+    component: ContactPagina,
+    meta: {
+      titel: "Contact",
+    },
+  },
+  {
+    path: "/extern",
+    name: "ExternPagina",
+    component: ExternPagina,
+    meta: {
+      titel: "Extern",
+    },
+  },
+  {
+    path: "/vrienden",
+    name: "VriendenIchthusPagina",
+    component: VriendenIchthusPagina,
+    meta: {
+      titel: "Vrienden",
+    },
+  },
+  {
+    path: "/agenda",
+    name: "AgendaPagina",
+    component: AgendaPagina,
+    meta: {
+      titel: "Agenda",
     },
   },
 ]

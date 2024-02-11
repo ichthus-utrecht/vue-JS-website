@@ -22,6 +22,10 @@ import StandardLayoutWithHeader from '../../components/layouts/StandardLayoutWit
             </div>
 
             <div class="row align-items-center ">
+                <!-- <div class="col-12 col-md-5">
+                <img class="post-image no-shadow p-4" src="https://www.ichthusutrecht.nl/images/bestuur-logo-2022.png"
+                    alt="'" />
+            </div> -->
                 <div class="col-12 col-md-10 post-text-block">
                     <p>
                         <b>Geloof kan bergen verzetten</b>: Dit speerpunt geeft handen en voeten aan ons verlangen naar een
@@ -44,15 +48,16 @@ import StandardLayoutWithHeader from '../../components/layouts/StandardLayoutWit
                 </div>
             </div>
 
-        <div class="col-12 col-md-10 post-text">
-            We vertrouwen hierbij op God, dat Hij ons in Zijn hand zal houden en onze paden zal leiden. Als bestuur Van
-            den Berg II hebben we de volgende jaartekst hierbij gekozen:
-            <div class="post-text-quote" style="color: rgb(151, 0, 70); font-size: 18px">
-                “Ik gebied je dus: wees vastberaden en standvastig, laat je door niets weerhouden of ontmoedigen, want
-                waar je ook gaat, de HEER, je God, staat je bij.” (Jozua 1:9, NVB21)
+            <div class="col-12 col-md-10 post-text">
+                We vertrouwen hierbij op God, dat Hij ons in Zijn hand zal houden en onze paden zal leiden. Als bestuur Van
+                den Berg II hebben we de volgende jaartekst hierbij gekozen:
+                <div class="post-text-quote" style="color: rgb(151, 0, 70); font-size: 18px">
+                    “Ik gebied je dus: wees vastberaden en standvastig, laat je door niets weerhouden of ontmoedigen, want
+                    waar je ook gaat, de HEER, je God, staat je bij.” (Jozua 1:9, NVB21)
+                </div>
             </div>
         </div>
-    </div>
-</StandardLayoutWithHeader></template>
+    </StandardLayoutWithHeader>
+</template>
 
 <style lang="css">@import '../../assets/css/app.css';</style>

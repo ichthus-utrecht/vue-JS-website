@@ -5,7 +5,8 @@ import StartPagina from '../views/StartPagina.vue'
 import GeloofPagina from '../views/activiteiten/GeloofPagina.vue'
 import BestuursInfo from '../views/vereniging/BestuursInfo.vue'
 import VisiePagina from '../views/vereniging/VisiePagina.vue'
-import PraktischPagina from '../views/vereniging/PraktischPagina.vue'
+import PraktischPagina from '../views/activiteiten/PraktischPagina.vue'
+import JaarthemaPagina from '../views/vereniging/JaarthemaPagina.vue'
 
 const routes = [
   {
@@ -44,7 +45,15 @@ const routes = [
     meta: {
       titel: "Praktisch"
     },
-  }
+  },
+  {
+    path: "/jaarthema",
+    name: "JaarthemaPagina",
+    component: JaarthemaPagina,
+    meta: {
+      titel: "Jaarthema",
+    },
+  },
 ]
 
 

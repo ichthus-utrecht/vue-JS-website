@@ -1,8 +1,9 @@
 import { createWebHistory, createRouter } from "vue-router"
 // Met createWebHistory kunnen we de gebruiker navigatiegeschiedenis geven, en met createRouter kunnen we een routerobject maken
 
-import StartPagina from '../components/views/StartPagina.vue'
-import GeloofPagina from '../components/views/activiteiten/GeloofPagina.vue'
+import StartPagina from '../views/StartPagina.vue'
+import GeloofPagina from '../views/activiteiten/GeloofPagina.vue'
+import BestuursInfo from '../views/vereniging/BestuursInfo.vue'
 
 const routes = [ 
   {
@@ -17,7 +18,15 @@ const routes = [
     meta: {
       titel: "Geloof",
     },
-  }
+  },
+  {
+    path: "/bestuur",
+    name: "BestuursInfo",
+    component: BestuursInfo,
+    meta: {
+      titel: "Bestuur",
+    },
+  },
 ]
 
 

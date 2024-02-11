@@ -1,0 +1,715 @@
+@import 'gezichthus';
+@import 'album';
+
+/* NAVBAR   */
+
+.navbar {
+    z-index: 1000;
+    width: 100%;
+    position: fixed;
+    padding: 0 12.5% 40px;
+    color: #fff;
+    background-color: white;
+    transition: padding-top 0.5s, padding-bottom 0.5s, background-color 0.5s, box-shadow 0.5s;
+    box-shadow: 0px -9px 20px black;
+    -moz-box-shadow: 0px -9px 20px black;
+    -webkit-box-shadow: 0px -9px 20px black;
+}
+
+.navbar a {
+    color: #970046;
+    text-shadow: none;
+}
+
+.navbar-brand {
+    padding-top: 5vh;
+    margin-right: 30px;
+    padding-bottom: 0;
+    padding-right: 2vw;
+    font-size: 24px;
+    color: #970046;
+    text-shadow: none;
+    font-family: "Bree Serif", serif;
+    transition: color 0.5s, text-shadow 0.5s;
+}
+
+.navbar-brand img {
+    width: 6vw;
+    margin-right: 1vw;
+    -webkit-filter: none;
+    filter: none;
+    transition: -webkit-filter 0.5s;
+    transition: filter 0.5s;
+    transition: filter 0.5s, -webkit-filter 0.5s;
+}
+
+.nav-item {
+    padding-right: 2vw;
+}
+
+.nav-item a {
+    color: gray;
+    transition: color 0.5s, text-shadow 0.5s;
+}
+
+.nav-item a:hover {
+    color: #1e2258;
+    transition: color 0.5s, text-shadow 0.5s;
+}
+
+.dropdown-menu {
+    background-color: white;
+    display: block;
+    position: initial !important;
+    transition: max-height 0.1s linear;
+    max-height: 0rem;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    border-width: 0px;
+    border-radius: 0px;
+}
+
+.dropdown-menu.show {
+    max-height: 15rem;
+}
+
+.dropdown-menu a {
+    color: gray;
+    padding: 0.5rem 1.5rem;
+    border-width: 0px;
+    border-left-color: #970046;
+    border-left-style: solid;
+    border-left-width: 1px;
+}
+
+.dropdown-toggle::after {
+    color: #970046;
+}
+
+.dropdown-menu a:hover {
+    color: #1e2258;
+    border-left-width: 3px;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.navbar .nav-link {
+    color: #fff;
+}
+
+#navbarNavDropdown {
+    padding-top: 5vh;
+}
+
+#headerLock {
+    color: #970046;
+}
+
+.side-navbar {
+    top: 180px;
+    position: sticky;
+}
+
+.side-navbar-item {
+    width: 100%;
+    @media only screen and (min-width: 992px) {
+        padding: 3vh 0 0 25%;
+    }
+}
+
+.side-navbar-item i {
+    color: #1e2258;
+    padding-right: 5px;
+}
+
+.side-navbar-item a {
+    color: #1e2258;
+    font-size: 1.2rem;
+    font-family: "Bree Serif", serif;
+}
+
+.side-navbar-item a:hover {
+    color: #0d0e25;
+    cursor: pointer;
+}
+
+.page-header {
+    font-family: "Bree Serif", serif;
+    line-height: 4rem;
+    font-size: 4rem;
+    color: #1e2258;
+    text-transform: uppercase;
+}
+
+.page-title {
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Bree Serif", serif;
+}
+
+.section-image-wrapper {
+    padding: 2.5vh 2.5vh 0;
+    position: relative;
+    width: 100%;
+    width: -moz-available;
+    /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;
+    /* Mozilla-based browsers will ignore this. */
+    width: stretch;
+}
+
+.section-image {
+    width: 100%;
+}
+
+.section-image-wrapper:hover .search-section-info {
+    visibility: visible;
+    opacity: 1;
+}
+
+.b-main {
+    min-height: 50vh;
+}
+
+.btn-edit {
+    margin-left: 10px;
+    line-height: 25px;
+    float: right;
+    margin-top: 0.9rem;
+    text-transform: initial;
+    font-family: 'Lato', sans-serif;
+}
+
+.page-form {
+    width: 100%;
+    margin-bottom: 2vh;
+}
+
+.page-form-input-text {
+    width: 100%;
+}
+
+.photo-wrapper {
+    width: 50%;
+    padding: 1vh;
+}
+
+.photo {
+    width: 100%;
+    padding: 1vh;
+    transition: transform 0.2s;
+}
+
+.photo:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.photo-image {
+    width: 100%;
+    box-shadow: 0 0 12px grey;
+    &:hover {
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+}
+
+.photo-table tbody tr {
+    text-align: center;
+}
+
+.photo-table tbody tr:first-of-type {
+    text-align: left;
+}
+
+.photo-table tbody tr td img {
+    height: 10vh;
+    width: auto;
+}
+
+.photo-table tbody tr td:first-of-type {
+    width: 80%;
+}
+
+.lightbox {
+    z-index: 1000000;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+}
+
+.lightbox-cross {
+    position: absolute;
+    top: 12.5vh;
+    right: 25vh;
+    color: grey;
+    transition: color 0.2s;
+}
+
+.lightbox-cross:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.lightbox-modal {
+    width: 60%;
+    height: 60%;
+    left: 20%;
+    top: 20%;
+    position: absolute;
+    text-align: center;
+}
+
+.lightbox-modal .repeater-image {
+    display: inline-block;
+}
+
+.lightbox-prev {
+    position: absolute;
+    top: 49%;
+    left: 12.5%;
+    color: gray;
+    transition: color 0.2s;
+}
+
+.lightbox-prev:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.lightbox-next {
+    position: absolute;
+    top: 49%;
+    right: 12.5%;
+    color: gray;
+    transition: color 0.2s;
+}
+
+.lightbox-next:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.page-action {
+    width: 90%;
+    margin: 2.4%;
+    padding: 2.4%;
+    background-color: #970046;
+    transition: transform 0.2s;
+    user-select: none;
+    border-radius: 20px;
+}
+
+.page-action:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.page-action-info {
+    width: 100%;
+    color: white;
+}
+
+.page-action-info-header {
+    width: 100%;
+    font-family: "Bree Serif", serif;
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+.page-action-info-description {
+    width: 100%;
+}
+
+.page-action-info-icon {
+    width: 100%;
+    text-align: center;
+}
+
+.user-roles {
+    text-transform: capitalize;
+}
+
+.user-table {
+    margin-top: 1vh;
+}
+
+.btn-ichthus {
+    background-color: #970046;
+    text-transform: capitalize;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.btn-ichthus:hover {
+    background-color: #a51c29;
+    text-transform: capitalize;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.btn-ichthus:focus {
+    background-color: #a51c29;
+    text-transform: capitalize;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.btn-ichthus:active {
+    background-color: #8a1722;
+    text-transform: capitalize;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+#elementSelection {
+    background-color: white;
+    padding: 2vh;
+    max-height: 60vh;
+
+    overflow: scroll;
+}
+
+.h7 {
+    font-size: 0.8rem;
+}
+
+.gedf-wrapper {
+    margin-top: 0.97rem;
+}
+
+@media (min-width: 992px) {
+    .gedf-main {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .gedf-card {
+        margin-bottom: 2.77rem;
+    }
+}
+
+.text-ichthus {
+    color: #970046;
+}
+
+.text-ichthus-blue {
+    color: #1e2258
+}
+
+.text-ichthus-blue:hover {
+    color: #0f112e
+}
+
+button:disabled {
+    cursor: not-allowed;
+}
+
+.post-attachment {
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .03);
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    transition: background-color .2s;
+}
+
+.post-attachment:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, .07);
+}
+
+.post-attachment i {
+    width: 4rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-right: lightgray 1px solid;
+    margin-right: 1.5rem;
+}
+
+.post-attachment-link .post-attachment-value {
+    white-space: nowrap;
+    max-width: 90%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.post-image-wrapper {
+    padding: 3rem;
+    width: 100%;
+    text-align: center;
+}
+
+.post-image-wrapper img {
+    max-height: 50vh;
+    width: auto !important;
+}
+
+.page-item,
+.page-link {
+    color: #970046 !important;
+}
+
+.page-item.active .page-link {
+    color: white !important;
+    background-color: #970046 !important;
+}
+
+.card-form {
+    border: 0;
+    display: inline-block;
+}
+
+.card-form button {
+    border: 0;
+    background-color: transparent;
+}
+
+.side-navbar-image:hover {
+    cursor: pointer;
+}
+
+.like-button {
+    cursor: pointer;
+}
+
+.like-button i {
+    transition: transform .2s;
+}
+
+.liked {
+    color: #970046;
+    transform: scale(1.2)
+}
+
+.post-comments {
+    width: 100%;
+    padding-left: 40px;
+    padding: 20px;
+}
+
+.post-comments-preview .post-comment:nth-of-type(n+4) {
+    display: none;
+}
+
+.post-comments-preview .post-user-comment {
+    display: none;
+}
+
+.post-user-comment {
+    width: 100%;
+}
+
+.post-user-comment-textbox {
+    width: calc(100% - 140px);
+}
+
+.post-user-comment-textbox input {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px lightgray solid;
+    border-radius: 0;
+}
+
+.post-comment {
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border-left: 2px #970046 solid;
+    box-sizing: content-box;
+}
+
+.post-comment-user {
+    width: 100%;
+}
+
+.comment-button {
+    cursor: pointer;
+}
+
+.edit-comment-group {
+    width: 100%;
+    .hidden {
+        display: none;
+    }
+    .edit-user-comment-textbox {
+        width: 100%;
+    }
+}
+
+.load-button-wrapper {
+    text-align: center;
+}
+
+.element-content-editor {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: lightgray;
+    background-color: black;
+}
+
+.element-content-editor:focus {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: white;
+    background-color: black;
+}
+
+.element-template-container div .col-st-oh {
+    padding: 10px;
+}
+
+.action-form-wrapper {
+    max-height: 0px;
+    transition: max-height .5s;
+    overflow: hidden;
+}
+
+#actionForm #type {
+    width: 200px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.profile-image-wrapper {
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.dropdown-menu.ignore-transform {
+    transform: unset !important;
+}
+
+.repeater-image {
+    height: 25vh;
+    background-size: cover;
+    background-position: center;
+    transition: transform .2s;
+}
+
+.repeater-image:hover {
+    transform: scale(1.02)
+}
+
+.repeater-image-info {
+    position: absolute;
+    background-color: #1e2258;
+    background: rgba(30, 34, 88, 0.6);
+    color: white;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: visibility 0s, opacity 0.1s linear;
+    visibility: hidden;
+    opacity: 0;
+    overflow: hidden;
+    padding: 1rem;
+}
+
+.repeater-image-info div {
+    padding-top: 0.5rem;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+
+.repeater-image:hover .repeater-image-info {
+    visibility: visible;
+    opacity: 1;
+}
+
+.repeater-image:hover ~ .action-container {
+    visibility: visible;
+    opacity: 1;
+}
+
+.action-container:hover {
+    visibility: visible;
+    opacity: 1;
+}
+
+.action-container {
+    padding: 5px;
+    display: block;
+    background-color: #970046;
+    position: absolute;
+    transition: visibility 0s, opacity 0.1s linear;
+    visibility: hidden;
+    opacity: 0;
+    color: white;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 10px;
+    z-index: 100;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.row-actions {
+    width: 1%;
+    white-space: nowrap;
+}
+
+
+.row-actions * {
+    display: inline-block;
+}
+
+tr .row-actions {
+    transition: visibility 0s, opacity 0.1s linear;    
+    opacity: 0.4;
+}
+tr:hover .row-actions {
+    visibility: visible;
+    opacity: 1;
+}
+
+.row-actions:hover {
+    visibility: visible;
+    opacity: 1;
+}
+
+.row-action .danger {
+    color: black !important;
+    transition: color .2s;
+}
+
+
+.danger:hover {
+    color: #970046 !important;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    background-color: #fff;
+}
+
+.sidebar-action {
+    transition: background-color .2s;
+}
+
+.sidebar-action:hover {
+    background-color:#272c74;
+}
+
+.sidebar-action .active {
+    background-color:#373e94;
+}
+
+.photo-image {
+    transition: transform .2s;
+}
+
+.pb-25 {
+    padding-bottom: 10vh;
+}

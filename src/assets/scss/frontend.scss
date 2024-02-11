@@ -1,0 +1,251 @@
+/* NAVBAR   */
+
+.navbar {
+    z-index: 1000;
+    width: 100%;
+    position: fixed;
+    padding: 40px 12.5% 40px;
+    color: #fff;
+    background-color: transparent;
+    transition: padding-top 0.5s, padding-bottom 0.5s, background-color 0.5s, box-shadow 0.5s, -webkit-box-shadow 0.5s, -moz-box-shadow 0.5s;
+  }
+  
+  .navbar-brand {
+    padding-top: 5vh;
+    margin-right: 30px;
+    padding-bottom: 0;
+    padding-right: 2vw;
+    font-size: 24px;
+    color: #fff ;
+    text-shadow: black 0px 0px 10px;
+    font-family: 'Bree Serif', serif;
+    transition: color 0.5s, text-shadow 0.5s;
+  }
+
+  .navbar-brand:hover {
+    color: white;
+  }
+  
+  .navbar-brand img {
+    width: 6vw;
+    margin-right: 1vw;
+    filter: brightness(0) invert(1);
+    transition: filter 0.5s;
+  }
+  
+  .nav-item {
+    padding-right: 2vw;
+  }
+  
+  .nav-item a {
+    color: white ;
+    text-shadow: black 0px 0px 10px;
+    transition: color 0.5s, text-shadow 0.5s;
+  }
+  
+  .dropdown-menu {
+    background-color: transparent;
+    display: block;
+    transition: max-height 0.1s linear, margin-top .2s;
+    max-height: 0rem;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    border-width: 0px;
+    border-radius: 0px;
+  }
+  
+  .dropdown-menu.show {
+    max-height: 15rem;
+  }
+  
+  .dropdown-menu a {
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-width: 0px;
+    border-color: white;
+    border-left-style: solid;
+    border-left-width: 1px;
+  }
+  .dropdown-menu a:hover {
+    color: white;
+    border-left-width: 3px;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .navbar .nav-link {
+    color: #fff;
+  }
+  
+  #navbarNavDropdown {
+    padding-top: 5vh;
+  }
+
+.page-header {
+  font-family: 'Bree Serif', serif;
+  line-height: 80px;
+  margin-top: -170px;
+  height: 160px;
+  font-size: 4rem;
+  color: white;
+  z-index: 100;
+  position: absolute;
+  text-shadow: black 0px 0px 10px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.page-title {
+  font-size: 4rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+}
+
+.page-title-image {
+  background-size: cover;
+  background-position: top;
+  height: 55vh !important;
+}
+
+.dropdown-toggle::after {
+  color: white;
+  transition: color 0.5s;
+}
+
+.scroll-after-color::after {
+  color: #970046;
+  transition: color 0.5s;
+}
+
+.lightbox {
+  z-index: 1000000;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: inline-block;
+}
+
+.lightbox-cross {
+  position: absolute;
+  top: 12.5vh;
+  right: 25vh;
+  color: grey;
+  transition: color 0.2s;
+}
+
+.lightbox-cross:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.lightbox-modal {
+  width: 75%;
+  height: 65%;
+  left: 12.5%;
+  top: 17.5%;
+  position: absolute;
+}
+
+.intro-text-title {
+  font-family: 'Bree Serif', serif;
+  text-align: left;
+  color: white;
+  font-weight: bold;
+  font-size: 7rem;
+}
+
+.intro-text-subtitle {
+  width: 100%;
+  font-weight: bold;
+  color: white;
+  margin-top: 50px;
+  font-size: 1.5rem;
+}
+
+.faq-question {
+  font-size: 1.1rem;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.faq-answer {
+  font-size: 1rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 18px;
+  padding-right: 18px;
+  font-style: italic;
+}
+
+.nav-social-right-border {
+  padding-right: 1vw;
+  margin-right: 1vw;
+  border-right: 2px white solid; 
+}
+
+// Mobile support
+@media screen and (max-width: 600px) {
+  .page-title-image-m {
+    height: 75vh !important;
+  }
+
+  .agenda-calendar-month-caption {
+    width: 70% !important;
+  }
+  
+  .agenda-highlighted-events {
+    min-height: 25vh !important;
+  }
+
+  .activity-section .col-st-ot {
+    width: 100% !important;
+  }
+
+  .activity-section .col-st-tt {
+    margin-top: 4vh !important;
+    width: 100% !important;
+    text-align: justify !important;
+  }
+
+  .person-card {
+    margin-bottom: 2vh !important;
+  }
+
+  .row-st .col-st-wh .no-shadow {
+    margin: 0 !important;
+    width: 100% !important;
+  }
+
+  #loginFeedbackSection {
+    display: none;
+  }
+  
+  .lightbox-cross {
+    right: 10.2vh !important;
+  }
+  
+  .fa-3x {
+    font-size: 2em !important;
+  }
+  
+  .intro-text-title {
+    font-size: 5rem !important;
+  }
+  
+  .intro-text-subtitle {
+    font-size: 1rem !important;
+  }
+
+  .nav-social {
+    display: none;
+  }
+}

@@ -17,7 +17,7 @@ import StandardLayoutWithHeader from '../../components/layouts/StandardLayoutWit
                 </div>
                 <div class="col-12 col-md-8 section-description">
                     <div class="row section-header">Kringen</div>
-                    <div class="row post-text">De kringen zijn de kern van de vereniging. Iedereen die lid is van Ichthus,
+                    <div class="post-text">De kringen zijn de kern van de vereniging. Iedereen die lid is van Ichthus,
                         wordt elk jaar op een kring geplaatst. Een kring bestaat uit 6 tot 8 personen en komt wekelijks op
                         dinsdagavond bij elkaar om samen te eten, te bidden, te zingen en een Bijbelstudie te doen. De
                         Bijbelstudie wordt steeds geleid door een of twee kringleden. Het doel van de kring is dat leden
@@ -68,3 +68,7 @@ import StandardLayoutWithHeader from '../../components/layouts/StandardLayoutWit
         </div>
     </StandardLayoutWithHeader>
 </template>
+
+<style lang="css">
+@import '../../assets/css/app.css';
+</style>

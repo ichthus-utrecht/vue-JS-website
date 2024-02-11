@@ -4,8 +4,9 @@ import { createWebHistory, createRouter } from "vue-router"
 import StartPagina from '../views/StartPagina.vue'
 import GeloofPagina from '../views/activiteiten/GeloofPagina.vue'
 import BestuursInfo from '../views/vereniging/BestuursInfo.vue'
+import VisiePagina from '../views/vereniging/VisiePagina.vue'
 
-const routes = [ 
+const routes = [
   {
     path: "/",
     name: "StartPagina",
@@ -27,10 +28,18 @@ const routes = [
       titel: "Bestuur",
     },
   },
+  {
+    path: "/visie-missie",
+    name: "VisiePagina",
+    component: VisiePagina,
+    meta: {
+      titel: "Waar wij voor staan",
+    },
+  },
 ]
 
 
-const router = createRouter({history: createWebHistory(), routes})
+const router = createRouter({ history: createWebHistory(), routes })
 
 router.beforeEach((to) => { // html-title instellen
   if ('titel' in to.meta)

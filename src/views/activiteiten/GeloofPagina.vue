@@ -1,5 +1,6 @@
 <script setup>
 import HeaderBalk from '../../components/interactief/HeaderBalk.vue'
+import StandardLayoutWithHeader from '../../components/layouts/StandardLayoutWithHeader.vue'
 </script>
 
 <template>

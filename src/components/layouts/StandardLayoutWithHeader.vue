@@ -11,7 +11,8 @@ defineProps({
 
 <template>
     <div class="container-fluid">
-        <div class="row page-title-image page-title-image-m" :style="{ backgroundImage: 'url(' + require('@/assets/images/nav.jpg') + ')' }"></div>
+        <div class="row page-title-image page-title-image-m"
+            :style="{ backgroundImage: 'url(' + require('@/assets/images/nav.jpg') + ')' }"></div>
         <div class="row">
             <BasicContainer>
                 <h1 class="page-header">
@@ -21,11 +22,11 @@ defineProps({
                     {{ description }}
                 </div>
             </BasicContainer>
-                <div class="row col-12 justify-content-center">
-                    <div class="col-12 col-md-7">
-                        <hr class="divider-small divider-thin divider-gray" />
-                    </div>
+            <div class="row col-12 justify-content-center">
+                <div class="col-12 col-md-7">
+                    <hr class="divider-small divider-thin divider-gray" />
                 </div>
+            </div>
             <BasicContainer>
                 <div class="container-fluid">
                     <slot></slot>
@@ -37,3 +38,13 @@ defineProps({
         </div>
     </div>
 </template>
+
+<style>
+.page-header {
+    text-align: left;
+}
+
+.row {
+    text-align: left;
+}
+</style>

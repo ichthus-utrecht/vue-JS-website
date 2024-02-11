@@ -5,6 +5,7 @@ import StartPagina from '../views/StartPagina.vue'
 import GeloofPagina from '../views/activiteiten/GeloofPagina.vue'
 import BestuursInfo from '../views/vereniging/BestuursInfo.vue'
 import VisiePagina from '../views/vereniging/VisiePagina.vue'
+import PraktischPagina from '../views/vereniging/PraktischPagina.vue'
 
 const routes = [
   {
@@ -36,6 +37,14 @@ const routes = [
       titel: "Waar wij voor staan",
     },
   },
+  {
+    path: "/activiteiten-praktisch",
+    name: "Praktisch",
+    component: PraktischPagina,
+    meta: {
+      titel: "Praktisch"
+    },
+  }
 ]
 
 

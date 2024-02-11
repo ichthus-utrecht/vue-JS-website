@@ -5,8 +5,8 @@ import StandardLayoutWithHeader from '../../components/layouts/StandardLayoutWit
 
 <template>
     <HeaderBalk />
-    <StandardLayoutWithHeader pageHeader="Activiteiten in het geloof"
-        description="Omdat het christendom centraal staat op onze vereniging, doen wij ook samen veel activiteiten met betrekking tot het geloof. Ichthus is een plek om te groeien in het geloof en samen nieuwe ervaringen mee te maken.">
+    <StandardLayoutWithHeader pageHeader="Waar wij voor staan"
+        description="Ichthus Utrecht heeft waarden en normen waar zij voor staat en die door heel de vereniging heen te merken zijn.">
         <div class="row justify-content-center">
             <div class="col-12 col-md-10 post-text">
                 Onze identiteit als christenen wordt bepaald door God: Hij heeft ons gemaakt voor Zijn doel. Jezus

@@ -63,7 +63,7 @@ import { ref } from 'vue'
         <div class="menu-item">
             <a class="nav-link" href="https://ichthusutrecht.churchbook.nl">
                 <i class="fas fa-lock fa-xs m-2" id="headerLock"></i>
-                Leden
+                <NavigatieKnop tekst="Leden" koppeling="https://ichthusutrecht.churchbook.nl" />
             </a>
         </div>
     </div>

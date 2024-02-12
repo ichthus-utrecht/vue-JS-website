@@ -2,6 +2,7 @@
 import HeaderBalk from '../../components/interactief/HeaderBalk.vue'
 import BestuursPerson from '../../components/details/BestuursPerson.vue'
 import StandardLayoutWithHeader from '../../components/layouts/StandardLayoutWithHeader.vue'
+import FooterBalk from '../../components/interactief/FooterBalk.vue'
 </script>
 
 <template>
@@ -36,34 +37,36 @@ import StandardLayoutWithHeader from '../../components/layouts/StandardLayoutWit
                 plaatselijke kampvuurgitarist en ben ik een grote puzzelaar.
             </BestuursPerson>
             <BestuursPerson imageNumber="4" name="Mirte van den Berg" function="Praeses" email="praeses@ichthusutrecht.nl">
-            <p>Mijn naam is Mirte en dit jaar ben ik de Praeses van Ichthus Utrecht. Vanuit deze rol mag ik de
-                vereniging en het bestuur leiden op de ALV’s en bv’s. Ook zal ik vooruit kijken naar wat er gaat komen
-                en daarbij ons beleid in de gaten houden.</p>
-            <p>Bij mijn studie voor docent Nederlandse Gebarentaal, combineer ik mijn enthousiasme om mensen nieuwe
-                dingen te leren en mijn liefde voor de Nederlandse Gebarentaal. In mijn vrije tijd kan ik genieten van
-                een goed boek, muziek en creativiteit. Zo leer ik mezelf naaien, haken en maak linosnedes. Waar ik
-                energie van krijg? Boulderen en een goed kopje koffie. Dus klop gerust aan voor een van de twee of de
-                combinatie!</p>
-        </BestuursPerson>
-        <BestuursPerson imageNumber="5" name="Mirte van den Berg" function="Praeses" email="praeses@ichthusutrecht.nl">
-            <p>Mijn naam is Mirte en dit jaar ben ik de Praeses van Ichthus Utrecht. Vanuit deze rol mag ik de
-                vereniging en het bestuur leiden op de ALV’s en bv’s. Ook zal ik vooruit kijken naar wat er gaat komen
-                en daarbij ons beleid in de gaten houden.</p>
-            <p>Bij mijn studie voor docent Nederlandse Gebarentaal, combineer ik mijn enthousiasme om mensen nieuwe
-                dingen te leren en mijn liefde voor de Nederlandse Gebarentaal. In mijn vrije tijd kan ik genieten van
-                een goed boek, muziek en creativiteit. Zo leer ik mezelf naaien, haken en maak linosnedes. Waar ik
-                energie van krijg? Boulderen en een goed kopje koffie. Dus klop gerust aan voor een van de twee of de
-                combinatie!</p>
-        </BestuursPerson>
-        <BestuursPerson imageNumber="6" name="Mirte van den Berg" function="Praeses" email="praeses@ichthusutrecht.nl">
-            <p>Mijn naam is Mirte en dit jaar ben ik de Praeses van Ichthus Utrecht. Vanuit deze rol mag ik de
-                vereniging en het bestuur leiden op de ALV’s en bv’s. Ook zal ik vooruit kijken naar wat er gaat komen
-                en daarbij ons beleid in de gaten houden.</p>
-            <p>Bij mijn studie voor docent Nederlandse Gebarentaal, combineer ik mijn enthousiasme om mensen nieuwe
-                dingen te leren en mijn liefde voor de Nederlandse Gebarentaal. In mijn vrije tijd kan ik genieten van
-                een goed boek, muziek en creativiteit. Zo leer ik mezelf naaien, haken en maak linosnedes. Waar ik
-                energie van krijg? Boulderen en een goed kopje koffie. Dus klop gerust aan voor een van de twee of de
-                combinatie!</p>
-        </BestuursPerson>
-    </div>
-</StandardLayoutWithHeader></template>
+                <p>Mijn naam is Mirte en dit jaar ben ik de Praeses van Ichthus Utrecht. Vanuit deze rol mag ik de
+                    vereniging en het bestuur leiden op de ALV’s en bv’s. Ook zal ik vooruit kijken naar wat er gaat komen
+                    en daarbij ons beleid in de gaten houden.</p>
+                <p>Bij mijn studie voor docent Nederlandse Gebarentaal, combineer ik mijn enthousiasme om mensen nieuwe
+                    dingen te leren en mijn liefde voor de Nederlandse Gebarentaal. In mijn vrije tijd kan ik genieten van
+                    een goed boek, muziek en creativiteit. Zo leer ik mezelf naaien, haken en maak linosnedes. Waar ik
+                    energie van krijg? Boulderen en een goed kopje koffie. Dus klop gerust aan voor een van de twee of de
+                    combinatie!</p>
+            </BestuursPerson>
+            <BestuursPerson imageNumber="5" name="Mirte van den Berg" function="Praeses" email="praeses@ichthusutrecht.nl">
+                <p>Mijn naam is Mirte en dit jaar ben ik de Praeses van Ichthus Utrecht. Vanuit deze rol mag ik de
+                    vereniging en het bestuur leiden op de ALV’s en bv’s. Ook zal ik vooruit kijken naar wat er gaat komen
+                    en daarbij ons beleid in de gaten houden.</p>
+                <p>Bij mijn studie voor docent Nederlandse Gebarentaal, combineer ik mijn enthousiasme om mensen nieuwe
+                    dingen te leren en mijn liefde voor de Nederlandse Gebarentaal. In mijn vrije tijd kan ik genieten van
+                    een goed boek, muziek en creativiteit. Zo leer ik mezelf naaien, haken en maak linosnedes. Waar ik
+                    energie van krijg? Boulderen en een goed kopje koffie. Dus klop gerust aan voor een van de twee of de
+                    combinatie!</p>
+            </BestuursPerson>
+            <BestuursPerson imageNumber="6" name="Mirte van den Berg" function="Praeses" email="praeses@ichthusutrecht.nl">
+                <p>Mijn naam is Mirte en dit jaar ben ik de Praeses van Ichthus Utrecht. Vanuit deze rol mag ik de
+                    vereniging en het bestuur leiden op de ALV’s en bv’s. Ook zal ik vooruit kijken naar wat er gaat komen
+                    en daarbij ons beleid in de gaten houden.</p>
+                <p>Bij mijn studie voor docent Nederlandse Gebarentaal, combineer ik mijn enthousiasme om mensen nieuwe
+                    dingen te leren en mijn liefde voor de Nederlandse Gebarentaal. In mijn vrije tijd kan ik genieten van
+                    een goed boek, muziek en creativiteit. Zo leer ik mezelf naaien, haken en maak linosnedes. Waar ik
+                    energie van krijg? Boulderen en een goed kopje koffie. Dus klop gerust aan voor een van de twee of de
+                    combinatie!</p>
+            </BestuursPerson>
+        </div>
+    </StandardLayoutWithHeader>
+    <FooterBalk />
+</template>

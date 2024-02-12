@@ -1,6 +1,7 @@
 <script setup>
 import HeaderBalk from '../../components/interactief/HeaderBalk.vue'
 import StandardLayoutWithHeader from '../../components/layouts/StandardLayoutWithHeader.vue'
+import FooterBalk from '../../components/interactief/FooterBalk.vue'
 </script>
 
 <template>
@@ -13,7 +14,10 @@ import StandardLayoutWithHeader from '../../components/layouts/StandardLayoutWit
                 <hr class="divider-small divider-thin divider-gray" />
             </div>
             <p>
-                Binnen Utrecht hebben de vijf christelijke verenigingen samen een koepelorgaan: het Broeder Overleg Christelijke Studenten (hierna: BOCS). Zij vertegenwoordigt onze belangen, staat voor onze christelijke identiteit en organiseert activiteiten ter verbroedering en verdieping. Daarnaast onderhouden wij als vereniging goede banden met onze broederverenigingen.
+                Binnen Utrecht hebben de vijf christelijke verenigingen samen een koepelorgaan: het Broeder Overleg
+                Christelijke Studenten (hierna: BOCS). Zij vertegenwoordigt onze belangen, staat voor onze christelijke
+                identiteit en organiseert activiteiten ter verbroedering en verdieping. Daarnaast onderhouden wij als
+                vereniging goede banden met onze broederverenigingen.
             </p>
             <table class="table-borderless text-center w-100">
                 <tr style="height: 2.5rem">
@@ -43,7 +47,12 @@ import StandardLayoutWithHeader from '../../components/layouts/StandardLayoutWit
                 <hr class="divider-small divider-thin divider-gray" />
             </div>
             <p>
-                Ichthus Landelijk is het overkoepelende verband voor alle 15 Ichthusverenigingen en de RSK. Naast ondersteuning van de plaatselijke Ichthusverenigingen, is het Landelijk Bestuur bezig met sponsoring en PR op landelijk vlak. Ook worden er vanuit Ichthus Landelijk een aantal activiteiten georganiseerd. De belangrijkste hiervan zijn de Retraite, het f.t.-bestuurstoerustingsweekend, het Landelijk Gala en de sportdag. Af en toe proberen wij als vereniging ook op bezoek te gaan bij onze zusterverenigingen om een maaltijd of borrel bij te wonen.
+                Ichthus Landelijk is het overkoepelende verband voor alle 15 Ichthusverenigingen en de RSK. Naast
+                ondersteuning van de plaatselijke Ichthusverenigingen, is het Landelijk Bestuur bezig met sponsoring en PR
+                op landelijk vlak. Ook worden er vanuit Ichthus Landelijk een aantal activiteiten georganiseerd. De
+                belangrijkste hiervan zijn de Retraite, het f.t.-bestuurstoerustingsweekend, het Landelijk Gala en de
+                sportdag. Af en toe proberen wij als vereniging ook op bezoek te gaan bij onze zusterverenigingen om een
+                maaltijd of borrel bij te wonen.
             </p>
             <table class="table-borderless text-center w-100">
                 <tr style="height: 2.5rem">
@@ -61,7 +70,12 @@ import StandardLayoutWithHeader from '../../components/layouts/StandardLayoutWit
                 <hr class="divider-small divider-thin divider-gray" />
             </div>
             <p>
-                Als laatste is er de International Fellowship of Evangelical Students (hierna: IFES) welke in Nederland zo’n zestig christelijke verenigingen overkoepelt. Deze verenigingen kan je ruwweg indelen in 6 zogenaamde 'bloedgroepen'; Ichthus, C.S.F.R., de Ghbo verenigingen, OZON en VGS/GSV. Naast dat IFES vele grootse conferenties aanbiedt, biedt zij vooral ondersteuning op geloofsgebied en ondersteunt zij de plaatselijke verenigingen met stafwerkers. Onderstaand vind u enkele van hun websites en websites van andere organisaties waar wij (nauwe) banden mee onderhouden:
+                Als laatste is er de International Fellowship of Evangelical Students (hierna: IFES) welke in Nederland zo’n
+                zestig christelijke verenigingen overkoepelt. Deze verenigingen kan je ruwweg indelen in 6 zogenaamde
+                'bloedgroepen'; Ichthus, C.S.F.R., de Ghbo verenigingen, OZON en VGS/GSV. Naast dat IFES vele grootse
+                conferenties aanbiedt, biedt zij vooral ondersteuning op geloofsgebied en ondersteunt zij de plaatselijke
+                verenigingen met stafwerkers. Onderstaand vind u enkele van hun websites en websites van andere organisaties
+                waar wij (nauwe) banden mee onderhouden:
             </p>
             <table class="table-borderless text-center w-100">
                 <tr style="height: 2.5rem">
@@ -75,7 +89,7 @@ import StandardLayoutWithHeader from '../../components/layouts/StandardLayoutWit
         </div>
 
     </StandardLayoutWithHeader>
-
+    <FooterBalk />
 </template>
 
 <style lang="css">

@@ -1,6 +1,7 @@
 <script setup>
 import HeaderBalk from '../components/interactief/HeaderBalk.vue'
 import StandardLayoutWithHeader from '../components/layouts/StandardLayoutWithHeader.vue'
+import FooterBalk from '../components/interactief/FooterBalk.vue'
 </script>
 
 <template>
@@ -93,6 +94,7 @@ import StandardLayoutWithHeader from '../components/layouts/StandardLayoutWithHe
                     href="mailto:abactis@ichthusutrecht.nl">abactis@ichthusutrecht.nl</a></div>
         </div>
     </StandardLayoutWithHeader>
+    <FooterBalk />
 </template>
 
 <style lang="css">

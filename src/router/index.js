@@ -15,6 +15,7 @@ import ExternPagina from '../views/over/ExternPagina.vue'
 import VriendenIchthusPagina from '../views/over/VriendenIchthusPagina.vue'
 import AgendaPagina from '../views/activiteiten/AgendaPagina.vue'
 import Error404Pagina from '../views/Error404Pagina.vue'
+import PrivacyPagina from '../views/over/PrivacyPagina.vue'
 
 const routes = [
   {
@@ -116,6 +117,14 @@ const routes = [
     component: AgendaPagina,
     meta: {
       titel: "Agenda",
+    },
+  },
+  {
+    path: "/privacy",
+    name: "PrivacyPagina",
+    component: PrivacyPagina,
+    meta: {
+      titel: "Privacy",
     },
   },
   // Als geen van bovenstaande gematcht worden:

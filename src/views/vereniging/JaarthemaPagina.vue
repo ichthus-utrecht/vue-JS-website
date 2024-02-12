@@ -1,6 +1,7 @@
 <script setup>
 import HeaderBalk from '../../components/interactief/HeaderBalk.vue'
 import StandardLayoutWithHeader from '../../components/layouts/StandardLayoutWithHeader.vue'
+import FooterBalk from '../../components/interactief/FooterBalk.vue'
 </script>
 
 <template>
@@ -58,6 +59,9 @@ import StandardLayoutWithHeader from '../../components/layouts/StandardLayoutWit
             </div>
         </div>
     </StandardLayoutWithHeader>
+    <FooterBalk />
 </template>
 
-<style lang="css">@import '../../assets/css/app.css';</style>
+<style lang="css">
+@import '../../assets/css/app.css';
+</style>

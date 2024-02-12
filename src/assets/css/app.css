@@ -276,10 +276,7 @@ sup {
 
 a {
     color: var(--bs-link-color);
-    text-decoration: underline;
-
-    color: gray;
-    text-shadow: none;
+    text-decoration: underline
 }
 
 a:hover {
@@ -3730,15 +3727,7 @@ fieldset:disabled .btn {
     padding: var(--bs-dropdown-padding-y) var(--bs-dropdown-padding-x);
     position: absolute;
     text-align: left;
-    z-index: var(--bs-dropdown-zindex);
-
-    background-color: white;
-    margin-top: calc(5vh + 2px);
-    box-shadow: 0px 13px 30px -6px rgba(0, 0, 0, 0.56);
-    ;
-    -webkit-box-shadow: 0px 13px 30px -6px rgba(0, 0, 0, 0.56);
-    -moz-box-shadow: 0px 13px 30px -6px rgba(0, 0, 0, 0.56);
-    clip-path: inset(0px -50px -50px -50px);
+    z-index: var(--bs-dropdown-zindex)
 }
 
 .dropdown-menu[data-bs-popper] {
@@ -4302,15 +4291,7 @@ fieldset:disabled .btn {
     flex-wrap: wrap;
     justify-content: space-between;
     padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
-    position: relative;
-
-    background-color: white;
-    padding-top: 0;
-    color: #970046;
-    padding-bottom: 5vh;
-    box-shadow: 0px -9px 20px black;
-    -moz-box-shadow: 0px -9px 20px black;
-    -webkit-box-shadow: 0px -9px 20px black;
+    position: relative
 }
 
 .navbar>.container,
@@ -4327,14 +4308,13 @@ fieldset:disabled .btn {
 }
 
 .navbar-brand {
-    color: #970046;
+    color: var(--bs-navbar-brand-color);
     font-size: var(--bs-navbar-brand-font-size);
     margin-right: var(--bs-navbar-brand-margin-end);
     padding-bottom: var(--bs-navbar-brand-padding-y);
     padding-top: var(--bs-navbar-brand-padding-y);
     text-decoration: none;
-    white-space: nowrap;
-    text-shadow: none;
+    white-space: nowrap
 }
 
 .navbar-brand:focus,
@@ -13497,9 +13477,7 @@ body {
 
 #headerLock {
     color: #fff;
-    transition: color .5s;
-
-    color: gray;
+    transition: color .5s
 }
 
 .js-cookie-consent {
@@ -13669,8 +13647,7 @@ body {
     }
 
     .navbar-brand img {
-        width: 17vw !important;
-        filter: none;
+        width: 17vw !important
     }
 
     .navbar-toggler {
@@ -13692,9 +13669,7 @@ body {
 
     #navbarNavDropdown li {
         padding-bottom: 1vh;
-        padding-top: 1vh;
-
-        border-right-color: #970046
+        padding-top: 1vh
     }
 
     #navbarNavDropdown li:last-of-type {

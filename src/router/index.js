@@ -14,6 +14,7 @@ import ContactPagina from '../views/over/ContactPagina.vue'
 import ExternPagina from '../views/over/ExternPagina.vue'
 import VriendenIchthusPagina from '../views/over/VriendenIchthusPagina.vue'
 import AgendaPagina from '../views/activiteiten/AgendaPagina.vue'
+import Error404Pagina from '../views/Error404Pagina.vue'
 
 const routes = [
   {
@@ -115,6 +116,15 @@ const routes = [
     component: AgendaPagina,
     meta: {
       titel: "Agenda",
+    },
+  },
+  // Als geen van bovenstaande gematcht worden:
+  {
+    path: "/:pathMatch(.*)*",
+    name: "404Pagina",
+    component: Error404Pagina,
+    meta: {
+      titel: "Error 404",
     },
   },
 ]

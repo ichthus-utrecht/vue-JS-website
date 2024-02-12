@@ -53,6 +53,8 @@ import { ref } from 'vue'
     justify-content: space-around;
     margin-top: 10px;
     margin-bottom: 40px;
+    padding: 0 10px;
+    /* Added padding for smaller screens */
     height: 60px;
     margin-left: 10%;
     margin-right: 25%;
@@ -67,18 +69,41 @@ import { ref } from 'vue'
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 10px;
-    height: 60px;
+    height: 50px;
+    /* Decreased logo size for smaller screens */
 }
 
 .titleCorner {
     color: rgb(151, 0, 70);
     font-family: "Bree Serif", serif;
-    font-size: 30px;
+    font-size: 25px;
     margin: 0;
     white-space: nowrap;
 }
-</style>
+
+@media screen and (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        /* Changed flex-direction to column for smaller screens */
+        height: auto;
+        /* Changed height to auto for smaller screens */
+        margin-left: 5%;
+        /* Adjusted margin for smaller screens */
+        margin-right: 5%;
+        /* Adjusted margin for smaller screens */
+    }
+
+    .menu-item {
+        width: 100%;
+    }
+
+    .logo {
+        height: 30px;
+        /* Reduced logo size for smaller screens */
+    }
+
+    .title {
+        font-size: 16px;
+        /* Reduced font size for smaller screens */
+    }
+}</style>

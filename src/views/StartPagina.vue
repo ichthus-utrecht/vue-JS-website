@@ -206,7 +206,7 @@
 import HeaderBalk from '../components/interactief/HeaderBalk.vue';
 import FooterBalk from '../components/interactief/FooterBalk.vue';
 
-import '/node_modules/bootstrap/dist/js/bootstrap';
+import 'bootstrap/dist/js/bootstrap';
 
 import { onMounted } from 'vue';
 
@@ -215,6 +215,7 @@ onMounted(() => {
   new bootstrap.Carousel(document.getElementById('carouselIndicators'));
 });
 </script>
+
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>

@@ -95,6 +95,7 @@ import { ref } from 'vue'
 
     .menu-item {
         width: 100%;
+        text-align: left;
     }
 
     .logo {
@@ -102,8 +103,13 @@ import { ref } from 'vue'
         /* Reduced logo size for smaller screens */
     }
 
-    .title {
-        font-size: 16px;
-        /* Reduced font size for smaller screens */
+    .titleCorner {
+        color: rgb(151, 0, 70);
+        font-family: "Bree Serif", serif;
+        font-size: 15px;
+        margin: 0;
+        white-space: nowrap;
+        text-align: left;
     }
-}</style>
+}
+</style>

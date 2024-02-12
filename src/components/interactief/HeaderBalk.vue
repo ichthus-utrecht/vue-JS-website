@@ -44,8 +44,9 @@ import { ref } from 'vue'
             <ul class="nav nav-mobile">
 
                 <li class="nav-item nav-social pe-0">
-                    <a href="https://www.instagram.com/ichthus_utrecht/" target="_blank" class="nav-link">
-                        <i class="fa fa-instagram"></i>
+                    <a href="https://www.instagram.com/ichthus_utrecht/" target="_blank"
+                        style="border-right-color: rgb(151,0,70);" class="nav-link">
+                        <i class="fa fa-instagram" style="color: gray; text-shadow: none;"></i>
                     </a>
                 </li>
             </ul>
@@ -53,8 +54,9 @@ import { ref } from 'vue'
         <div class="menu-item">
             <ul class="nav nav-mobile">
 
-                <li class="nav-item nav-social nav-social-right-border">
-                    <a href="https://nl-nl.facebook.com/csvichthusutrecht" target="_blank" class="nav-link">
+                <li class="nav-item nav-social nav-social-right-border" style="border-right-color: rgb(151,0,70);">
+                    <a href="https://nl-nl.facebook.com/csvichthusutrecht" target="_blank"
+                        style="color: gray; text-shadow: none;" class="nav-link">
                         <i class="fa fa-facebook"></i>
                     </a>
                 </li>

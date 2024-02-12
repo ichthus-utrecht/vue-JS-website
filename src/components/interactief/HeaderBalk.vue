@@ -9,7 +9,7 @@ import { ref } from 'vue'
 <template>
     <div class="menu">
         <div class="menu-item">
-            <img src="../../assets/images/icons/ichthus-logo-red.png" class="logo">
+            <router-link to="/"><img src="../../assets/images/icons/ichthus-logo-red.png" class="logo"></router-link>
         </div>
         <div class="menu-item">
             <div class="titleCorner">Ichthus Utrecht</div>

@@ -96,6 +96,7 @@ import { ref } from 'vue'
     .menu-item {
         width: 100%;
         text-align: left;
+        align-items: flex-start;
     }
 
     .logo {

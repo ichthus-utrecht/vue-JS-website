@@ -41,12 +41,37 @@ import { ref } from 'vue'
             <NavigatieKnop tekst="Lid worden" koppeling="lid-worden" />
         </div>
         <div class="menu-item">
-            <NavigatieKnop tekst="Leden" koppeling="https://ichthusutrecht.churchbook.nl" />
+            <ul class="nav nav-mobile">
+
+                <li class="nav-item nav-social pe-0">
+                    <a href="https://www.instagram.com/ichthus_utrecht/" target="_blank" class="nav-link">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="menu-item">
+            <ul class="nav nav-mobile">
+
+                <li class="nav-item nav-social nav-social-right-border">
+                    <a href="https://nl-nl.facebook.com/csvichthusutrecht" target="_blank" class="nav-link">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="menu-item">
+            <a class="nav-link" href="https://ichthusutrecht.churchbook.nl">
+                <i class="fas fa-lock fa-xs m-2" id="headerLock"></i>
+                Leden
+            </a>
         </div>
     </div>
 </template>
 
-<style scoped>
+<style scoped lang="css">
+@import '../../assets/css/app.css';
+
 .menu {
     display: flex;
     align-items: center;
@@ -112,5 +137,10 @@ import { ref } from 'vue'
         white-space: nowrap;
         text-align: left;
     }
+
+    .nav-link {
+        color: gray
+    }
+
 }
 </style>

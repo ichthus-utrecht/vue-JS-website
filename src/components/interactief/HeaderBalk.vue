@@ -41,12 +41,43 @@ import { ref } from 'vue'
             <NavigatieKnop tekst="Lid worden" koppeling="lid-worden" />
         </div>
         <div class="menu-item">
-            <NavigatieKnop tekst="Leden" koppeling="https://ichthusutrecht.churchbook.nl" />
+            <ul class="nav nav-mobile">
+
+                <li class="nav-item nav-social pe-0">
+                    <a href="https://www.instagram.com/ichthus_utrecht/" target="_blank"
+                        style="border-right-color: rgb(151,0,70);" class="nav-link">
+                        <i class="fa fa-instagram" style="color: gray; text-shadow: none;"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="menu-item">
+            <ul class="nav nav-mobile">
+
+                <li class="nav-item nav-social nav-social-right-border" style="border-right-color: rgb(151,0,70);">
+                    <a href="https://nl-nl.facebook.com/csvichthusutrecht" target="_blank"
+                        style="color: gray; text-shadow: none;" class="nav-link">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="menu-item">
+            <a class="nav-link" href="https://ichthusutrecht.churchbook.nl">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" aria-hidden="true" focusable="false"
+                    viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path fill="gray"
+                        d="M144 144v48H304V144c0-44.2-35.8-80-80-80s-80 35.8-80 80zM80 192V144C80 64.5 144.5 0 224 0s144 64.5 144 144v48h16c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V256c0-35.3 28.7-64 64-64H80z" />
+                </svg>
+                <NavigatieKnop tekst="Leden" koppeling="https://ichthusutrecht.churchbook.nl" />
+            </a>
         </div>
     </div>
 </template>
 
-<style scoped>
+<style scoped lang="css">
+@import '../../assets/css/app.css';
+
 .menu {
     display: flex;
     align-items: center;
@@ -58,6 +89,13 @@ import { ref } from 'vue'
     height: 60px;
     margin-left: 10%;
     margin-right: 25%;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -.125em;
+    margin-right: 0.8em;
 }
 
 .menu-item {
@@ -112,5 +150,10 @@ import { ref } from 'vue'
         white-space: nowrap;
         text-align: left;
     }
+
+    .nav-link {
+        color: gray
+    }
+
 }
 </style>

@@ -95,6 +95,7 @@ import { ref } from 'vue'
     width: 1em;
     height: 1em;
     vertical-align: -.125em;
+    margin-right: 0.8em;
 }
 
 .menu-item {

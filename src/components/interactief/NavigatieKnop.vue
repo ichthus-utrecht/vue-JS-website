@@ -1,5 +1,5 @@
 <script setup>
- // eslint-disable-next-line
+// eslint-disable-next-line
 defineProps({
     tekst: String,
     koppeling: String
@@ -14,9 +14,10 @@ defineProps({
 <style scoped>
 /* We laten de knopjes niet van kleur veranderen maar geven wel aan wanneer de muis eroverheen zit. */
 a {
-    color: #2c3e50;
+    color: gray;
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: underline;
 }

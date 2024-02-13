@@ -67,7 +67,7 @@ function inklappen() {
 
 /* Dit is momenteel gekopieerd uit NavigatieKnop.vue; als deze af is kijken of we het beide in een component kunnen zetten die hergebruikt wordt, of misschien stylen in een ander component */
 a {
-    color: #2c3e50;
+    color: gray;
     text-decoration: none;
 }
 </style>

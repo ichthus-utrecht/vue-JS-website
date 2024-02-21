@@ -20,9 +20,9 @@
                 <div class="nav-item dropdown active" @mouseover="uitklappen('vereniging')"
                     @mouseleave="inklappen('vereniging')">
 
-                    <a class="nav-link dropdown-toggle" href="#">
+                    <div class="nav-link dropdown-toggle" href="#">
                         Vereniging
-                    </a>
+                    </div>
 
                     <ul class="dropdowninhoud" v-if="vereniging">
                         <li>
@@ -52,9 +52,9 @@
                 <li class="nav-item dropdown" @mouseover="uitklappen('activiteiten')"
                     @mouseleave="inklappen('activiteiten')">
 
-                    <a class="nav-link dropdown-toggle" href="#">
+                    <div class="nav-link dropdown-toggle" href="#">
                         Activiteiten
-                    </a>
+                    </div>
 
                     <ul class="dropdowninhoud" v-if="activiteiten">
                         <li>
@@ -78,9 +78,9 @@
 
                 <li class="nav-item dropdown" @mouseover="uitklappen('over')" @mouseleave="inklappen('over')">
 
-                    <a class="nav-link dropdown-toggle" href="#">
+                    <div class="nav-link dropdown-toggle" href="#">
                         Over
-                    </a>
+                    </div>
 
                     <ul class="dropdowninhoud" v-if="over">
                         <li>
@@ -309,5 +309,10 @@ export default {
     /* Adjust the width of the line as needed */
     background-color: rgb(151, 0, 70);
     transition: width 0.3s;
+}
+
+.navbar a:hover {
+    color: #970046;
+    text-decoration: underline !important;
 }
 </style>

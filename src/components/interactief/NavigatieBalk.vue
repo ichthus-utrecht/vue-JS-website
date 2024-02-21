@@ -8,16 +8,17 @@
             </router-link>
         </div>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"><i class="fas fa-caret-down"></i></span>
+        <button @click="toggleNavbar" class="navbar-toggler" type="button" aria-controls="navbarNavDropdown"
+            :aria-expanded="isNavbarOpen ? 'true' : 'false'" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div :class="{ 'collapse': !isNavbarOpen }" :aria-expanded="isNavbarOpen ? 'true' : 'false'" class="navbar-collapse"
+            id="navbarNavDropdown">
 
             <ul class="nav mr-auto nav-mobile">
 
-                <div class="nav-item dropdown active" @mouseover="uitklappen('vereniging')"
+                <div class="nav-item dropdown active" @mouseenter="uitklappen('vereniging')"
                     @mouseleave="inklappen('vereniging')">
 
                     <a class="nav-link dropdown-toggle" href="#">
@@ -49,7 +50,7 @@
                     </ul>
                 </div>
 
-                <li class="nav-item dropdown" @mouseover="uitklappen('activiteiten')"
+                <li class="nav-item dropdown" @mouseenter="uitklappen('activiteiten')"
                     @mouseleave="inklappen('activiteiten')">
 
                     <a class="nav-link dropdown-toggle" href="#">
@@ -76,7 +77,7 @@
 
                 </li>
 
-                <li class="nav-item dropdown" @mouseover="uitklappen('over')" @mouseleave="inklappen('over')">
+                <li class="nav-item dropdown" @mouseenter="uitklappen('over')" @mouseleave="inklappen('over')">
 
                     <a class="nav-link dropdown-toggle" href="#">
                         Over
@@ -150,6 +151,7 @@ export default {
     data() {
         return {
             scrolled: false,
+            isNavbarOpen: false,
             vereniging: false,
             activiteiten: false,
             over: false,
@@ -168,6 +170,12 @@ export default {
             } else {
                 this.scrolled = true;
             }
+        },
+        toggleNavbar() {
+            if (window.innerWidth < 968) {
+                this.isNavbarOpen = !this.isNavbarOpen; // Toggle the state of navbar
+            }
+            else { this.isNavbarOpen = false }
         },
         uitklappen(sectie) {
             this[sectie] = true

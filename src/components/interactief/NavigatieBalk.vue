@@ -18,8 +18,8 @@
 
             <ul class="nav mr-auto nav-mobile">
 
-                <div class="nav-item dropdown active" @mouseenter="uitklappen('vereniging')"
-                    @mouseleave="inklappen('vereniging')">
+                <div :class="{ 'scrolly': scrolled }" class="nav-item dropdown active"
+                    @mouseenter="uitklappen('vereniging')" @mouseleave="inklappen('vereniging')">
 
                     <a class="nav-link dropdown-toggle" href="#">
                         Vereniging
@@ -50,7 +50,7 @@
                     </ul>
                 </div>
 
-                <li class="nav-item dropdown" @mouseenter="uitklappen('activiteiten')"
+                <li :class="{ 'scrolly': scrolled }" class="nav-item dropdown" @mouseenter="uitklappen('activiteiten')"
                     @mouseleave="inklappen('activiteiten')">
 
                     <a class="nav-link dropdown-toggle" href="#">
@@ -77,9 +77,10 @@
 
                 </li>
 
-                <li class="nav-item dropdown" @mouseenter="uitklappen('over')" @mouseleave="inklappen('over')">
+                <li :class="{ 'scrolly': scrolled }" class="nav-item dropdown" @mouseenter="uitklappen('over')"
+                    @mouseleave="inklappen('over')">
 
-                    <a class="nav-link dropdown-toggle" href="#">
+                    <a :class="{ 'scrolly': scrolled }" class="nav-link dropdown-toggle" href="#">
                         Over
                     </a>
 
@@ -279,6 +280,10 @@ export default {
     -webkit-box-shadow: 0px 13px 30px -6px rgba(0, 0, 0, 0.56);
     -moz-box-shadow: 0px 13px 30px -6px rgba(0, 0, 0, 0.56);
     clip-path: inset(0px -50px -50px -50px);
+}
+
+.scrolly .dropdown-toggle::after {
+    color: #970046 !important;
 }
 
 .dropdown-menu.scrolled a {

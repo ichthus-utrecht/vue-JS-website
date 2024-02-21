@@ -5,11 +5,16 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
 
 <template>
     <NavigatieBalk />
-    <img class="row page-title-image page-title-image-m" src="@/assets/images/nav.jpg">
+    <img class="row page-title-image page-title-image-m centered-image" src="@/assets/images/nav.jpg">
     Vrienden van Ichthus
     <FooterBalk />
 </template>
 
 <style lang="css">
 @import '../../assets/css/app.css';
+
+.centered-image {
+    display: block;
+    margin: 0 auto;
+}
 </style>

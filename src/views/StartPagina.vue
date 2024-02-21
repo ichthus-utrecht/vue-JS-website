@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <NavigatieBalk />
-    <img class="row page-title-image page-title-image-m" src="@/assets/images/nav.jpg">
+    <img class="row page-title-image page-title-image-m centered-image" src="@/assets/images/nav.jpg">
     Welkom bij Ichthus Utrecht!
     <FooterBalk />
   </div>
@@ -23,5 +23,10 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
 
 body {
   background: white;
+}
+
+.centered-image {
+  display: block;
+  margin: 0 auto;
 }
 </style>

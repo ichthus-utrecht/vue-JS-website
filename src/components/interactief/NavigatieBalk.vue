@@ -346,6 +346,9 @@ export default {
     .navbar a {
         color: gray;
         text-shadow: none;
+        right: 0;
+        left: auto;
+        z-index: 1000;
     }
 
     .navbar li {
@@ -361,17 +364,51 @@ export default {
         filter: none;
     }
 
-    .dropdown-menu {
+    .dropdowninhoud {
         background-color: white;
-        margin-top: calc(5vh + 2px);
+        margin-top: 0;
         box-shadow: 0px 13px 30px -6px rgba(0, 0, 0, 0.56);
         -webkit-box-shadow: 0px 13px 30px -6px rgba(0, 0, 0, 0.56);
         -moz-box-shadow: 0px 13px 30px -6px rgba(0, 0, 0, 0.56);
         clip-path: inset(0px -50px -50px -50px);
+        z-index: 1000;
     }
 
-    .dropdown-menu a {
+    .dropdowninhoud a {
         border-left-color: #970046;
+        right: 0;
+        left: auto;
+        z-index: 1000;
+    }
+
+    .scrolled .dropdowninhoud {
+        transition: all 0.3s ease;
+        position: absolute;
+        /* Zorg ervoor dat de inhoud onder de knop terechtkomt en de knop niet van plek veranderd */
+        list-style-type: none;
+        /* Geen bolletjes bij de opties */
+        /* padding gebruiken ipv margin zodat mouseleave niet triggert bij de witruimte */
+        padding: 30px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+        background-color: white;
+        margin: 0px;
+        text-align: left;
+        white-space: nowrap;
+    }
+
+    .scrolled .dropdowninhoud::before {
+        transition: all 0.3s ease;
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0px;
+        height: calc(100% - 0px);
+        /* Adjust the height of the line as needed */
+        width: 1px;
+        /* Adjust the width of the line as needed */
+        background-color: rgb(151, 0, 70);
+        transition: width 0.3s;
     }
 
 }

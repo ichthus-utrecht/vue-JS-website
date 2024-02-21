@@ -1,12 +1,12 @@
 <script setup>
-import HeaderBalk from '../../components/interactief/HeaderBalk.vue'
 import FooterBalk from '../../components/interactief/FooterBalk.vue'
 import SponsorTabel from '../../components/details/SponsorTabel.vue'
 import StandardLayoutWithHeader from '../../components/layouts/StandardLayoutWithHeader.vue'
+import NavigatieBalk from '../../components/interactief/NavigatieBalk.vue';
 </script>
 
 <template>
-    <HeaderBalk />
+    <NavigatieBalk />
     <StandardLayoutWithHeader pageHeader="Adverteren" description="Bij Ichthus Utrecht is het mogelijk om uw bedrijf te adverteren, lees de onderstaande informatie voor
             alle mogelijkheden en contactgegevens.">
         <div class="row justify-content-center">

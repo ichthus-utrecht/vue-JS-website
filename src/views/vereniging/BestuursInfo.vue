@@ -1,12 +1,12 @@
 <script setup>
-import HeaderBalk from '../../components/interactief/HeaderBalk.vue'
 import BestuursPerson from '../../components/details/BestuursPerson.vue'
 import StandardLayoutWithHeader from '../../components/layouts/StandardLayoutWithHeader.vue'
 import FooterBalk from '../../components/interactief/FooterBalk.vue'
+import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
 </script>
 
 <template>
-    <HeaderBalk />
+    <NavigatieBalk />
     <StandardLayoutWithHeader pageHeader="Bestuur der C.S.V. Ichthus Utrecht"
         description="Zoals elke studentenvereniging heeft ook Ichthus Utrecht een bestuur! Onderstaand stellen zij zich aan jou voor.">
         <div class="row justify-content-center">

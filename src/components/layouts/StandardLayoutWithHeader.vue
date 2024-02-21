@@ -11,7 +11,7 @@ defineProps({
 
 <template>
     <div class="container-fluid">
-        <div class="row page-title-image page-title-image-m"
+        <div class="row page-title-image page-title-image-m" style="margin-top: 0;"
             :style="{ backgroundImage: 'url(' + require('@/assets/images/nav.jpg') + ')' }"></div>
         <div class="row">
             <BasicContainer>
@@ -46,5 +46,10 @@ defineProps({
 
 .row {
     text-align: left;
+}
+
+
+#app {
+    margin-top: 0;
 }
 </style>

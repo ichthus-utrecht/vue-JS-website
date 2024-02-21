@@ -1,8 +1,8 @@
 <template>
     <nav :class="{ 'scrolled': scrolled }" class="navbar navbar-expand-lg">
 
-        <div class="navbar-brand">
-            <router-link to="/" style="text-decoration: none; color: white;">
+        <div class="navbar-brand nav-link">
+            <router-link to="/" :class="{ 'scrolly': scrolled }" class="nav-link">
                 <img src="@/assets/images/icons/ichthus-logo-red.png">
                 Ichthus Utrecht
             </router-link>
@@ -109,8 +109,8 @@
                 </li>
 
                 <li class="nav-item">
-                    <router-link to="/lid-worden">
-                        <div class="nav-link">Lid worden</div>
+                    <router-link to="/lid-worden" style="text-decoration: none;">
+                        <a class="nav-link">Lid worden</a>
                     </router-link>
                 </li>
 
@@ -135,7 +135,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" class="fas fa-lock fa-xs icon"
                             style="color: white; text-shadow: black 0px 0px 10px;" aria-hidden="true" focusable="false"
                             viewBox="0 0 448 512"><!-- !Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
-                            <path fill="white"
+                            <path :fill="scrolled ? 'gray' : 'white'"
                                 d="M144 144v48H304V144c0-44.2-35.8-80-80-80s-80 35.8-80 80zM80 192V144C80 64.5 144.5 0 224 0s144 64.5 144 144v48h16c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V256c0-35.3 28.7-64 64-64H80z" />
                         </svg>
                         Leden
@@ -238,6 +238,10 @@ export default {
 }
 
 .navbar-toggler.scrolled {
+    color: #970046;
+}
+
+.navbar .nav-link .scrolly {
     color: #970046;
 }
 </style>

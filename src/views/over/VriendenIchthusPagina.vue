@@ -10,11 +10,13 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
     <FooterBalk />
 </template>
 
-<style lang="css">
+<style scoped lang="css">
 @import '../../assets/css/app.css';
 
 .centered-image {
     display: block;
-    margin: 0 auto;
+    margin: 0 auto !important;
+    width: 90% !important;
+    height: auto !important;
 }
 </style>

@@ -27,6 +27,8 @@ body {
 
 .centered-image {
   display: block;
-  margin: 0 auto;
+  margin: 0 auto !important;
+  width: 90% !important;
+  height: auto !important;
 }
 </style>

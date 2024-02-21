@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <NavigatieBalk />
-    <img src="@/assets/images/nav.jpg">
+    <img class="row page-title-image page-title-image-m" src="@/assets/images/nav.jpg">
     Welkom bij Ichthus Utrecht!
     <FooterBalk />
   </div>

@@ -375,6 +375,7 @@ export default {
     }
 
     .dropdowninhoud a {
+        color: #970046 !important;
         border-left-color: #970046;
         right: 0;
         left: auto;

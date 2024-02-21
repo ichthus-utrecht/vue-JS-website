@@ -5,7 +5,7 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
 
 <template>
     <NavigatieBalk />
-    <img src="@/assets/images/nav.jpg">
+    <img class="row page-title-image page-title-image-m" src="@/assets/images/nav.jpg">
     Contact
     <FooterBalk />
 </template>

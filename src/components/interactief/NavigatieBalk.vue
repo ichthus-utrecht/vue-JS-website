@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg">
+    <nav :class="{ 'scrolled': scrolled }" class="navbar navbar-expand-lg">
 
         <div class="navbar-brand">
             <router-link to="/" style="text-decoration: none; color: white;">
@@ -146,6 +146,31 @@
     </nav>
 </template>
 
+<script>
+export default {
+    data() {
+        return {
+            scrolled: false
+        };
+    },
+    mounted() {
+        window.addEventListener("scroll", this.handleScroll);
+    },
+    beforeUnmount() {
+        window.removeEventListener("scroll", this.handleScroll);
+    },
+    methods: {
+        handleScroll() {
+            if (window.scrollY < 150) {
+                this.scrolled = false;
+            } else {
+                this.scrolled = true;
+            }
+        }
+    }
+};
+</script>
+
 <style lang="css">
 @import '../../assets/css/app.css';
 
@@ -154,5 +179,19 @@
     height: 1em;
     vertical-align: -.125em;
     margin-right: 0.8em;
+}
+
+.navbar {
+    transition: all 0.3s ease;
+}
+
+.scrolled {
+    background-color: white;
+    padding-top: 0;
+    color: #970046;
+    padding-bottom: 5vh;
+    box-shadow: 0px -9px 20px black;
+    -moz-box-shadow: 0px -9px 20px black;
+    -webkit-box-shadow: 0px -9px 20px black;
 }
 </style>

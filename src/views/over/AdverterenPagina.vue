@@ -93,4 +93,8 @@ import NavigatieBalk from '../../components/interactief/NavigatieBalk.vue';
 
 <style lang="css">
 @import '../../assets/css/app.css';
+
+#app {
+    margin-top: 0;
+}
 </style>

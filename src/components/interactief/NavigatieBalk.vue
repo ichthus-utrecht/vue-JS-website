@@ -314,4 +314,57 @@ export default {
 .navbar a:hover {
     color: #970046;
 }
+
+@media screen and (max-width: 768px) {
+
+    /* Mobile styles */
+    .navbar-toggler {
+        position: relative !important;
+        margin-top: 3.5vh !important;
+        color: white;
+    }
+
+    /* Styles when the condition is true */
+    .navbar {
+        background-color: white;
+        padding-top: 0;
+        color: #970046;
+        padding-bottom: 5vh;
+        box-shadow: 0px -9px 20px black;
+        -moz-box-shadow: 0px -9px 20px black;
+        -webkit-box-shadow: 0px -9px 20px black;
+    }
+
+    .navbar a {
+        color: gray;
+        text-shadow: none;
+    }
+
+    .navbar li {
+        border-right-color: #970046;
+    }
+
+    .navbar-brand {
+        color: #970046;
+        text-shadow: none;
+    }
+
+    .navbar-brand img {
+        filter: none;
+    }
+
+    .dropdown-menu {
+        background-color: white;
+        margin-top: calc(5vh + 2px);
+        box-shadow: 0px 13px 30px -6px rgba(0, 0, 0, 0.56);
+        -webkit-box-shadow: 0px 13px 30px -6px rgba(0, 0, 0, 0.56);
+        -moz-box-shadow: 0px 13px 30px -6px rgba(0, 0, 0, 0.56);
+        clip-path: inset(0px -50px -50px -50px);
+    }
+
+    .dropdown-menu a {
+        border-left-color: #970046;
+    }
+
+}
 </style>

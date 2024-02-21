@@ -190,6 +190,10 @@ export default {
 <style lang="css">
 @import '../../assets/css/app.css';
 
+.navbar-toggler-icon {
+    color: white !important;
+}
+
 .dropdowninhoud {
     position: absolute;
     /* Zorg ervoor dat de inhoud onder de knop terechtkomt en de knop niet van plek veranderd */
@@ -319,6 +323,7 @@ export default {
     transition: width 0.3s;
 }
 
+
 .navbar a:hover {
     color: #970046;
 }
@@ -329,7 +334,13 @@ export default {
     .navbar-toggler {
         position: relative !important;
         margin-top: 3.5vh !important;
-        color: white;
+        color: white !important;
+    }
+
+    .scrolled .navbar-toggler {
+        position: relative !important;
+        margin-top: 3.5vh !important;
+        color: #970046 !important;
     }
 
     /* Styles when the condition is true */

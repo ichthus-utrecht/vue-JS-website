@@ -17,58 +17,58 @@
 
             <ul class="nav mr-auto nav-mobile">
 
-                <li class="nav-item dropdown active">
+                <div class="nav-item dropdown active" @mouseover="uitklappen('vereniging')"
+                    @mouseleave="inklappen('vereniging')">
 
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#">
                         Vereniging
                     </a>
 
-                    <ul class="dropdown-menu">
+                    <ul class="dropdowninhoud" v-if="vereniging">
                         <li>
-                            <router-link to="/bestuur">
+                            <router-link to="/bestuur" style="text-decoration: none;">
                                 <div class="dropdown-item">Bestuur</div>
                             </router-link>
 
                         </li>
                         <li>
-                            <router-link to="/jaarthema">
+                            <router-link to="/jaarthema" style="text-decoration: none;">
                                 <div class="dropdown-item">Jaarthema</div>
                             </router-link>
                         </li>
                         <li>
-                            <router-link to="/visie-missie">
+                            <router-link to="/visie-missie" style="text-decoration: none;">
                                 <div class="dropdown-item">Waar wij voor staan</div>
                             </router-link>
                         </li>
                         <li>
-                            <router-link to="/geschiedenis">
+                            <router-link to="/geschiedenis" style="text-decoration: none;">
                                 <div class="dropdown-item">Geschiedenis</div>
                             </router-link>
                         </li>
                     </ul>
-                </li>
+                </div>
 
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown" @mouseover="uitklappen('activiteiten')"
+                    @mouseleave="inklappen('activiteiten')">
 
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#">
                         Activiteiten
                     </a>
 
-                    <ul class="dropdown-menu">
+                    <ul class="dropdowninhoud" v-if="activiteiten">
                         <li>
-                            <router-link to="/agenda">
+                            <router-link to="/agenda" style="text-decoration: none;">
                                 <div class="dropdown-item">Agenda</div>
                             </router-link>
                         </li>
                         <li>
-                            <router-link to="/geloof">
+                            <router-link to="/geloof" style="text-decoration: none;">
                                 <div class="dropdown-item">Geloof</div>
                             </router-link>
                         </li>
                         <li>
-                            <router-link to="/praktisch">
+                            <router-link to="/praktisch" style="text-decoration: none;">
                                 <div class="dropdown-item">Praktisch</div>
                             </router-link>
                         </li>
@@ -76,31 +76,30 @@
 
                 </li>
 
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown" @mouseover="uitklappen('over')" @mouseleave="inklappen('over')">
 
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#">
                         Over
                     </a>
 
-                    <ul class="dropdown-menu">
+                    <ul class="dropdowninhoud" v-if="over">
                         <li>
-                            <router-link to="/extern">
+                            <router-link to="/extern" style="text-decoration: none;">
                                 <div class="dropdown-item">Extern</div>
                             </router-link>
                         </li>
                         <li>
-                            <router-link to="/vrienden">
+                            <router-link to="/vrienden" style="text-decoration: none;">
                                 <div class="dropdown-item">Vrienden van Ichthus</div>
                             </router-link>
                         </li>
                         <li>
-                            <router-link to="/adverteren">
+                            <router-link to="/adverteren" style="text-decoration: none;">
                                 <div class="dropdown-item">Adverteren</div>
                             </router-link>
                         </li>
                         <li>
-                            <router-link to="/contact">
+                            <router-link to="/contact" style="text-decoration: none;">
                                 <div class="dropdown-item">Contact</div>
                             </router-link>
                         </li>
@@ -150,7 +149,10 @@
 export default {
     data() {
         return {
-            scrolled: false
+            scrolled: false,
+            vereniging: false,
+            activiteiten: false,
+            over: false,
         };
     },
     mounted() {
@@ -166,6 +168,12 @@ export default {
             } else {
                 this.scrolled = true;
             }
+        },
+        uitklappen(sectie) {
+            this[sectie] = true
+        },
+        inklappen(sectie) {
+            this[sectie] = false
         }
     }
 };
@@ -173,6 +181,34 @@ export default {
 
 <style lang="css">
 @import '../../assets/css/app.css';
+
+.dropdowninhoud {
+    position: absolute;
+    /* Zorg ervoor dat de inhoud onder de knop terechtkomt en de knop niet van plek veranderd */
+    list-style-type: none;
+    /* Geen bolletjes bij de opties */
+    /* padding gebruiken ipv margin zodat mouseleave niet triggert bij de witruimte */
+    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+    margin: 0px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.dropdowninhoud::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    /* Adjust the height of the line as needed */
+    width: 1px;
+    /* Adjust the width of the line as needed */
+    background-color: white;
+    transition: width 0.3s;
+}
 
 .icon {
     width: 1em;
@@ -243,5 +279,35 @@ export default {
 
 .navbar .nav-link .scrolly {
     color: #970046;
+}
+
+.scrolled .dropdowninhoud {
+    transition: all 0.3s ease;
+    position: absolute;
+    /* Zorg ervoor dat de inhoud onder de knop terechtkomt en de knop niet van plek veranderd */
+    list-style-type: none;
+    /* Geen bolletjes bij de opties */
+    /* padding gebruiken ipv margin zodat mouseleave niet triggert bij de witruimte */
+    padding: 30px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    background-color: white;
+    margin: 0px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.scrolled .dropdowninhoud::before {
+    transition: all 0.3s ease;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 51px;
+    height: calc(100% - 51px);
+    /* Adjust the height of the line as needed */
+    width: 1px;
+    /* Adjust the width of the line as needed */
+    background-color: rgb(151, 0, 70);
+    transition: width 0.3s;
 }
 </style>

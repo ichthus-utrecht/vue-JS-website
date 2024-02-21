@@ -1,11 +1,11 @@
 <script setup>
-import HeaderBalk from '../../components/interactief/HeaderBalk.vue'
 import FooterBalk from '../../components/interactief/FooterBalk.vue'
 import StandardLayoutWithHeader from '../../components/layouts/StandardLayoutWithHeader.vue'
+import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
 </script>
 
 <template>
-    <HeaderBalk />
+    <NavigatieBalk />
     <StandardLayoutWithHeader pageHeader="Privacy Statement" description="Verklaring omtrent privacy van de gebruiker.">
         <div class="row justify-content-center">
             <p class="text-justify">

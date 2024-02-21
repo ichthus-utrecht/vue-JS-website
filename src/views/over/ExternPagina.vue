@@ -1,11 +1,11 @@
 <script setup>
-import HeaderBalk from '../../components/interactief/HeaderBalk.vue'
 import StandardLayoutWithHeader from '../../components/layouts/StandardLayoutWithHeader.vue'
 import FooterBalk from '../../components/interactief/FooterBalk.vue'
+import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
 </script>
 
 <template>
-    <HeaderBalk />
+    <NavigatieBalk />
     <StandardLayoutWithHeader pageHeader="Externe Banden"
         description="Ichthus Utrecht heeft contacten en externe banden door heel Nederland heen. Hieronder zijn ze opgesomd.">
         <div class="row justify-content-center">

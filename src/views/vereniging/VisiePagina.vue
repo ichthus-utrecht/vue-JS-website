@@ -1,11 +1,11 @@
 <script setup>
-import HeaderBalk from '../../components/interactief/HeaderBalk.vue'
 import StandardLayoutWithHeader from '../../components/layouts/StandardLayoutWithHeader.vue'
 import FooterBalk from '../../components/interactief/FooterBalk.vue'
+import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
 </script>
 
 <template>
-    <HeaderBalk />
+    <NavigatieBalk />
     <StandardLayoutWithHeader pageHeader="Waar wij voor staan"
         description="Ichthus Utrecht heeft waarden en normen waar zij voor staat en die door heel de vereniging heen te merken zijn.">
         <div class="row justify-content-center">

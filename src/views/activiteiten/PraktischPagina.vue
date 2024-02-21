@@ -1,11 +1,11 @@
 <script setup>
-import HeaderBalk from '../../components/interactief/HeaderBalk.vue'
 import StandardLayoutWithHeader from '../../components/layouts/StandardLayoutWithHeader.vue'
 import FooterBalk from '../../components/interactief/FooterBalk.vue'
+import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
 </script>
 
 <template>
-    <HeaderBalk />
+    <NavigatieBalk />
     <StandardLayoutWithHeader pageHeader="Activiteiten op de vereniging"
         description="Als student wil je uiteraard ook een leven naast je studie en bij Ichthus komt daar genoeg bij kijken! Lees hieronder wat voor activiteiten wij allemaal doen op de vereniging.">
         <div class="row justify-content-center activity-section-wrapper">

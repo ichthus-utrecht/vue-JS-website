@@ -1,11 +1,11 @@
 <script setup>
-import HeaderBalk from '../../components/interactief/HeaderBalk.vue'
 import StandardLayoutWithHeader from '../../components/layouts/StandardLayoutWithHeader.vue'
 import FooterBalk from '../../components/interactief/FooterBalk.vue'
+import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
 </script>
 
 <template>
-    <HeaderBalk />
+    <NavigatieBalk />
     <StandardLayoutWithHeader pageHeader="Geschiedenis"
         description="Ichthus Utrecht bestaat inmiddels al 64 jaar en daar hoort een rijke geschiedenis bij die hieronder is beschreven.">
         <div class="row justify-content-center">

@@ -1,11 +1,11 @@
 <script setup>
-import HeaderBalk from '../components/interactief/HeaderBalk.vue'
 import StandardLayoutWithHeader from '../components/layouts/StandardLayoutWithHeader.vue'
 import FooterBalk from '../components/interactief/FooterBalk.vue'
+import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
 </script>
 
 <template>
-    <HeaderBalk />
+    <NavigatieBalk />
     <StandardLayoutWithHeader pageHeader="Lid worden"
         description="Wat leuk dat je overweegt lid te worden van C.S.V. Ichthus Utrecht! We maken graag kennis met je.">
         <div class="col-12 col-md-12 section-description">

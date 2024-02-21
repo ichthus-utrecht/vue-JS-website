@@ -1,10 +1,12 @@
 <script setup>
-import HeaderBalk from '../../components/interactief/HeaderBalk.vue'
 import FooterBalk from '../../components/interactief/FooterBalk.vue'
+import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
 </script>
 
 <template>
-    <HeaderBalk />
+    <NavigatieBalk />
+    <img src="@/assets/images/nav.jpg">
+    Vrienden van Ichthus
     <FooterBalk />
 </template>
 

@@ -63,12 +63,12 @@
                             </router-link>
                         </li>
                         <li>
-                            <router-link to="/geloof" style="text-decoration: none;">
+                            <router-link to="/activiteiten-geloof" style="text-decoration: none;">
                                 <div class="dropdown-item">Geloof</div>
                             </router-link>
                         </li>
                         <li>
-                            <router-link to="/praktisch" style="text-decoration: none;">
+                            <router-link to="/activiteiten-praktisch" style="text-decoration: none;">
                                 <div class="dropdown-item">Praktisch</div>
                             </router-link>
                         </li>

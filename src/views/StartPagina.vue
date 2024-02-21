@@ -1,14 +1,15 @@
 <template>
   <div class="home">
-    <HeaderBalk />
+    <NavigatieBalk />
+    <img src="@/assets/images/nav.jpg">
     Welkom bij Ichthus Utrecht!
     <FooterBalk />
   </div>
 </template>
 
 <script setup>
-import HeaderBalk from '../components/interactief/HeaderBalk.vue'
 import FooterBalk from '../components/interactief/FooterBalk.vue'
+import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

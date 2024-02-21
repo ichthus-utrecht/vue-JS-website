@@ -194,4 +194,50 @@ export default {
     -moz-box-shadow: 0px -9px 20px black;
     -webkit-box-shadow: 0px -9px 20px black;
 }
+
+/* Styles for when scroll condition is met */
+.navbar.scrolled {
+    background-color: white;
+    padding-top: 0;
+    color: #970046;
+    padding-bottom: 5vh;
+    box-shadow: 0px -9px 20px black;
+    -moz-box-shadow: 0px -9px 20px black;
+    -webkit-box-shadow: 0px -9px 20px black;
+}
+
+.navbar.scrolled a {
+    color: gray;
+    text-shadow: none;
+}
+
+.navbar.scrolled li {
+    border-right-color: #970046;
+}
+
+.navbar.scrolled .navbar-brand {
+    color: #970046;
+    text-shadow: none;
+}
+
+.navbar.scrolled .navbar-brand img {
+    filter: none;
+}
+
+.dropdown-menu.scrolled {
+    background-color: white;
+    margin-top: calc(5vh + 2px);
+    box-shadow: 0px 13px 30px -6px rgba(0, 0, 0, 0.56);
+    -webkit-box-shadow: 0px 13px 30px -6px rgba(0, 0, 0, 0.56);
+    -moz-box-shadow: 0px 13px 30px -6px rgba(0, 0, 0, 0.56);
+    clip-path: inset(0px -50px -50px -50px);
+}
+
+.dropdown-menu.scrolled a {
+    border-left-color: #970046;
+}
+
+.navbar-toggler.scrolled {
+    color: #970046;
+}
 </style>

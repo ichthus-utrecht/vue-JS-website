@@ -47,4 +47,9 @@ defineProps({
 .row {
     text-align: left;
 }
+
+
+#app {
+    margin-top: 0;
+}
 </style>

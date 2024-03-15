@@ -7,7 +7,8 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
 <template>
     <NavigatieBalk />
     <img class="row page-title-image page-title-image-m centered-image" src="@/assets/images/nav.jpg">
-    <StandardLayoutWithHeader pageHeader="Agenda" description="Onderstaand de geplande activiteiten van Ichthus Utrecht. Voor de datum en tijd wordt de tijdzone van je apparaat gebruikt.">
+    <StandardLayoutWithHeader pageHeader="Agenda" 
+        description="Onderstaand de geplande activiteiten van Ichthus Utrecht. Voor de datum en tijd wordt de tijdzone van je apparaat gebruikt" > </StandardLayoutWithHeader>
     <div class="w-100 justify-content-center" id="agendaContainer">
         <div class="row" id="agendaWrapper">
             <div class="col-12 col-md-6 agenda-calendar">

@@ -144,10 +144,14 @@ const router = createRouter({
   routes,
   // eslint-disable-next-line 
   scrollBehavior (to, from, savedPosition) {
-    // alles naar boven 
+    if (savedPosition) { // pijltje terug 
+      return savedPosition}
+    // anders naar boven 
     return {top: 0}
   }
  })
+
+
 
 router.beforeEach((to) => { // html-title instellen
   if ('titel' in to.meta)

@@ -6,7 +6,6 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
 
 <template>
     <NavigatieBalk />
-    <img class="row page-title-image page-title-image-m centered-image" src="@/assets/images/nav.jpg">
     <StandardLayoutWithHeader pageHeader="Agenda" 
         description="Onderstaand de geplande activiteiten van Ichthus Utrecht. Voor de datum en tijd wordt de tijdzone van je apparaat gebruikt" > 
     <div class="w-100 justify-content-center" id="agendaContainer">

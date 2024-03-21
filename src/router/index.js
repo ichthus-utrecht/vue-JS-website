@@ -139,7 +139,15 @@ const routes = [
 ]
 
 
-const router = createRouter({ history: createWebHistory(), routes })
+const router = createRouter({ 
+  history: createWebHistory(), 
+  routes,
+  // eslint-disable-next-line 
+  scrollBehavior (to, from, savedPosition) {
+    // alles naar boven 
+    return {top: 0}
+  }
+ })
 
 router.beforeEach((to) => { // html-title instellen
   if ('titel' in to.meta)

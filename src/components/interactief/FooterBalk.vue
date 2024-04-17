@@ -66,7 +66,7 @@
                 <!-- Column 3 -->
                 <div class="col-10 col-md-4 footer-column align-top">
                     <div class="row footer-row">
-                        <div class="col-12 page-section-header-s footer-caption">IBAN en ANBI-status</div>
+                        <div class="col-12 page-section-header-s footer-caption">IBAN</div>
                     </div>
                     <hr class="col-12" />
                     <div class="row">

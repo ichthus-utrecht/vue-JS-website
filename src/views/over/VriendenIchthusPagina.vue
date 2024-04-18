@@ -6,12 +6,12 @@ import StandardLayoutWithHeader from '@/components/layouts/StandardLayoutWithHea
 
 <template>
     <NavigatieBalk />
-    <StandardLayoutWithHeader pageHeader="Vrienden van Ichthus" description="">
+    <StandardLayoutWithHeader pageHeader="Vrienden van Ichthus">
         <!-- Er is geen beschrijving op deze pagina -->
         <div class="row justify-content-center">
             <div class="col-12 text-justify">
                 <img class="no-shadow align-top float-right m-3"
-                    src="{{ URL::asset('images/vrienden-van-ichthus-logo.png') }}" alt="'" />
+                    src="@/assets/images/vrienden-van-ichthus-logo.png" alt="'" />
                 <p>
                     Om de vereniging draaiende te houden zijn we naast het innen van contributie afhannkelijk van
                     sponsorinkomsten en donateurs.

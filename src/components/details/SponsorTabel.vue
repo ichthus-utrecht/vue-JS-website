@@ -1,5 +1,5 @@
 <template>
-    <div class="row row-ot overflow-hidden">
+    <div class="row overflow-hidden">
         <div class="col-12" id="sponsorContainer">
             <div class="sponsor-frame d-flex flex-wrap justify-content-center">
                 <a href="https://www.knaek.nl/">

@@ -5,8 +5,364 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
 
 <template>
     <NavigatieBalk />
-    <img class="row page-title-image page-title-image-m centered-image" src="@/assets/images/nav.jpg">
-    Contact
+    <img class="row page-title-image page-title-image-m centered-image" src="@/asseets/images/nav.jpg">
+    User
+<div class="main">
+            <div class="container-fluid">
+        <div class="row page-title-image page-title-image-m" style="background-image: url('https://www.ichthusutrecht.nl/images/nav.jpg')"></div>
+        <div class="row">
+            <div class="row w-100 col-12 justify-content-center">
+    <div class="col-12 col-md-9"> <h1 class="page-header">
+                    Contact
+                </h1>
+
+                
+                    <div class="page-caption">
+                        Bij vragen of opmerkingen richting de besturende kern van Ichthus, of vraag je je af hoe je lid moet worden of is er
+        iets anders wat nog niet duidelijk is? Kijk even of je vraag in de FAQ-lijst staat.
+        Kun je je vraag niet vinden? Je kunt altijd contact met ons opnemen met het formulier onderaan de pagina.
+                    </div></div>
+</div>
+
+                <div class="row col-12 justify-content-center">
+                    <div class="col-12 col-md-7">
+                        <hr class="divider-small divider-thin divider-gray" />
+                    </div>
+                </div>
+
+            <div class="row w-100 col-12 justify-content-center">
+    <div class="col-12 col-md-9"> <div class="container-fluid">
+                    <div class="row justify-content-center">
+        <div class="col-12 page-section-header-m mt-0">
+            FAQ - De meest gestelde vragen
+            <hr class="divider divider-thin divider-gray" />
+        </div>
+        <div class="faq-container col-12">
+            <div class="row" id="accordion">
+                <div class="card col-12 mt-3">
+                    <h4 class="card-header faq-question">
+                        <a class="accordion-toggle text-red" data-bs-toggle="collapse" data-parent="#accordion" href="#collapseOne">Kan ik met een student van jullie meelopen op zijn of haar studie?</a>
+                    </h4>
+                    <div id="collapseOne" class="panel-collapse collapse in">
+                        <div class="card-block faq-answer">
+                            De studierichtingen bij Ichthus zijn zeer divers: grote kans dus ook dat er op de vereniging
+                            iemand
+                            rondloopt met de studie van jouw interesse waar je een dagje mee kan lopen.
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-12 mt-3">
+                    <h4 class="card-header faq-question">
+                        <a class="accordion-toggle text-red" data-bs-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Kan ik aan een kamer komen via Ichthus?</a>
+                    </h4>
+                    <div id="collapseTwo" class="panel-collapse collapse in">
+                        <div class="card-block faq-answer">
+                            Ichthus heeft geen eigen huizen in bezit, maar als je eenmaal lid wordt kun je vaak wel via via
+                            aan
+                            een kamer komen in een huis met Ichthianen.
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-12 mt-3">
+                    <h4 class="card-header faq-question">
+                        <a class="accordion-toggle text-red" data-bs-toggle="collapse" data-parent="#accordion" href="#collapseThree">Aan wat voor eisen moet ik voldoen om lid te mogen worden van de
+                            vereniging?</a>
+                    </h4>
+                    <div id="collapseThree" class="panel-collapse collapse in">
+                        <div class="card-block faq-answer">
+                            Je moet ingeschreven zijn bij een HBO- of WO-opleiding. Je hoeft hiervoor niet per se in Utrecht
+                            te
+                            studeren. Daarnaast verwachten we ook dat je een christelijke levensovertuiging hebt als je lid
+                            wordt van de vereniging.
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-12 mt-3">
+                    <h4 class="card-header faq-question">
+                        <a class="accordion-toggle text-red" data-bs-toggle="collapse" data-parent="#accordion" href="#collapseFour">Mag ik als MBO-student lid zijn van Ichthus?</a>
+                    </h4>
+                    <div id="collapseFour" class="panel-collapse collapse in">
+                        <div class="card-block faq-answer">
+                            In onze statuten staat vastgelegd dat MBO-studenten geen lid mogen worden van de vereniging. Dit
+                            komt mede doordat vanuit de Hogeschool Utrecht (HU) en de Universiteit Utrecht (UU) de eis staat
+                            dat
+                            70% van de vereniging bestaat uit studenten aan de HU of UU. Om erkend te worden als
+                            studentenvereniging moeten we voldoen aan deze eis.
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-12 mt-3">
+                    <h4 class="card-header faq-question">
+                        <a class="accordion-toggle text-red" data-bs-toggle="collapse" data-parent="#accordion" href="#collapseFive">Is het volgen van de introductieweek verplicht?</a>
+                    </h4>
+                    <div id="collapseFive" class="panel-collapse collapse in">
+                        <div class="card-block faq-answer">
+                            Het volgen van de introductieweek in september is niet verplicht om lid te worden van de
+                            vereniging.
+                            Wel wordt het van harte aanbevolen om deel te nemen, omdat het een goede manier is om kennis te
+                            maken met de vereniging en andere eerstejaars. Daarnaast is er paar weken later een
+                            startweekend,
+                            waar je vervolgens wordt geïnstalleerd als lid. Het wordt ook van harte aanbevolen om hierbij
+                            aanwezig te zijn als je lid wilt worden.
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-12 mt-3">
+                    <h4 class="card-header faq-question">
+                        <a class="accordion-toggle text-red" data-bs-toggle="collapse" data-parent="#accordion" href="#collapseSix">Word ik ontgroend?</a>
+                    </h4>
+                    <div id="collapseSix" class="panel-collapse collapse in">
+                        <div class="card-block faq-answer">
+                            Nee, Ichthus Utrecht doet niet aan een ontgroening voor de eerstejaars. In september vindt een
+                            introductieweek plaats en in oktober/november een eerstejaarsweekend, maar ontgroening is daar
+                            geen
+                            deel van.
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-12 mt-3">
+                    <h4 class="card-header faq-question">
+                        <a class="accordion-toggle text-red" data-bs-toggle="collapse" data-parent="#accordion" href="#collapseSeven">Wat zijn de verplichtingen van Ichthus?</a>
+                    </h4>
+                    <div id="collapseSeven" class="panel-collapse collapse in">
+                        <div class="card-block faq-answer">
+                            Van elk lid wordt verwacht dat hij of zij deelneemt aan de Bijbelkring. Dit is eenmaal per week
+                            op
+                            de dinsdag (en bij uitzondering ook op maandag). Daarnaast heb je een paar keer per jaar een
+                            maaltijdtaak tijdens de algemene avonden en ben je verplicht om aanwezig te zijn bij de Algemene
+                            Ledenvergaderingen (in de regel tussen de drie en vijf keer per jaar). Het is gebruikelijk dat je 
+							ook je steentje bijdraagt – in zoverre dat voor jou mogelijk is – door een commissierol te vervullen.
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-12 mt-3">
+                    <h4 class="card-header faq-question">
+                        <a class="accordion-toggle text-red" data-bs-toggle="collapse" data-parent="#accordion" href="#collapseEight">Kan ik bij Ichthus als ik een beperking heb?</a>
+                    </h4>
+                    <div id="collapseEight" class="panel-collapse collapse in">
+                        <div class="card-block faq-answer">
+                            Ja dat kan, we willen voor iedereen toegankelijk zijn als vereniging en we doen hier ook ons
+                            best
+                            voor om jou ook een thuis te bieden bij Ichthus. Samen met jou willen we kijken wat de
+                            mogelijkheden
+                            zijn.
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-12 mt-3">
+                    <h4 class="card-header faq-question">
+                        <a class="accordion-toggle text-red" data-bs-toggle="collapse" data-parent="#accordion" href="#collapseNine">Is het belangrijk uit welke kerkelijke stroming je komt?</a>
+                    </h4>
+                    <div id="collapseNine" class="panel-collapse collapse in">
+                        <div class="card-block faq-answer">
+                            Nee, als Ichthus zijn we een interkerkelijke vereniging. De diversiteit in kerkelijke
+                            achtergronden
+                            zorgt ervoor dat je door met elkaar in gesprek te gaan je eigen horizon kunt verbreden en veel
+                            van
+                            elkaar kunt leren.
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-12 mt-3">
+                    <h4 class="card-header faq-question">
+                        <a class="accordion-toggle text-red" data-bs-toggle="collapse" data-parent="#accordion" href="#collapseTen">Kan ik later in het jaar lid worden van de vereniging?</a>
+                    </h4>
+                    <div id="collapseTen" class="panel-collapse collapse in">
+                        <div class="card-block faq-answer">
+                            Later lid worden van de vereniging is in sommige gevallen mogelijk. Dit gebeurt altijd in
+                            overleg
+                            met jou en het bestuur.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 page-section-header-m mt-3">
+            Neem contact met ons op
+            <hr class="divider divider-thin divider-gray" />
+        </div>
+        <div class="col-12">
+            <div class="row">
+                <div class="col-12 col-md-6 align-top" id="contactForm">
+                                        <form method="POST" action="https://www.ichthusutrecht.nl/contact/send" class="post-text" id="contact-form">
+                        <input type="hidden" name="_token" value="8LpAl5VIkGCotrdEcv7lAIDgqgqki1Rj6SiYEfgr">                        <div class="form-group row-cover">
+                            <label for="name">Naam</label>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Jouw naam" value="">
+                        </div>
+                        <div class="form-group row-cover">
+                            <label for="email">Emailadres</label>
+                            <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Jouw emailadres" value="">
+                            <small id="emailHelp" class="form-text text-muted">We delen jouw gegevens niet met derde
+                                partijen.</small>
+                        </div>
+                        <div class="form-group row-cover">
+                            <label for="subject">Onderwerp</label>
+                            <input type="text" class="form-control" id="subject" name="subject" placeholder="Onderwerp" value="">
+                        </div>
+                        <div class="form-group row-cover">
+                            <label for="body">Bericht</label>
+                            <textarea class="form-control" id="body" name="body" rows="6" placeholder="Bericht"></textarea>
+                        </div>
+                        <div class="form-group row-cover">                            
+                            <button type="submit" class="btn btn-ichthus g-recaptcha" data-sitekey="6LdKcv8dAAAAAM_EwDkdhPSXVzkhbSe8J_gKh3bM" data-callback='onSubmit' data-action='contact'>
+                                Versturen
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-12 col-md-6 align-top">
+                    <iframe id="mapsEmbed" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d306.3822712110492!2d5.104708464967691!3d52.09687291032201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c66f6be33a1bf7%3A0xea013e07ed9f6bbc!2sBoorstraat%20107%2C%203513%20SE%20Utrecht!5e0!3m2!1snl!2snl!4v1645813986297!5m2!1snl!2snl" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 page-section-header-m mt-0">
+            Contactgegevens
+            <hr class="divider divider-thin divider-gray" />
+        </div>
+        <div class="col-12 col-md-6">
+            <p class="post-text">Ichthus Utrecht is te benaderen via de onderstaande gegevens.</p>
+
+            <strong>Postadres</strong>
+            <p>
+                C.S.V. Ichthus Utrecht, Pnyx<br>
+                Winthontlaan 30C<br>
+                3526KV Utrecht<br>
+            </p>
+
+            <strong>Locatie</strong>
+            <p>
+                Boorstraat 107<br>
+                3513 SE Utrecht<br>
+                abactis@ichthusutrecht.nl
+            </p>
+        </div>
+        <div class="col-12 col-md-6">
+            <h1 class="page-section-header-s post-text pb-0">Contactpersoon</h1>
+            <div class="person-card">
+                <div class="row w-100 person-section">
+                    <div class="col-6">
+                        <img class="section-image" src="https://www.ichthusutrecht.nl/images/bestuur/bestuur-person-2.jpg?year=2022" alt="'" />
+                    </div>
+                    <div class="col-6">
+                        <div class=" section-header">Joëlle Meijer</div>
+                        <div class="section-contact">
+                            abactis@ichthusutrecht.nl<br>
+                            +31 6 - 425 720 29
+                        </div>
+                        <div class="section-social">
+                            
+                            <a href="https://nl-nl.facebook.com/csvichthusutrecht" target="_blank" class="btn-social btn-sm btn-facebook"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/ichthus_utrecht/" target="_blank" class="btn-social btn-sm btn-instagram"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                </div></div>
+</div>
+        </div>
+        <div class="row">
+            <div class="col-div-non-xl"></div>
+        </div>
+    </div>
+        </div>
+
+        <!-- Footer -->
+<div class="w-100 footer">
+    <div class="row w-100 col-12 justify-content-center">
+    <div class="col-12 col-md-9"> <div class="col-div-non-xl"></div></div>
+</div>
+    <div class="row w-100 col-12 justify-content-center">
+    <div class="col-12 col-md-9"> <div class="row justify-content-center">
+            <!-- Column 1 -->
+            <div class="col-10 col-md-4 footer-column">
+                <div class="footer-row">
+
+                    <span class="page-section-header-s footer-caption">Volg ons: </span>
+
+                    <a href="https://www.linkedin.com/organization-guest/company/c-s-v-ichthus-utrecht" target="_blank"
+                        class="btn-social btn-sm btn-linkedin"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://nl-nl.facebook.com/csvichthusutrecht" target="_blank"
+                        class="btn-social btn-sm btn-facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/ichthus_utrecht/" target="_blank"
+                        class="btn-social btn-sm btn-instagram"><i class="fa fa-instagram"></i></a>
+
+                </div>
+
+                <hr class="col-12" />
+                <div class="row">
+                    <div class="col-12 post-text">
+                        <strong>Contactpersoon</strong>
+                        <p class="m-0">
+                            Joëlle Meijer<br>
+                            abactis@ichthusutrecht.nl<br>
+                            +31 6 - 425 720 29
+                        </p>
+                    </div>
+                </div>
+                <hr class="col-12" />
+                <div class="row">
+                    <div class="col-12">
+                        <a class="text-dark text-decoration-none" href="/privacy">Privacy</a> | <a
+                            class="text-dark text-decoration-none" href="/terms">Voorwaarden</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Column 2 -->
+            <div class="col-10 col-md-4 footer-column middle align-top">
+                <div class="row footer-row">
+                    <div class="col-12 page-section-header-s footer-caption">Contactgegevens</div>
+                </div>
+                <hr class="col-12" />
+                <div class="row">
+                    <div class="col-12 post-text">
+                        <strong>Postadres</strong>
+                        <p>
+                            C.S.V. Ichthus Utrecht, Pnyx<br>
+                            Winthontlaan 30C<br>
+                            3526KV Utrecht<br>
+                        </p>
+                        <strong>Locatie</strong>
+                        <p>
+                            Boorstraat 107<br>
+                            3513 SE Utrecht<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Column 3 -->
+            <div class="col-10 col-md-4 footer-column align-top">
+                <div class="row footer-row">
+                    <div class="col-12 page-section-header-s footer-caption">IBAN</div>
+                </div>
+                <hr class="col-12" />
+                <div class="row">
+                    <div class="col-12 post-text">
+                        <p>
+                            NL 43 INGB 0000 1959 62<br>
+                            t.n.v. Christelijke StudentenVereniging Ichthus Utrecht<br>
+                        </p>
+                        
+                    </div>
+                </div>
+                
+                <hr class="col-12 divider-small divider-thin divider-gray" />
+                <div class="row">
+                    <div class="col-12">
+                        <img class="post-image no-shadow ml-0 mr-0 w-100"
+                            src="https://www.ichthusutrecht.nl/images/icons/ichthus-logo-gray.png" alt="">
+                    </div>
+                </div>
+                <div class="row footer-copyright">
+                    <div class="col-12 text-center pt-1">
+                        2024 | Ichthus Utrecht | Webcie
+                    </div>
+                </div>
+            </div>
+        </div></div>
+</div>
+</div>
     <FooterBalk />
 </template>
 

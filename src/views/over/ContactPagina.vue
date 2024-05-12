@@ -4,6 +4,7 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
 import StandardLayoutWithHeader from '@/components/layouts/StandardLayoutWithHeader.vue';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap'
+import photoAbActis from '@/assets/images/bestuur/bestuur-person-2.jpg'
 </script>
 
 <template>
@@ -208,7 +209,7 @@ import 'bootstrap'
                 <div class="person-card">
                     <div class="row w-100 person-section">
                         <div class="col-6">
-                            <img class="section-image" src="https://www.ichthusutrecht.nl/images/bestuur/bestuur-person-2.jpg?year=2022" alt="'" />
+                            <img class="section-image" :src="photoAbActis" />
                         </div>
                         <div class="col-6">
                             <div class=" section-header">Joëlle Meijer</div>

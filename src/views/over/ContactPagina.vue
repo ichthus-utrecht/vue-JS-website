@@ -233,6 +233,24 @@ import photoAbActis from '@/assets/images/bestuur/bestuur-person-2.jpg'
 <style scoped lang="css">
 @import '../../assets/css/app.css';
 
+.faq-question {
+  font-size: 1.1rem;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.faq-answer {
+  font-size: 1rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 18px;
+  padding-right: 18px;
+  font-style: italic;
+}
+
 .centered-image {
     display: block;
     margin: 0 auto !important;

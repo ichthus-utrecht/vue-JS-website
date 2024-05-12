@@ -71,7 +71,7 @@ import SponsorTabel from '@/components/details/SponsorTabel.vue'
                           <div class="feature col-10 col-md-4 align-top">
                               <img class="feature-image" src="@/assets/images/icons/friendship-icon.png"
                                   alt="Friendship">
-                              <div class="post-text section-header text-red">Vriendschap</div>
+                              <div class="post-text section-header text-red text-center">Vriendschap</div>
                               <div class="row">
                                   <div class="col-2 col-md-4"></div>
                                   <hr class="col-8 col-md-4 divider-red" />
@@ -91,7 +91,7 @@ import SponsorTabel from '@/components/details/SponsorTabel.vue'
                               <img class="feature-image" src="@/assets/images/icons/unity-icon.png"
                                   alt="Unity">
 
-                              <div class="post-text section-header text-white">Eenheid</div>
+                              <div class="post-text section-header text-white text-center">Eenheid</div>
                               <div class="row">
                                   <div class="col-2 col-md-4"></div>
                                   <hr class="col-8 col-md-4 divider-white" />
@@ -106,7 +106,7 @@ import SponsorTabel from '@/components/details/SponsorTabel.vue'
                           </div>
                           <div class="feature col-10 col-md-4 align-top">
                               <img class="feature-image no-shadow" src="@/assets/images/icons/gastronomy-icon.png" alt="Gastronomy">
-                              <div class="post-text section-header text-red">Kookkunst</div>
+                              <div class="post-text section-header text-red text-center">Kookkunst</div>
 
                               <div class="row">
                                   <div class="col-2 col-md-4"></div>

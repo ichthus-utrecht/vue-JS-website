@@ -2,6 +2,8 @@
 import FooterBalk from '../../components/interactief/FooterBalk.vue'
 import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
 import StandardLayoutWithHeader from '@/components/layouts/StandardLayoutWithHeader.vue';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap'
 </script>
 
 <template>

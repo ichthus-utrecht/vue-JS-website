@@ -5,7 +5,7 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
 
 <template>
     <NavigatieBalk />
-    <img class="row page-title-image page-title-image-m centered-image" src="@/asseets/images/nav.jpg">
+    <img class="row page-title-image page-title-image-m centered-image" src="@/assets/images/nav.jpg">
     User
 <div class="main">
             <div class="container-fluid">

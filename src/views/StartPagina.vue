@@ -6,8 +6,6 @@ import carousel2 from '@/assets/images/carousel-2.jpg'
 import carousel3 from '@/assets/images/carousel-3.jpg'
 import homePage1 from '@/assets/images/home-page-1.jpg'
 import SponsorTabel from '@/components/details/SponsorTabel.vue'
-
-
 </script>
 
 <template>
@@ -207,7 +205,7 @@ import SponsorTabel from '@/components/details/SponsorTabel.vue'
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #app {
-  font-family: sans-serif, Arial, Helvetica;
+  font-family: Caveat, sans-serif, Arial, Helvetica;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: black;
@@ -223,6 +221,4 @@ body {
   width: 90% !important;
   height: auto !important;
 }
-
-@import url("https://fonts.googleapis.com/css?family=Caveat"); /* Lettertype voor quote en polaroids laden */
 </style>

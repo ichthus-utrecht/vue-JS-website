@@ -204,8 +204,10 @@ import SponsorTabel from '@/components/details/SponsorTabel.vue'
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+@import url("https://fonts.googleapis.com/css?family=Caveat"); /* Lettertype voor quote en polaroids laden */
+
 #app {
-  font-family: Caveat, sans-serif, Arial, Helvetica;
+  font-family: sans-serif, Arial, Helvetica;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: black;

@@ -1,10 +1,15 @@
+<script setup>
+import BasicContainer from '../containers/BasicContainer.vue';
+
+</script>
+
 <!-- Footer -->
 <template>
     <div class="w-100 footer">
-        <x-containers.basic>
+        <BasicContainer>
             <div class="col-div-non-xl"></div>
-        </x-containers.basic>
-        <x-containers.basic>
+        </BasicContainer>
+        <BasicContainer>
             <div class="row justify-content-center-padded">
                 <!-- Column 1 -->
                 <div class="col-10 col-md-4 footer-column">
@@ -118,7 +123,7 @@
                     </div>
                 </div>
             </div>
-        </x-containers.basic>
+        </BasicContainer>
     </div>
 </template>
 

@@ -17,8 +17,8 @@ import BasicContainer from '../containers/BasicContainer.vue';
 
                         <span class="page-section-header-s footer-caption">Volg ons: </span>
 
-                        <a href="https://www.linkedin.com/organization-guest/company/c-s-v-ichthus-utrecht" target="_blank"
-                            class="btn-social btn-sm btn-linkedin"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/organization-guest/company/c-s-v-ichthus-utrecht"
+                            target="_blank" class="btn-social btn-sm btn-linkedin"><i class="fa fa-linkedin"></i></a>
                         <a href="https://nl-nl.facebook.com/csvichthusutrecht" target="_blank"
                             class="btn-social btn-sm btn-facebook"><i class="fa fa-facebook"></i></a>
                         <a href="https://www.instagram.com/ichthus_utrecht/" target="_blank"
@@ -71,22 +71,26 @@ import BasicContainer from '../containers/BasicContainer.vue';
                 <!-- Column 3 -->
                 <div class="col-10 col-md-4 footer-column align-top">
                     <div class="row footer-row">
-                        <div class="col-12 page-section-header-s footer-caption">IBAN en ANBI-status</div>
+                        <div class="col-12 page-section-header-s footer-caption">IBAN</div>
                     </div>
                     <hr class="col-12" />
                     <div class="row">
                         <div class="col-12 post-text">
-                            <strong>IBAN:</strong>
+                            <!--Nog nodig?
+                                <strong>IBAN:</strong>
+                            -->
                             <p>
                                 NL 43 INGB 0000 1959 62<br>
                                 t.n.v. Christelijke StudentenVereniging Ichthus Utrecht<br>
                             </p>
-                            <strong>ANBI:</strong>
-                            <p>
-                                KvK nummer: 40483339<br>
-                                <a href="/Standaardformulier_publicatieplicht_ANBI_Algemeen_Ichthus_2022_2023.pdf">Klik
-                                    hier voor het standaardformulier</a><br>
-                            </p>
+                            <!--Kan evt nog worden toegevoegd
+                                <strong>ANBI:</strong>
+                                <p>
+                                    KvK nummer: 40483339<br>
+                                    <a href="/Standaardformulier_publicatieplicht_ANBI_Algemeen_Ichthus_2022_2023.pdf">Klik
+                                        hier voor het standaardformulier</a><br>
+                                </p>
+                            -->
                         </div>
                     </div>
                     <!--<div class="row footer-row">

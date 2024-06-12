@@ -2,11 +2,6 @@
 import FooterBalk from '../components/interactief/FooterBalk.vue'
 import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue'
 import carousel1 from '@/assets/images/carousel-1.jpg'
-import carousel2 from '@/assets/images/carousel-2.jpg'
-import carousel3 from '@/assets/images/carousel-3.jpg'
-import homePage1 from '@/assets/images/home-page-1.jpg'
-import SponsorTabel from '@/components/details/SponsorTabel.vue'
-import LightBox from '@/components/interactief/LightBox.vue'
 </script>
 
 <template>

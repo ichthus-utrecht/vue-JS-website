@@ -154,7 +154,8 @@ import LightBox from '@/components/interactief/LightBox.vue'
                   <div class="row justify-content-center">
                       <div class="col-10">
                           <div class="mt-5"></div>
-                          Hier moet het nieuws komen
+                          <!-- Hier moet het nieuws komen. Nu staat er tijdelijk een woordgrap als inside joke -->
+                          Hier komt wat nieuws 😉
                           <div class="mt-5"></div>
                       </div>
                   </div>

@@ -20,6 +20,7 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
                     welke activiteit
                     plaatsvindt. Je bent van harte welkom om een keer langs te komen.
                 </p>
+                <!--Hier staan de stukjes voor open kringavond-->
                 <!--<p>
                     We organiseren ook een open avond, speciaal voor mensen die overwegen lid te worden. Tijdens die avond leggen we ook wat meer uit over wie wij zijn als vereniging en waar wij voor staan.
                 </p>-->
@@ -72,15 +73,15 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
                             <td><a href="https://utrechtseintroductietijd.nl/">UIT-week</a></td>
 					</tr>-->
                     <tr>
-                        <td>11–15 september 2023</td>
+                        <td>9-13 september 2024</td>
                         <td><a>Introweek</a></td>
                     </tr>
                     <tr>
-                        <td>13 september 2023</td>
-                        <td><a>Aanmeldformulier C.S.V. Ichthus Utrecht</a> (gesloten)</td>
+                        <td>11 september 2024</td>
+                        <td><a>Aanmeldformulier C.S.V. Ichthus Utrecht</a> <!-- (gesloten) --></td>
                     </tr>
                     <tr>
-                        <td>22-24 september 2023</td>
+                        <td>27-29 september 2024</td>
                         <td>Startweekend (aanvang verenigingsjaar)</td>
                     </tr>
                 </tbody>

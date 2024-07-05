@@ -3,6 +3,8 @@ import StandardLayoutWithHeader from '@/components/layouts/StandardLayoutWithHea
 import FooterBalk from '../../components/interactief/FooterBalk.vue'
 import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
 
+/// De oude code voor de agenda setup
+
 // $(document).ready(function () {
 //     var events = {!! json_encode($events, JSON_HEX_TAG) !!};
 

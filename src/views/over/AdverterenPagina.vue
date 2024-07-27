@@ -1,13 +1,13 @@
 <script setup>
 import FooterBalk from '../../components/interactief/FooterBalk.vue'
 import SponsorTabel from '../../components/details/SponsorTabel.vue'
-import StandardLayoutWithHeader from '../../components/layouts/StandardLayoutWithHeader.vue'
+import BasisLayout from '../../components/layouts/BasisLayout.vue'
 import NavigatieBalk from '../../components/interactief/NavigatieBalk.vue';
 </script>
 
 <template>
     <NavigatieBalk />
-    <StandardLayoutWithHeader pageHeader="Adverteren" description="Bij Ichthus Utrecht is het mogelijk om uw bedrijf te adverteren, lees de onderstaande informatie voor
+    <BasisLayout pageHeader="Adverteren" description="Bij Ichthus Utrecht is het mogelijk om uw bedrijf te adverteren, lees de onderstaande informatie voor
             alle mogelijkheden en contactgegevens.">
         <div class="row justify-content-center">
             <div class="col-12 page-section-header-m mt-0">
@@ -87,7 +87,7 @@ import NavigatieBalk from '../../components/interactief/NavigatieBalk.vue';
                 <SponsorTabel></SponsorTabel>
             </div>
         </div>
-    </StandardLayoutWithHeader>
+    </BasisLayout>
     <FooterBalk />
 </template>
 

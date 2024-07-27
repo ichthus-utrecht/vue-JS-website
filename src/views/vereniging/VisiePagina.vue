@@ -1,12 +1,12 @@
 <script setup>
-import StandardLayoutWithHeader from '../../components/layouts/StandardLayoutWithHeader.vue'
+import BasisLayout from '../../components/layouts/BasisLayout.vue'
 import FooterBalk from '../../components/interactief/FooterBalk.vue'
 import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
 </script>
 
 <template>
     <NavigatieBalk />
-    <StandardLayoutWithHeader pageHeader="Waar wij voor staan"
+    <BasisLayout pageHeader="Waar wij voor staan"
         description="Ichthus Utrecht heeft waarden en normen waar zij voor staat en die door heel de vereniging heen te merken zijn.">
         <div class="row justify-content-center">
             <div class="col-12 col-md-10 post-text">
@@ -61,7 +61,7 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
                 <img class="post-image banner" src="@/assets/images/visie-missie.jpg" alt="'" />
             </div>
         </div>
-    </StandardLayoutWithHeader>
+    </BasisLayout>
     <FooterBalk />
 </template>
 

@@ -1,12 +1,12 @@
 <script setup>
 import FooterBalk from '../../components/interactief/FooterBalk.vue'
 import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
-import StandardLayoutWithHeader from '@/components/layouts/StandardLayoutWithHeader.vue';
+import BasisLayout from '@/components/layouts/BasisLayout.vue';
 </script>
 
 <template>
     <NavigatieBalk />
-    <StandardLayoutWithHeader pageHeader="Vrienden van Ichthus">
+    <BasisLayout pageHeader="Vrienden van Ichthus">
         <!-- Er is geen beschrijving op deze pagina -->
         <div class="row justify-content-center">
             <div class="col-12 text-justify">
@@ -121,7 +121,7 @@ import StandardLayoutWithHeader from '@/components/layouts/StandardLayoutWithHea
                 </iframe>
             </div>
         </div>
-    </StandardLayoutWithHeader>
+    </BasisLayout>
     <FooterBalk />
 </template>
 

@@ -1,12 +1,12 @@
 <script setup>
-import StandardLayoutWithHeader from '../components/layouts/StandardLayoutWithHeader.vue'
+import BasisLayout from '../components/layouts/BasisLayout.vue'
 import FooterBalk from '../components/interactief/FooterBalk.vue'
 import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
 </script>
 
 <template>
     <NavigatieBalk />
-    <StandardLayoutWithHeader pageHeader="Lid worden"
+    <BasisLayout pageHeader="Lid worden"
         description="Wat leuk dat je overweegt lid te worden van C.S.V. Ichthus Utrecht! We maken graag kennis met je.">
         <div class="col-12 col-md-12 section-description">
             <div class="section-header">Kennismaken</div>
@@ -94,7 +94,7 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
                     42572029</a> (ook via WhatsApp) of <a
                     href="mailto:abactis@ichthusutrecht.nl">abactis@ichthusutrecht.nl</a></div>
         </div>
-    </StandardLayoutWithHeader>
+    </BasisLayout>
     <FooterBalk />
 </template>
 

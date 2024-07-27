@@ -1,12 +1,12 @@
 <script setup>
 import FooterBalk from '../../components/interactief/FooterBalk.vue'
-import StandardLayoutWithHeader from '../../components/layouts/StandardLayoutWithHeader.vue'
+import BasisLayout from '../../components/layouts/BasisLayout.vue'
 import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
 </script>
 
 <template>
     <NavigatieBalk />
-    <StandardLayoutWithHeader pageHeader="Privacy Statement" description="Verklaring omtrent privacy van de gebruiker.">
+    <BasisLayout pageHeader="Privacy Statement" description="Verklaring omtrent privacy van de gebruiker.">
         <div class="row justify-content-center">
             <p class="text-justify">
                 C.S.V. Ichthus Utrecht (hierna Ichthus Utrecht) verwerkt persoonsgegevens en andere data in
@@ -143,7 +143,7 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
                 </div>
             </div>
         </div>
-    </StandardLayoutWithHeader>
+    </BasisLayout>
     <FooterBalk />
 </template>
 

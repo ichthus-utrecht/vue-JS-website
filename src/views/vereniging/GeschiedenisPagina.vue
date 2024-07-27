@@ -1,12 +1,12 @@
 <script setup>
-import StandardLayoutWithHeader from '../../components/layouts/StandardLayoutWithHeader.vue'
+import BasisLayout from '../../components/layouts/BasisLayout.vue'
 import FooterBalk from '../../components/interactief/FooterBalk.vue'
 import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
 </script>
 
 <template>
     <NavigatieBalk />
-    <StandardLayoutWithHeader pageHeader="Geschiedenis"
+    <BasisLayout pageHeader="Geschiedenis"
         description="Ichthus Utrecht bestaat inmiddels al 64 jaar en daar hoort een rijke geschiedenis bij die hieronder is beschreven.">
         <div class="row justify-content-center">
             <div class="col-12 page-section-header-m mt-0">
@@ -186,7 +186,7 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
                 </p>
             </div>
         </div>
-    </StandardLayoutWithHeader>
+    </BasisLayout>
     <FooterBalk />
 </template>
 

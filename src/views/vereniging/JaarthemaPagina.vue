@@ -1,12 +1,12 @@
 <script setup>
-import StandardLayoutWithHeader from '../../components/layouts/StandardLayoutWithHeader.vue'
+import BasisLayout from '../../components/layouts/BasisLayout.vue'
 import FooterBalk from '../../components/interactief/FooterBalk.vue'
 import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
 </script>
 
 <template>
     <NavigatieBalk />
-    <StandardLayoutWithHeader pageHeader="Jaarthema"
+    <BasisLayout pageHeader="Jaarthema"
         description="Dit jaar heeft het bestuur gekozen voor het jaarthema “Knallen met z’n allen”.">
         <div class="row justify-content-center">
             <div class="col-12 col-md-10 post-text">
@@ -58,7 +58,7 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
                 </div>
             </div>
         </div>
-    </StandardLayoutWithHeader>
+    </BasisLayout>
     <FooterBalk />
 </template>
 

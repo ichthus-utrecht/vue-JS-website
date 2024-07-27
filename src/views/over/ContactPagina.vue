@@ -1,7 +1,7 @@
 <script setup>
 import FooterBalk from '../../components/interactief/FooterBalk.vue'
 import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
-import StandardLayoutWithHeader from '@/components/layouts/StandardLayoutWithHeader.vue';
+import BasisLayout from '@/components/layouts/BasisLayout.vue';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap'
 import photoAbActis from '@/assets/images/bestuur/bestuur-person-2.jpg'
@@ -9,7 +9,7 @@ import photoAbActis from '@/assets/images/bestuur/bestuur-person-2.jpg'
 
 <template>
     <NavigatieBalk />
-    <StandardLayoutWithHeader
+    <BasisLayout
         page-header="Contact"
         description="Bij vragen of opmerkingen richting de besturende kern van Ichthus, of vraag je je af hoe je lid moet worden of is er iets anders wat nog niet duidelijk is? Kijk even of je vraag in de FAQ-lijst staat. Kun je je vraag niet vinden? Je kunt altijd contact met ons opnemen met het formulier onderaan de pagina.">
         <div class="row justify-content-center">
@@ -207,7 +207,7 @@ import photoAbActis from '@/assets/images/bestuur/bestuur-person-2.jpg'
                 </div>
             </div>
         </div>
-    </StandardLayoutWithHeader>
+    </BasisLayout>
     <FooterBalk />
 </template>
 

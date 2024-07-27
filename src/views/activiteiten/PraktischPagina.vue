@@ -1,12 +1,12 @@
 <script setup>
-import StandardLayoutWithHeader from '../../components/layouts/StandardLayoutWithHeader.vue'
+import BasisLayout from '../../components/layouts/BasisLayout.vue'
 import FooterBalk from '../../components/interactief/FooterBalk.vue'
 import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
 </script>
 
 <template>
     <NavigatieBalk />
-    <StandardLayoutWithHeader pageHeader="Activiteiten op de vereniging"
+    <BasisLayout pageHeader="Activiteiten op de vereniging"
         description="Als student wil je uiteraard ook een leven naast je studie en bij Ichthus komt daar genoeg bij kijken! Lees hieronder wat voor activiteiten wij allemaal doen op de vereniging.">
         <div class="row justify-content-center activity-section-wrapper">
             <div class="row activity-section mt-4">
@@ -93,7 +93,7 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
                 </div>
             </div>
         </div>
-    </StandardLayoutWithHeader>
+    </BasisLayout>
     <FooterBalk />
 </template>
 

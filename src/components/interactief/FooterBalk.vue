@@ -1,15 +1,15 @@
 <script setup>
-import BasicContainer from '../containers/BasicContainer.vue';
+import BasisContainer from '../containers/BasisContainer.vue';
 
 </script>
 
 <!-- Footer -->
 <template>
     <div class="w-100 footer">
-        <BasicContainer>
+        <BasisContainer>
             <div class="col-div-non-xl"></div>
-        </BasicContainer>
-        <BasicContainer>
+        </BasisContainer>
+        <BasisContainer>
             <div class="row justify-content-center-padded">
                 <!-- Column 1 -->
                 <div class="col-10 col-md-4 footer-column">
@@ -40,9 +40,8 @@ import BasicContainer from '../containers/BasicContainer.vue';
                     <hr class="col-12" />
                     <div class="row">
                         <div class="col-12">
-                            <a class="text-dark text-decoration-none" href="/privacy">Privacy</a> | <a
-                                class="text-dark text-decoration-none">Voorwaarden</a>
-                            <!--href="/terms"     terms pagina nog niet uitgewerkt-->
+                            <a class="text-dark text-decoration-none" href="/privacy">Privacy</a>
+                              <!-- <a class="text-dark text-decoration-none" href="/terms" >Voorwaarden</a>   (bestaat niet)-->   
                         </div>
                     </div>
                 </div>
@@ -127,7 +126,7 @@ import BasicContainer from '../containers/BasicContainer.vue';
                     </div>
                 </div>
             </div>
-        </BasicContainer>
+        </BasisContainer>
     </div>
 </template>
 

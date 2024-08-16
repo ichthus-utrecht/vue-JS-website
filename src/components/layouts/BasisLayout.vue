@@ -1,5 +1,5 @@
 <script setup>
-import BasicContainer from '../containers/BasicContainer'
+import BasisContainer from '../containers/BasisContainer'
 
 // eslint-disable-next-line
 defineProps({
@@ -14,24 +14,24 @@ defineProps({
         <div class="row page-title-image page-title-image-m" style="margin-top: 0;"
             :style="{ backgroundImage: 'url(' + require('@/assets/images/nav.jpg') + ')' }"></div>
         <div class="row">
-            <BasicContainer>
+            <BasisContainer>
                 <h1 class="page-header">
                     {{ pageHeader == null ? '' : pageHeader }}
                 </h1>
                 <div v-if="description !== undefined && description !== null" class="page-caption">
                     {{ description }}
                 </div>
-            </BasicContainer>
+            </BasisContainer>
             <div class="row col-12 justify-content-center">
                 <div class="col-12 col-md-7">
                     <hr class="divider-small divider-thin divider-gray" />
                 </div>
             </div>
-            <BasicContainer>
+            <BasisContainer>
                 <div class="container-fluid">
                     <slot></slot>
                 </div>
-            </BasicContainer>
+            </BasisContainer>
         </div>
         <div class="row">
             <div class="col-div-non-xl"></div>

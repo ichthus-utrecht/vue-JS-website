@@ -7,10 +7,8 @@ import carousel3 from '@/assets/images/carousel-3.jpg'
 import homePage1 from '@/assets/images/home-page-1.jpg'
 import SponsorTabel from '@/components/details/SponsorTabel.vue'
 import NieuwsItem from '@/components/interactief/NieuwsItem.vue'
-//import ref from 'vue'
-//import nieuwsItems from '../assets/nieuwsItems.json'
+
 //import LightBox from '@/components/interactief/LightBox.vue'
-//const hoi = ref(0)
 </script>
 
 <template>
@@ -158,10 +156,9 @@ import NieuwsItem from '@/components/interactief/NieuwsItem.vue'
                   <div class="row justify-content-center">
                       <div class="col-10">
                           <div class="mt-5"></div>
-                          <NieuwsItem/>
-                          <!--<li v-for="nieuwsItem in nieuwsItems" :key="nieuwsItem.nummer">
-                            <NieuwsItem :nummer="nieuwsItem.nummer"/>
-                          </li>-->
+                          <li v-for="i in 2" :key="i">
+                            <NieuwsItem :nummer="i" />
+                          </li>
                           <div class="mt-5"></div>
                       </div>
                   </div>

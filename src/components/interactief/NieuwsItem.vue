@@ -2,9 +2,7 @@
 import nieuwsItems from '../../assets/nieuwsItems.json'
 // eslint-disable-next-line
 const props = defineProps({
-    nummer: String,
-    titel: String,
-    tekst: String
+    nummer: String
 })
 const nummer = nieuwsItems.items.length - props.nummer // Nieuws van nieuw naar oud laten zien
 let tekst = ""

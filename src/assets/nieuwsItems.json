@@ -1,0 +1,17 @@
+{
+    "items": 
+    [
+        {
+            "titel": "Het eerste nieuws",
+            "inhoud": "Dit is de eerste inhoud"
+        },
+        {
+            "titel": "Het tweede nieuws",
+            "inhoud": "Dit is de eerste inhoud"
+        },
+        {
+            "titel": "Het derde nieuws",
+            "inhoud": "Dit is de eerste inhoud"
+        }
+    ]
+}

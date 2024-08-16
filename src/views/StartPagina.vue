@@ -6,7 +6,11 @@ import carousel2 from '@/assets/images/carousel-2.jpg'
 import carousel3 from '@/assets/images/carousel-3.jpg'
 import homePage1 from '@/assets/images/home-page-1.jpg'
 import SponsorTabel from '@/components/details/SponsorTabel.vue'
+import NieuwsItem from '@/components/interactief/NieuwsItem.vue'
+//import ref from 'vue'
+//import nieuwsItems from '../assets/nieuwsItems.json'
 //import LightBox from '@/components/interactief/LightBox.vue'
+//const hoi = ref(0)
 </script>
 
 <template>
@@ -154,8 +158,10 @@ import SponsorTabel from '@/components/details/SponsorTabel.vue'
                   <div class="row justify-content-center">
                       <div class="col-10">
                           <div class="mt-5"></div>
-                          <!-- Hier moet het nieuws komen. Nu staat er tijdelijk een woordgrap als inside joke -->
-                          Hier komt wat nieuws 😉
+                          <NieuwsItem/>
+                          <!--<li v-for="nieuwsItem in nieuwsItems" :key="nieuwsItem.nummer">
+                            <NieuwsItem :nummer="nieuwsItem.nummer"/>
+                          </li>-->
                           <div class="mt-5"></div>
                       </div>
                   </div>

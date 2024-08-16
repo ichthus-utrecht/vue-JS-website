@@ -129,7 +129,7 @@ const routes = [
     },
   },
   {
-    path: "/nieuws/:nummer",
+    path: "/nieuws/:nummer", // Zo kan de pagina voor elk nieuwsitem gegenereerd worden
     name: "NieuwPagina",
     component: NieuwsPagina,
     meta: {

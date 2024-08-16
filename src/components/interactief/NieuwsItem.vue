@@ -6,21 +6,29 @@ const props = defineProps({
     titel: String,
     tekst: String
 })
-console.log(props.nummer)
-const item = nieuwsItems.items[props.nummer]
-const titel = item.titel
-const tekst = item.inhoud.substring(0, 1000) // Eerste 1000 tekens
+const nummer = nieuwsItems.items.length - props.nummer // Nieuws van nieuw naar oud laten zien
+let tekst = ""
+let titel = ""
+if (nummer >= 0) // Niet proberen meer nieuws te laten dan er is
+{
+    const item = nieuwsItems.items[nummer]
+    titel = item.titel
+    tekst = item.inhoud.substring(0, 1000) // Eerste 1000 tekens
+}
 </script>
 
 <template>
-<div class="col-12 border-bottom border-bottom-primary m-0 mb-2">
+
+<div v-if="nummer >= 0" class="col-12 border-bottom border-bottom-primary m-0 mb-2">
 
 <div class="col-12 container p-0 mb-2 row">
     <div class="col-12 col-md-6">
         <h4 class="h4 font-primary text-primary">{{ titel }}</h4>
         <p class="text-justify">
             {{tekst}}...
-            <br/><br/><a href="/news/{{props.nummer}}">Lees meer ></a>     
+            {{ nummer }}
+            {{ test }}
+            <br/><br/><a href="/news/{{ nummer }}">Lees meer ></a>     
         </p>
      </div>
 </div>

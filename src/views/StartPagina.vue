@@ -156,7 +156,7 @@ import NieuwsItem from '@/components/interactief/NieuwsItem.vue'
                   <div class="row justify-content-center">
                       <div class="col-10">
                           <div class="mt-5"></div>
-                          <li v-for="i in 2" :key="i">
+                          <li v-for="i in 5" :key="i"> <!-- Laat meest recente vijf nieuwsitems zien -->
                             <NieuwsItem :nummer="i" />
                           </li>
                           <div class="mt-5"></div>

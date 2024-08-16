@@ -15,6 +15,7 @@ if (nummer >= 0) // Niet proberen meer nieuws te laten dan er is
     titel = item.titel
     tekst = item.inhoud.substring(0, 1000) // Eerste 1000 tekens
 }
+const url = "/nieuws/" + nummer
 </script>
 
 <template>
@@ -26,9 +27,7 @@ if (nummer >= 0) // Niet proberen meer nieuws te laten dan er is
         <h4 class="h4 font-primary text-primary">{{ titel }}</h4>
         <p class="text-justify">
             {{tekst}}...
-            {{ nummer }}
-            {{ test }}
-            <br/><br/><a href="/news/{{ nummer }}">Lees meer ></a>     
+            <br/><br/><a :href="url">Lees meer ></a>     
         </p>
      </div>
 </div>

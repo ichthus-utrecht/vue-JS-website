@@ -40,9 +40,8 @@ import BasisContainer from '../containers/BasisContainer.vue';
                     <hr class="col-12" />
                     <div class="row">
                         <div class="col-12">
-                            <a class="text-dark text-decoration-none" href="/privacy">Privacy</a> | <a
-                                class="text-dark text-decoration-none">Voorwaarden</a>
-                            <!--href="/terms"     terms pagina nog niet uitgewerkt-->
+                            <a class="text-dark text-decoration-none" href="/privacy">Privacy</a>
+                              <!-- <a class="text-dark text-decoration-none" href="/terms" >Voorwaarden</a>   (bestaat niet)-->   
                         </div>
                     </div>
                 </div>

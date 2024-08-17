@@ -7,7 +7,7 @@ const props = defineProps({
 const nummer = nieuwsItems.items.length - props.nummer // Nieuws van nieuw naar oud laten zien
 let tekst = ""
 let titel = ""
-if (nummer >= 0) // Niet proberen meer nieuws te laten dan er is
+if (nummer >= 0) // Niet proberen meer nieuws te laten zien dan er is
 {
     const item = nieuwsItems.items[nummer]
     titel = item.titel

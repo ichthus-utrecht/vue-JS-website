@@ -86,7 +86,8 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
 					</tr>
                     <tr>
                         <td>9-12 september 2024</td>
-                        <td><a>Introweek</a></td>
+                        <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSd4UTW4W6Y7wSZzoWE93wlxu2mSy4bjeFJ2n2vdTySq4nmmQg/viewform?usp=sf_link">
+                            Introweek</a></td>
                     </tr>
                     <tr>
                         <td>11 september 2024</td>

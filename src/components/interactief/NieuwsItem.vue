@@ -12,6 +12,7 @@ if (nummer >= 0) // Niet proberen meer nieuws te laten dan er is
     const item = nieuwsItems.items[nummer]
     titel = item.titel
     tekst = item.inhoud.substring(0, 1000) // Eerste 1000 tekens
+    if (item.inhoud.length > 1000) tekst += '...'
 }
 const url = "/nieuws/" + nummer
 </script>
@@ -24,7 +25,7 @@ const url = "/nieuws/" + nummer
     <div class="col-12 col-md-6">
         <h4 class="h4 font-primary text-primary">{{ titel }}</h4>
         <p class="text-justify">
-            {{tekst}}...
+            {{tekst}}
             <br/><br/><a :href="url">Lees meer ></a>     
         </p>
      </div>

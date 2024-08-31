@@ -25,3 +25,12 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Nieuws
+Op de voorpagina is een overzicht van nieuws. Om hier items toe te voegen, moet je in /src/assets/nieuwsItems.json een item toe voegen aan het einde van de array. Dit heeft de volgende structuur:
+```json
+{
+    "titel": "Hier staat de titel",
+    "inhoud": "Hier staat de inhoud"
+}
+```

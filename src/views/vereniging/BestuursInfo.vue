@@ -105,7 +105,18 @@ import NavigatieBalk from "@/components/interactief/NavigatieBalk.vue";
         function="Assessor Extern"
         email="assessor.extern@ichthusutrecht.nl"
       >
-        <p>Volgt nog.</p>
+        <p>Hey!</p>
+        <p>
+          Mijn naam is Timo en komend jaar vervul ik de taak van Assessor Extern
+          binnen Ichthus Utrecht. Zo vertegenwoordig ik onze vereniging binnen
+          het Ichthus Landelijk verband, IFES en de verbanden binnen Utrecht met
+          name BOCS. Naast mijn bestuurstaken werk ik bij een wijnwinkel waar ik
+          veel leuke dingen leer en ook veel lekkers mag proeven. Dit sluit dan
+          ook nauw aan bij mijn voorliefde voor koken en lekker eten. Als ik
+          niet met bestuur of werk bezig ben, loop of zwem ik graag en rondje.
+          Daarnaast kan ik ook erg genieten van een spelletjesavond met m’n
+          huisgenoten en een goede kop koffie.
+        </p>
       </BestuursPersoon>
       <BestuursPersoon
         imageNumber="6"

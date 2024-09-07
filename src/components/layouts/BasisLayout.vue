@@ -1,6 +1,6 @@
 <script setup>
-import BasisContainer from '../containers/BasisContainer'
-
+import BasisContainer from '../containers/BasisContainer.vue'
+import backgroundImage from '@/assets/images/nav.jpg'
 // eslint-disable-next-line
 defineProps({
     pageHeader: String,
@@ -12,7 +12,7 @@ defineProps({
 <template>
     <div class="container-fluid">
         <div class="row page-title-image page-title-image-m" style="margin-top: 0;"
-            :style="{ backgroundImage: 'url(' + require('@/assets/images/nav.jpg') + ')' }"></div>
+            :style="{ backgroundImage: `url(${backgroundImage})` }"></div>
         <div class="row">
             <BasisContainer>
                 <h1 class="page-header">

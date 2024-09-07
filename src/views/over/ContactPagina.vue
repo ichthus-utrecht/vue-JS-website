@@ -211,7 +211,7 @@ import photoAbActis from '@/assets/images/bestuur/bestuur-person-2.jpg'
     <FooterBalk />
 </template>
 
-<style scoped lang="css">
+<style lang="css">
 @import '../../assets/css/app.css';
 
 .faq-question {

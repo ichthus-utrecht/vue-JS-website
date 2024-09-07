@@ -228,8 +228,7 @@ import LightBox from '@/components/interactief/LightBox.vue'
   </div>
 </template>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style>
 #app {
   font-family: Caveat, sans-serif, Arial, Helvetica;
   -webkit-font-smoothing: antialiased;

@@ -148,7 +148,7 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
     <FooterBalk />
 </template>
 
-<style scoped lang="css">
+<style lang="css">
 @import '../../assets/css/app.css';
 
 .centered-image {

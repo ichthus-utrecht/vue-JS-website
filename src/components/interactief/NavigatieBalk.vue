@@ -21,7 +21,7 @@ function handleScroll() {
     } else {
         scrolled.value = true;
     }
-};
+}
 function toggleNavbar() {
     if (window.innerWidth < 968) {
         isNavbarOpen.value = !isNavbarOpen.value // Toggle the state of navbar

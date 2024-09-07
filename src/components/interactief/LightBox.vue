@@ -22,5 +22,6 @@
 <style scoped>
 .lightbox-modal {
     text-align: left;
+    overflow-y: auto;
 }
 </style>

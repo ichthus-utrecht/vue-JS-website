@@ -1,3 +1,46 @@
+<script setup lang="ts">
+import { onMounted, onUnmounted, ref } from 'vue'
+
+const scrolled = ref(false)
+const isNavbarOpen = ref(false)
+const vereniging = ref(false)
+const activiteiten = ref(false)
+const over = ref(false)
+
+onMounted(() => {
+    window.addEventListener("scroll", handleScroll)
+})
+
+onUnmounted(() => {
+    window.removeEventListener("scroll", handleScroll)
+})
+
+function handleScroll() {
+    if (window.scrollY < 150) {
+        scrolled.value = false;
+    } else {
+        scrolled.value = true;
+    }
+};
+function toggleNavbar() {
+    if (window.innerWidth < 968) {
+        isNavbarOpen.value = !isNavbarOpen.value // Toggle the state of navbar
+    }
+    else { isNavbarOpen.value = false }
+}
+
+function uitklappen(sectie: string) {
+    this[sectie] = true
+}
+
+function inklappen(sectie: string) {
+    this[sectie] = false
+}
+
+</script>
+
+
+
 <template>
     <nav :class="{ 'scrolled': scrolled }" class="navbar navbar-expand-lg">
 
@@ -146,47 +189,6 @@
         </div>
     </nav>
 </template>
-
-<script>
-export default {
-    data() {
-        return {
-            scrolled: false,
-            isNavbarOpen: false,
-            vereniging: false,
-            activiteiten: false,
-            over: false,
-        };
-    },
-    mounted() {
-        window.addEventListener("scroll", this.handleScroll);
-    },
-    beforeUnmount() {
-        window.removeEventListener("scroll", this.handleScroll);
-    },
-    methods: {
-        handleScroll() {
-            if (window.scrollY < 150) {
-                this.scrolled = false;
-            } else {
-                this.scrolled = true;
-            }
-        },
-        toggleNavbar() {
-            if (window.innerWidth < 968) {
-                this.isNavbarOpen = !this.isNavbarOpen; // Toggle the state of navbar
-            }
-            else { this.isNavbarOpen = false }
-        },
-        uitklappen(sectie) {
-            this[sectie] = true
-        },
-        inklappen(sectie) {
-            this[sectie] = false
-        }
-    }
-};
-</script>
 
 <style lang="css">
 @import '../../assets/css/app.css';

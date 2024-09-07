@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import BasisContainer from '../containers/BasisContainer.vue'
 import backgroundImage from '@/assets/images/nav.jpg'
 // eslint-disable-next-line

@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 // Hier importeren we de componenten die we nodig hebben
 import NavigatieKnop from '../interactief/NavigatieKnop.vue'
 import NavigatieDropdown from '../interactief/NavigatieDropdown.vue'

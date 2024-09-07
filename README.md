@@ -3,25 +3,36 @@ Dit is de repository voor de statische website van Ichthus Utrecht, het ontwikke
 
 Voor de documentatie van Vue verwijzen we u naar hun website: https://vuejs.org/
 
-## Project setup
-```
+## Customize configuration
+
+See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+## Project Setup
+
+```sh
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
+Soms moet je ook de dev dependencies installeren. Dit kan op de volgende manier:
+```sh
+npm install --include=dev
 ```
 
-### Compiles and minifies for production
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
 ```
+
+### Type-Check, Compile and Minify for Production
+
+```sh
 npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
 ```
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## VSCode extensions
+TODO
+

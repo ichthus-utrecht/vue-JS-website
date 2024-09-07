@@ -10,33 +10,82 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
     <BasisLayout pageHeader="Bestuur der C.S.V. Ichthus Utrecht"
         description="Zoals elke studentenvereniging heeft ook Ichthus Utrecht een bestuur! Onderstaand stellen zij zich aan jou voor.">
         <div class="row justify-content-center">
-            <BestuursPersoon imageNumber="1" name="Mirte van den Berg" function="Praeses" email="praeses@ichthusutrecht.nl">
-                <p>Mijn naam is Mirte en dit jaar ben ik de Praeses van Ichthus Utrecht. Vanuit deze rol mag ik de
-                    vereniging en het bestuur leiden op de ALV’s en bv’s. Ook zal ik vooruit kijken naar wat er gaat komen
-                    en daarbij ons beleid in de gaten houden.</p>
-                <p>Bij mijn studie voor docent Nederlandse Gebarentaal, combineer ik mijn enthousiasme om mensen nieuwe
-                    dingen te leren en mijn liefde voor de Nederlandse Gebarentaal. In mijn vrije tijd kan ik genieten van
-                    een goed boek, muziek en creativiteit. Zo leer ik mezelf naaien, haken en maak linosnedes. Waar ik
-                    energie van krijg? Boulderen en een goed kopje koffie. Dus klop gerust aan voor een van de twee of de
-                    combinatie!</p>
+            <BestuursPersoon imageNumber="1" name="Henrik Bout" function="Praeses" email="praeses@ichthusutrecht.nl">
+                <p>Hoi! Ik ben Henrik en ben dit jaar Praeses van Ichthus Utrecht. Dat betekent dat ik
+                    voorzitter ben en leiding geef aan het bestuur. Verder mag ik ook de ALV&#39;s voorzitten
+                    en ga ik over de planning.
+                    Ik studeer Business IT &amp; Management in Amsterdam, maar aangezien mijn
+                    afstudeerstage niet te combineren is met een bestuursjaar heb ik die studie even op
+                    pauze gezet, daardoor heb ik tijd voor mijn andere hobby, namelijk geschiedenis!</p>
+                <p> Komend jaar begin ik dan ook met de studie geschiedenis in Utrecht. Naast
+                    geschiedenis hou ik ook erg van voetbal een goed bakje koffie en een
+                    lekker pilsemannetje.</p>
             </BestuursPersoon>
-            <BestuursPersoon imageNumber="2" name="Joëlle Meijer" function="Ab Actis" email="abactis@ichthusutrecht.nl">
-                <p>Hi, mijn naam is Joëlle en ik ben de Ab actis van onze vereniging. Dat houdt in dat ik alle post en mailtjes mag afhandelen en onze leden verjaardagskaartjes mag sturen. Daarnaast ben ik ook verantwoordelijk voor de notulen van de Algemene Ledenvergaderingen, de ledenadministratie en het op orde houden van het archief. Dus ik ben zowel het interne als externe aanspreekpunt van de vereniging. Naast Ichthus ben ik bezig met het afronden van mijn Bachelor English Language and Culture. Oftewel, ik ben altijd wel met een goed Engels boek te vinden of bezig met zelf gedichten schrijven. Verder houd ik ook erg van een potje volleybal en geniet ik van muziek luisteren, films of series kijken, met vrienden afspreken, een diepzinnig gesprek voeren tot diep in de nacht en zo veel knuffels geven dat je denkt “nu is het wel weer genoeg”.</p>   
+            <BestuursPersoon imageNumber="2" name="Alieke Kunst" function="Ab Actis" email="abactis@ichthusutrecht.nl">
+                <p>Heyhoi! Ik ben Alieke en dit jaar ben ik de Ab actis van onze prachtige vereniging. Als
+                    Ab actis ben ik het aanspreekpunt van de vereniging. Ik mag dus alle mailtjes
+                    beantwoorden en kaartjes versturen! Verder draag ik zorg over de notulen van de
+                    vergaderingen en houd ik de ledenadministratie bij.
+
+                    Afgelopen jaar heb ik de bachelor Pedagogische Wetenschappen afgerond. Nu mag
+                    ik in mijn tussenjaar even genieten van Ichthus en haar mooie leden. Daarnaast ben
+                    ik altijd in voor een potje volleybal (vooral leuk met Ichthianen), verslind ik
+                    puzzelboekjes alsof mijn leven ervan af hangt en ben ik altijd in voor een goed
+                    gesprek met een kopje thee!</p>   
             </BestuursPersoon>
-            <BestuursPersoon imageNumber="3" name="Nathan Bouwman" function="Fiscus" email="fiscus@ichthusutrecht.nl">
-                Hey! Ik ben Nathan en dit jaar ben ik de Fiscus van Ichthus Utrecht, jaja de man met het grote geld. Dit
-                jaar hou ik de regie en het overzicht over de financiën van Ichthus. Naast mijn bestuurstaken leg ik dit
-                jaar de laatste hand aan mijn bachelor Biologie aan de UU. Om van al die drukte bij te komen ben ik ook onze
-                plaatselijke kampvuurgitarist en ben ik een grote puzzelaar.
+            <BestuursPersoon imageNumber="3" name="Thijs Scherrenburg" function="Fiscus" email="fiscus@ichthusutrecht.nl">
+                <p>
+                    Hoi! <br />
+                    Ik ben Thijs en mag dit jaar de prachtige rol van Fiscus gaan vervullen :) Dit houdt in
+                    dat ik me bezig mag houden met alles wat te maken heeft met het fiscaat en het
+                    beheren van de schatkist. Hier komen o.a. het verwerken van declaraties, de
+                    maandelijkse incasso en het maken van de begroting bij kijken.
+                    Dit jaar zal ik mijn studie Bestuurs- en Organisatiewetenschap even op pauze zetten,
+                    zodat ik me volledig kan focussen op mijn bestuurstaken, op het dienen van de
+                    vereniging. Ik houd ervan om me te verdiepen in politieke kwesties (gelukkig maar,
+                    anders zou mijn studie veel minder leuk zijn…). Daarnaast lees ik graag een boek,
+                    houd ik van wielrennen, of trek ik mijn hardloopschoenen aan! Ook ben ik wel in voor
+                    een goed gesprek en een kopje koffie.
+                </p>
             </BestuursPersoon>
-            <BestuursPersoon imageNumber="4" name="Rhodé Lodewijks" function="Assessor Intern" email="assessor.intern@ichthusutrecht.nl">
-                <p>Hoi! Mijn naam is Rhodé en dit jaar mag ik de rol van Assessor Intern van Ichthus Utrecht vervullen. Ik houd me daarom bezig met alles wat met de kringen te maken heeft. Ondertussen probeer ik mijn bachelor Sociale geografie en planologie af te ronden en geniet ik van mijn bijbaantje in het middelbaar onderwijs. Om daarnaast nog wat te ontspannen zit ik het liefst achter de piano of in goed gezelschap met een cappuccino of een droog wit wijntje in de hand. </p>
+            <BestuursPersoon imageNumber="4" name="Samuel van Wonderen" function="Assessor Intern" email="assessor.intern@ichthusutrecht.nl">
+                <p>
+                    Sjalom, sjalom! Mijn naam is Samuel en ik ben dit jaar de Assessor Intern, oftewel de
+                    kringencoördinator! Overigens betekent dit ook dat ik de commissies aanstuur voor
+                    de geestelijke activiteiten en openingen mag doen met overdenkingen over de Bijbel
+                    en de relatie met God. In de tussentijd ben ik bezig om mijn master thesis af te
+                    schrijven, wat vaak inhoudt, als echte computer scientist, code schrijven en testen
+                    om 1 uur &#39;s nachts. Verder heb ik een grote, recreatieve passie voor Hebreeuws en
+                    hou ik ervan om in m&#39;n vrije tijd naar de sportschool te gaan of te gaan boulderen of
+                    te volleyballen, en ik hou ook heel erg van samen films en series kijken. Dus ben je
+                    een keer bij onze maaltijd, ik ben zeer te spreken over films, Hebreeuws, en ik &quot;heb
+                    voor niets anders tijd over dan om iets nieuws te zeggen of te horen&quot; over de Bijbel;
+                    dus spreek me vooral een keer aan! Lehietraoot! 
+                </p>
             </BestuursPersoon>
-            <BestuursPersoon imageNumber="5" name="Inge van de Bruinhorst" function="Assessor Extern" email="assessor.extern@ichthusutrecht.nl">
-                <p>Heyhey, mijn naam is Inge, inmiddels alweer vijfdejaars Ichthiaan en ik mag dit jaar de prachtige functie van Assessor Extern vervullen. Dit houdt onder andere in dat ik Ichthus Utrecht vertegenwoordig binnen onze externe verbanden zoals Ichthus Landelijk, BOCS en IFES. Naast de tijd die ik in Ichthus steek, hoop ik komend jaar nog een paar vakken te volgen van mijn master Franse taal en cultuur: educatie en communicatie om na mijn bestuursjaar aan de slag te kunnen als docent Frans. In het dagelijks leven vind ik het leuk om te koken, maak ik graag tijd vrij voor een potje squashen of een rondje hardlopen en laad ik lekker op door een avondje bankhangen en film kijken met mijn huisgenootjes. Ook kan ik erg genieten van heerlijk kletsen met mensen onder het genot van een kop koffie of een wijntje dus weet me daar vooral voor te vinden!</p>
+            <BestuursPersoon imageNumber="5" name="Timo van der Laan" function="Assessor Extern" email="assessor.extern@ichthusutrecht.nl">
+                <p>
+                    Hey! <br />
+                    Mijn naam is Timo en komend jaar vervul ik de taak van Assessor Extern binnen Ichthus Utrecht. 
+                    Zo vertegenwoordig ik onze vereniging binnen het Ichthus Landelijk verband, IFES en de verbanden binnen Utrecht met name 
+                    BOCS. Naast mijn bestuurstaken werk ik bij een wijnwinkel waar ik veel leuke dingen leer en ook veel lekkers mag proeven. 
+                    Dit sluit dan ook nauw aan bij mijn voorliefde voor koken en lekker eten. Als ik niet met bestuur of werk bezig ben, 
+                    loop of zwem ik graag en rondje. Daarnaast kan ik ook erg genieten van een spelletjesavond met m’n huisgenoten en een
+                    goede kop koffie.
+                </p>
             </BestuursPersoon>
-            <BestuursPersoon imageNumber="6" name="Maaike de Vries" function="Herus" email="herus@ichthusutrecht.nl">
-                <p>Heyy, ik ben Maaike en ik ben de Herus van Ichthus Utrecht. Dat houdt zoal in dat ik mag nadenken over het zoeken van een pand en geld binnen mag halen van externe bedrijven. Ik ben nu bezig met mijn laatste jaar van mijn bachelor Informatica aan de Universiteit Utrecht. Daarnaast lees ik erg graag, vooral fantasyboeken en probeer ik ook wat tijd bij elkaar te zoeken om piano te spelen. Maar het grootste gedeelte besteed ik toch wel met praten. En dat kan over alles zijn: van een diepgaand gesprek over het leven of een interessant onderwerp tot eindeloos doorpraten over eigenlijk helemaal niks. Als het gaat om praten weet ik vaak van geen ophouden. Dus spreek me vooral aan als je zin hebt in een gesprek.</p>
+            <BestuursPersoon imageNumber="6" name="Alinde van Manen" function="Herus" email="herus@ichthusutrecht.nl">
+                <p>
+                    Ciao! Even voorstellen: Ik ben Alinde en ik ben de Herus van Ichthus Utrecht en die
+                    titel draag ik met veel trots! In mijn functie houd ik mij vooral bezig met sponsoren
+                    werven, locaties regelen &amp; beheren en zoek ik natuurlijk naar een eigen pand! Naast
+                    mijn functie als Herus ben ik twee daagjes in de week werkzaam bij EventRent als
+                    marketing-en projectmanager en rond ik mijn studie eventmanagement af. Naast al
+                    deze zakelijke dingen hou ik enorm van koken en bakken en klets ik het liefst tot in
+                    de late avonduurtjes met een cocktail in de hand, dit alles doe ik het liefst in het
+                    buitenland want reizen is het liefste dat ik doe! Dus heb je een keer zin om te
+                    babbelen? Schiet me vooral aan bij de maaltijd!
+                </p>
             </BestuursPersoon>
         </div>
     </BasisLayout>

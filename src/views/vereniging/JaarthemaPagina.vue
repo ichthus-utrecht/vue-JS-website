@@ -7,19 +7,24 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
 <template>
     <NavigatieBalk />
     <BasisLayout pageHeader="Jaarthema"
-        description="Dit jaar heeft het bestuur gekozen voor het jaarthema “Knallen met z’n allen”.">
+        description="Dit jaar heeft het bestuur gekozen voor het jaarthema “Koninklijk”.">
         <div class="row justify-content-center">
             <div class="col-12 col-md-10 post-text">
-                Dit jaar hebben we het jaarthema “Knallen met z’n allen” gekozen. We vinden het belangrijk dat ons
-                enthousiasme en onze verenigingstrots ervan afspat en dat we samen ontzettend veel plezier mogen ervaren
-                komend jaar. Het is belangrijk dat we dat met z’n allen doen, want iedereen hoort er immers bij, dus blijven
-                we oog houden voor elkaar. Zo jagen we onze doelstellingen na met kringavonden, gezamenlijke maaltijden,
-                allerlei commissies en diverse activiteiten. We mogen als vereniging stevig durven gaan staan voor wie we
-                zijn en voor onze identiteit in Jezus Christus.
+                Bestuur Bout gaat voor Goud! Dit jaar heeft namelijk een gouden randje, wij mogen
+                als vereniging ons XIIIe Lustrum vieren en dit doen wij dan ook royaal. Dat vraagt
+                ook om een royaal thema en daarom hebben wij als jaarthema: Koninklijk. We
+                mogen dit jaar als koningen feest vieren, maar wij weten tegelijkertijd dat er nog een
+                andere Koning boven ons staat, namelijk Jezus Christus. We mogen dit feest ook
+                met Hem vieren en als vereniging achter deze Koning aan gaan. Dit doel jagen wij
+                als vereniging na met kringavonden, gezamenlijke maaltijden, allerlei commissies en
+                heel veel activiteiten. We mogen als vereniging stevig durven gaan staan voor wie
+                we zijn, voor onze identiteit in Jezus Christus en samen achter deze Koning der
+                koningen aan gaan en hem dienen.
             </div>
             <div class="col-12 col-md-10 post-text">
-                Onze wens is dan ook om standvastig te staan in persoonlijk geloof, met elkaar en de ander. Hieruit volgen
-                onze drie speerpunten, zoals ook verwoord in ons beleid voor het seizoen 2023-2024.
+                Wij willen onze leden uitdagen om te gaan voor Go(u)d. Dat vraagt inzet en durf,
+                durven te doen. Hieruit volgen dan ook onze drie speerpunten, zoals verwoord in ons
+                beleid voor het seizoen 2024-2025.
             </div>
 
             <div class="row align-items-center ">
@@ -29,32 +34,36 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
             </div> -->
                 <div class="col-12 col-md-10 post-text-block">
                     <p>
-                        <b>Geloof kan bergen verzetten</b>: Dit speerpunt geeft handen en voeten aan ons verlangen naar een
-                        vereniging die sterk staat in het geloof, waarvan Woord en gebed de wortels vormen. Daarom houden we
-                        – naast kringavonden die hiervoor zijn – twee themaweken: een Week van het Woord en de Week van
-                        gebed. Vervolgens willen we van dit geloof uitdelen, door als christelijke vereniging zichtbaar te
-                        zijn in Utrecht en eropuit te gaan.
+                        <b>Durf te geloven:</b> Dit speerpunt geeft handen en voeten aan ons verlangen naar een
+                            vereniging die sterk staat in het geloof, waarvan Woord en gebed de wortels vormen.
+                            Daarom houden we – naast kringavonden die hiervoor zijn – twee themaweken: de
+                            Week van gebed en de Week van de naastenliefde, waarin wij omkijken naar onze
+                            naasten. Vervolgens willen we van dit geloof uitdelen, door als christelijke vereniging
+                            zichtbaar te zijn in Utrecht en dat uit te stralen in onze houding.
                     </p>
                     <p>
-                        <b>Woorden zijn dwergen, daden zijn bergen</b>: We willen met dit speerpunt de betrokkenheid binnen
-                        de vereniging vergroten en initiatieven vanuit de vereniging aanwakkeren. Daarnaast is dit speerpunt
-                        gericht op het vernieuwen van de interne organisatie rondom de soos en het herstructureren van
-                        verschillende commissies.
+                        <b>Durf te dienen:</b> We willen met dit speerpunt de vereniging uitdagen om zich in te
+                            zetten voor anderen. Hiermee willen wij de onderlinge betrokkenheid en
+                            verbondenheid vergroten. Daarnaast richt dit speerpunt zich op het innoveren van
+                            commissies en niet te vergeten het lustrum, wat dit jaar groots gevierd gaat worden!
                     </p>
                     <p>
-                        <b>Berg van ontmoeting</b>: We willen als Ichthus Utrecht een plek zijn waar we elkaar – maar juist
-                        ook anderen – kunnen ontmoeten. In dit speerpunt maken we duidelijk hoe we deze externe contacten
-                        willen onderhouden, verstevigen en aandacht geven binnen Ichthus Utrecht.
+                        <b>Durf te gaan:</b> We willen als Ichthus Utrecht een plek zijn waar we elkaar – maar juist
+                            ook anderen – kunnen ontmoeten. In dit speerpunt maken we duidelijk hoe we deze
+                            externe contacten willen onderhouden, verstevigen en aandacht geven binnen
+                            Ichthus Utrecht.
                     </p>
                 </div>
             </div>
 
             <div class="col-12 col-md-10 post-text">
-                We vertrouwen hierbij op God, dat Hij ons in Zijn hand zal houden en onze paden zal leiden. Als bestuur Van
-                den Berg II hebben we de volgende jaartekst hierbij gekozen:
+                We vertrouwen hierbij op de enige echte Koning, namelijk God, dat Hij ons in Zijn
+                hand zal houden en ons als een Koning zal leiden. Als bestuur Bout hebben we de
+                volgende jaartekst hierbij gekozen:
                 <div class="post-text-quote" style="color: rgb(151, 0, 70); font-size: 18px">
-                    “Ik gebied je dus: wees vastberaden en standvastig, laat je door niets weerhouden of ontmoedigen, want
-                    waar je ook gaat, de HEER, je God, staat je bij.” (Jozua 1:9, NVB21)
+                    “Heb elkaar hartelijk lief met broederlijke liefde. Ga elkaar voor in eerbetoon. Wees
+                    niet traag wat uw inzet betreft. Wees vurig van Geest. Dien de Heere.” (Romeinen
+                    12:10-11 HSV)
                 </div>
             </div>
         </div>

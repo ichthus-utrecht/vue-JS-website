@@ -34,3 +34,5 @@ Op de voorpagina is een overzicht van nieuws. Om hier items toe te voegen, moet 
     "inhoud": "Hier staat de inhoud"
 }
 ```
+
+Je kunt een tekst op een nieuwe regel beginnen door '/n' toe te voegen op de plek waar je dat wilt.

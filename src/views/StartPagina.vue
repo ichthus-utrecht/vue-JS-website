@@ -6,7 +6,7 @@ import carousel2 from '@/assets/images/carousel-2.jpg'
 import carousel3 from '@/assets/images/carousel-3.jpg'
 import homePage1 from '@/assets/images/home-page-1.jpg'
 import SponsorTabel from '@/components/details/SponsorTabel.vue'
-import NieuwsItem from '@/components/interactief/NieuwsItem.vue'
+import NieuwsOverzicht from '@/components/interactief/NieuwsOverzicht.vue'
 
 //import LightBox from '@/components/interactief/LightBox.vue'
 </script>
@@ -153,16 +153,8 @@ import NieuwsItem from '@/components/interactief/NieuwsItem.vue'
                   </div>
               </section>
               <section class="col-12">
-                  <div class="row justify-content-center">
-                      <div class="col-10">
-                          <div class="mt-5"></div>
-                          <div v-for="i in 5" :key="i"> <!-- Laat meest recente vijf nieuwsitems zien -->
-                            <NieuwsItem :nummer="i" />
-                          </div>
-                          <div class="mt-5"></div>
-                      </div>
-                  </div>
-                  <div class="mt-5"></div>
+                <NieuwsOverzicht />  
+                <div class="mt-5"></div>
               </section>
               <section class="col-12">
                   <div class="row justify-content-center">

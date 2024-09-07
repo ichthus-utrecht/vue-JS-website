@@ -2,8 +2,9 @@
 import nieuwsItems from '../../assets/nieuwsItems.json'
 // eslint-disable-next-line
 const props = defineProps({
-    nummer: String
+    nummer: Number
 })
+const charactersToShow = 700
 const nummer = nieuwsItems.items.length - props.nummer // Nieuws van nieuw naar oud laten zien
 let tekst = ""
 let titel = ""
@@ -11,8 +12,8 @@ if (nummer >= 0) // Niet proberen meer nieuws te laten dan er is
 {
     const item = nieuwsItems.items[nummer]
     titel = item.titel
-    tekst = item.inhoud.substring(0, 1000) // Eerste 1000 tekens
-    if (item.inhoud.length > 1000) tekst += '...'
+    tekst = item.inhoud.substring(0, charactersToShow) // Eerste 1000 tekens
+    if (item.inhoud.length > charactersToShow) tekst += '...'
 }
 const url = "/nieuws/" + nummer
 </script>

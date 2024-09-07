@@ -30,10 +30,12 @@ function toggleNavbar() {
 }
 
 function uitklappen(sectie: string) {
+    /** @ts-ignore */
     this[sectie] = true
 }
 
 function inklappen(sectie: string) {
+    /** @ts-ignore */
     this[sectie] = false
 }
 

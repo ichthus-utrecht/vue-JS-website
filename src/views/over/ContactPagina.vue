@@ -163,7 +163,7 @@ import photoAbActis from '@/assets/images/bestuur/bestuur-person-2.jpg'
             </div>
             <div class="col-12">
                 <div class="col-12 col-md-6 align-top">
-                    <iframe id="mapsEmbed" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d306.3822712110492!2d5.104708464967691!3d52.09687291032201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c66f6be33a1bf7%3A0xea013e07ed9f6bbc!2sBoorstraat%20107%2C%203513%20SE%20Utrecht!5e0!3m2!1snl!2snl!4v1645813986297!5m2!1snl!2snl" allowfullscreen="" loading="lazy"></iframe>
+                    <iframe id="mapsEmbed" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d306.3822712110492!2d5.104708464967691!3d52.09687291032201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c66f6be33a1bf7%3A0xea013e07ed9f6bbc!2sBoorstraat%20107%2C%203513%20SE%20Utrecht!5e0!3m2!1snl!2snl!4v1645813986297!5m2!1snl!2snl" allowfullscreen="true" loading="lazy"></iframe>
                 </div>
             </div>
             <div class="col-12 page-section-header-m mt-0">

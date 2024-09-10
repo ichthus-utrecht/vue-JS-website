@@ -16,6 +16,7 @@ import VriendenIchthusPagina from '../views/over/VriendenIchthusPagina.vue'
 import AgendaPagina from '../views/activiteiten/AgendaPagina.vue'
 import Error404Pagina from '../views/Error404Pagina.vue'
 import PrivacyPagina from '../views/over/PrivacyPagina.vue'
+import GalaPagina from '../views/tijdelijk/GalaPagina.vue'
 
 const routes = [
   {
@@ -117,6 +118,14 @@ const routes = [
     component: AgendaPagina,
     meta: {
       titel: "Agenda",
+    },
+  },
+  {
+    path: "/gala",
+    name: "GalaPagina",
+    component: GalaPagina,
+    meta: {
+      titel: "Gala",
     },
   },
   {

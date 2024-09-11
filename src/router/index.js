@@ -16,6 +16,7 @@ import VriendenIchthusPagina from '../views/over/VriendenIchthusPagina.vue'
 import AgendaPagina from '../views/activiteiten/AgendaPagina.vue'
 import Error404Pagina from '../views/Error404Pagina.vue'
 import PrivacyPagina from '../views/over/PrivacyPagina.vue'
+import NieuwsPagina from "@/views/NieuwsPagina.vue"
 
 const routes = [
   {
@@ -126,6 +127,15 @@ const routes = [
     meta: {
       titel: "Privacy",
     },
+  },
+  {
+    path: "/nieuws/:nummer", // Zo kan de pagina voor elk nieuwsitem gegenereerd worden
+    name: "NieuwPagina",
+    component: NieuwsPagina,
+    meta: {
+      titel: "NieuwsPagina",
+    },
+    props: true
   },
   // Als geen van bovenstaande gematcht worden:
   {

@@ -12,7 +12,7 @@ if (nummer >= 0) // Niet proberen meer nieuws te laten zien dan er is
 {
     const item = nieuwsItems.items[nummer]
     titel = item.titel
-    tekst = item.inhoud.substring(0, charactersToShow) // Eerste 1000 tekens
+    tekst = item.inhoud.substring(0, charactersToShow) // Eerste n tekens
     if (item.inhoud.length > charactersToShow) tekst += '...'
 }
 const url = "/nieuws/" + nummer

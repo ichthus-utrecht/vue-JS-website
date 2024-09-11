@@ -1,4 +1,3 @@
-<!-- eslint-disable no-unused-vars -->
 <script setup>
 import NieuwsItem from '@/components/interactief/NieuwsItem.vue'
 import { ref, computed } from 'vue'
@@ -35,7 +34,7 @@ function clickPreviousPage() {
   <div class="row justify-content-center">
     <div class="col-10">
       <div class="mt-5"></div>
-      <div v-for="i in currentNewsItemIndexes" :key="i"> <!-- Laat meest recente drie nieuwsitems zien -->
+      <div v-for="i in currentNewsItemIndexes" :key="i"> <!-- Laat meest recente n nieuwsitems zien -->
         <NieuwsItem :nummer="i" />
       </div>
       <div class="mt-5"></div>

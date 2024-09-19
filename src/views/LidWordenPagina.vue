@@ -44,10 +44,8 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
                 <p>
                     Natuurlijk wil je zo snel mogelijk lid worden. Helaas kan dat pas in het nieuwe verenigingsjaar. We
                     vragen iedereen die interesse heeft om lid te worden om mee te doen aan onze introductieweek. Dat is
-                    een
-                    week waarin we elke avond een activiteit organiseren, om elkaar en de vereniging beter te leren
-                    kennen.
-                    Voor de introductieweek moet je je aanmelden in <!-- <a
+                    een week waarin we elke avond een activiteit organiseren, om elkaar en de vereniging beter te leren kennen.
+                    Voor de introductieweek moet je je aanmelden met <!-- <a
                         href="https://docs.google.com/forms/d/e/1FAIpQLSd4UTW4W6Y7wSZzoWE93wlxu2mSy4bjeFJ2n2vdTySq4nmmQg/viewform?usp=sf_link"> -->
                         het formulier <!-- </a> --> (momenteel gesloten).
                 </p>

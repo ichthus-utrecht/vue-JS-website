@@ -7,7 +7,8 @@ import carousel3 from '@/assets/images/carousel-3.jpg'
 import homePage1 from '@/assets/images/home-page-1.jpg'
 import SponsorTabel from '@/components/details/SponsorTabel.vue'
 import NieuwsOverzicht from '@/components/interactief/NieuwsOverzicht.vue'
-import LightBox from '@/components/interactief/LightBox.vue'
+//eruit halen als er geen lightboxes zijn:
+//import LightBox from '@/components/interactief/LightBox.vue'
 </script>
 
 <template>
@@ -207,7 +208,8 @@ import LightBox from '@/components/interactief/LightBox.vue'
     </LightBox>
     -->
 
-    <LightBox>
+    <!-- Lightbox IntroWeek -->
+    <!-- <LightBox>
         <div id="elementSelection" class="rounded">
         <h1 class="intro-text-title">Hey!</h1>
         <div class="intro-text-subtitle">Wil je meer weten over onze vereniging? Kom dan naar de Introductieweek van 9 tot en met 12 september.</div>
@@ -217,7 +219,7 @@ import LightBox from '@/components/interactief/LightBox.vue'
                 href="https://docs.google.com/forms/d/e/1FAIpQLSd4UTW4W6Y7wSZzoWE93wlxu2mSy4bjeFJ2n2vdTySq4nmmQg/viewform?usp=sf_link">
                 het formulier hier</a></b></i> en aan het eind van de week kun je je aanmelden als lid van Ichthus Utrecht!</div>
         </div>
-    </LightBox>
+    </LightBox> -->
     <FooterBalk />
   </div>
 </template>

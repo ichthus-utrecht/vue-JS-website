@@ -136,7 +136,7 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
                     <h5>Contactgegevens</h5>
                     <p>
                         C.S.V. Ichthus Utrecht, Pnyx<br>
-                        t.a.v. J. Meijer<br>
+                        t.a.v. A. Kunst<br>
                         Winthontlaan 30C<br>
                         3526KV Utrecht<br>
                     </p>

@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import BestuursPersoon from "../../components/details/BestuursPersoon.vue";
 import BasisLayout from "../../components/layouts/BasisLayout.vue";
 import FooterBalk from "../../components/interactief/FooterBalk.vue";

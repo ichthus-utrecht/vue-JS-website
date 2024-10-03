@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import FooterBalk from '../../components/interactief/FooterBalk.vue'
 import SponsorTabel from '../../components/details/SponsorTabel.vue'
 import BasisLayout from '../../components/layouts/BasisLayout.vue'

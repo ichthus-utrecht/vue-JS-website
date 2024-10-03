@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import { ref } from 'vue'
 
 import NavigatieKnop from './NavigatieKnop.vue'
@@ -27,7 +27,7 @@ function inklappen() {
         <a class="uitklapknop" href="#">{{ tekst }}</a>
         <ul class="dropdowninhoud" v-if="uitgeklapt">
             <!-- De inhoud van de dropdown wordt alleen weergegeven als hij uitgeklapt is -->
-            <li v-for="knop in inhoud.value" :key="knop.tekst">
+            <li v-for="knop in inhoud!.value" :key="knop.tekst">
                 <!-- We gebruiken een lijst om de knoppen onder elkaar weer te geven -->
                 <NavigatieKnop class="inhoudsknop" :tekst="knop.tekst" :koppeling="knop.koppeling" />
             </li>

@@ -3,30 +3,40 @@ Dit is de repository voor de statische website van Ichthus Utrecht, het ontwikke
 
 Voor de documentatie van Vue verwijzen we u naar hun website: https://vuejs.org/
 
-## Project setup
-```
+## Customize configuration
+
+See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+## Project Setup
+
+```sh
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
+Soms moet je ook de dev dependencies installeren. Dit kan op de volgende manier:
+```sh
+npm install --include=dev
 ```
 
-### Compiles and minifies for production
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
 ```
+
+### Type-Check, Compile and Minify for Production
+
+```sh
 npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
 ```
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-### Nieuws
+## TypeScript
+Dit project maakt gebruik van [TypeScript](https://www.typescriptlang.org/). Daarmee kun je de codekwaliteit verbeteren. Als je code niet klopt krijg je een error en kun je niet builden. Je kunt een error onderdrukken met `/** @ts-ignore */`. TypeScript is een laag over JavaScript heen. Je kunt dus nog steeds gewoon JavaScript code schrijven, maar als je wilt wel gebruik maken van TypeScript features.
+
+## Nieuws
 Op de voorpagina is een overzicht van nieuws. Om hier items toe te voegen, moet je in /src/assets/nieuwsItems.json een item toe voegen aan het einde van de array. Dit heeft de volgende structuur:
 ```json
 {

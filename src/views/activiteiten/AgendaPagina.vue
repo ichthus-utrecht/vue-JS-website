@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import BasisLayout from '@/components/layouts/BasisLayout.vue';
 import FooterBalk from '../../components/interactief/FooterBalk.vue'
 import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
@@ -148,7 +148,7 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
     <FooterBalk />
 </template>
 
-<style scoped lang="css">
+<style lang="css">
 @import '../../assets/css/app.css';
 
 .centered-image {

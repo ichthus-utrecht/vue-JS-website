@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import FooterBalk from '../../components/interactief/FooterBalk.vue'
 import BasisLayout from '../../components/layouts/BasisLayout.vue'
 import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';

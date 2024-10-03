@@ -35,4 +35,4 @@ Op de voorpagina is een overzicht van nieuws. Om hier items toe te voegen, moet 
 }
 ```
 
-Je kunt een tekst op een nieuwe regel beginnen door '/n' toe te voegen op de plek waar je dat wilt.
+Je kunt een tekst op een nieuwe regel beginnen door '\n' toe te voegen op de plek waar je dat wilt.

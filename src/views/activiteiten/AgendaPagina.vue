@@ -141,11 +141,15 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
 </script>
 
 <template>
-    <NavigatieBalk/>
-    <BasisLayout>
-        <iframe src="https://calendar.google.com/calendar/embed?src=c_98ce21d2eb002125a3fbd530f72d4a91a84745227f418dd61024e494dccb1337%40group.calendar.google.com&ctz=Europe%2FAmsterdam" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-    </BasisLayout>
-    <FooterBalk />
+  <NavigatieBalk/>
+  <BasisLayout>
+    <iframe 
+      src="https://ichthusutrecht.churchbook.nl/public/agenda2.cfm" 
+      title="Agenda uit Churchbook"
+      style="border: 0" width="100%" height="1400" frameborder="0"
+    ></iframe>
+  </BasisLayout>
+  <FooterBalk />
 </template>
 
 <style scoped lang="css">

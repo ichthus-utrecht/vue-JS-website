@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import FooterBalk from '../components/interactief/FooterBalk.vue'
 import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue'
 import carousel1 from '@/assets/images/carousel-1.jpg'
@@ -224,8 +224,7 @@ import NieuwsOverzicht from '@/components/interactief/NieuwsOverzicht.vue'
   </div>
 </template>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style>
 #app {
   font-family: Caveat, sans-serif, Arial, Helvetica;
   -webkit-font-smoothing: antialiased;

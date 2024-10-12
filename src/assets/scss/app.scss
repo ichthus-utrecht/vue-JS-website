@@ -8,7 +8,7 @@
 $primary: #970046;
 $secondary: #1e2258;
 
-@import '~bootstrap/scss/bootstrap';
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
 // Dividers
 @import "dividers";
 // Columns and rows

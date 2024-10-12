@@ -16,7 +16,7 @@ import VriendenIchthusPagina from '../views/over/VriendenIchthusPagina.vue'
 import AgendaPagina from '../views/activiteiten/AgendaPagina.vue'
 import Error404Pagina from '../views/Error404Pagina.vue'
 import PrivacyPagina from '../views/over/PrivacyPagina.vue'
-import NieuwsPagina from "@/views/NieuwsPagina.vue"
+import NieuwsPagina from '../views/NieuwsPagina.vue'
 
 const routes = [
   {

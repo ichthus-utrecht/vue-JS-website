@@ -1,6 +1,7 @@
-<script setup>
+<script setup lang="ts">
 import BasisContainer from '../containers/BasisContainer.vue';
 
+const currentYear = new Date().getFullYear();
 </script>
 
 <!-- Footer -->
@@ -129,17 +130,3 @@ import BasisContainer from '../containers/BasisContainer.vue';
         </BasisContainer>
     </div>
 </template>
-
-<script>
-export default {
-    data() {
-        return {
-            currentYear: ''
-        };
-    },
-    mounted() {
-        // Update the currentYear data property with the current year when the component is mounted
-        this.currentYear = new Date().getFullYear();
-    }
-};
-</script>

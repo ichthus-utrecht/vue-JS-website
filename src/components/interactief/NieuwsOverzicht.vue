@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import NieuwsItem from '@/components/interactief/NieuwsItem.vue'
 import { ref, computed } from 'vue'
 import nieuwsItems from '../../assets/nieuwsItems.json'
@@ -16,7 +16,7 @@ const currentNewsItemIndexes = computed(() => {
   return Array.from({ length: newsItemsPerPage }, (_, index) => start + index);
 })
 
-function clickNumberPage(pageNumber)  {
+function clickNumberPage(pageNumber: number)  {
   currentPageNumber.value = pageNumber
 }
 

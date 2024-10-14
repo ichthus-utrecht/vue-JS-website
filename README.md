@@ -46,3 +46,13 @@ Op de voorpagina is een overzicht van nieuws. Om hier items toe te voegen, moet 
 ```
 
 Je kunt een tekst op een nieuwe regel beginnen door '\n' toe te voegen op de plek waar je dat wilt.
+
+## Agenda
+Voor de agenda is gebruikt gemaakt van FullCalender icm Google Calendar. Zie hiervoor de [documentatie van FullCalendar](https://fullcalendar.io/docs/google-calendar). De google agenda wordt gevuld met data uit publieke agenda van churchbook (https://ichthusutrecht.churchbook.nl/public/ical_all.cfm). Dit is nodig omdat dit problemen opleverde met CORS: Je kunt vanaf het ichthusutrecht.nl domein niet zomaar dingen ophalen van het churchbook.nl domein. 
+
+Om gebruik te maken van de Google Calendar API in de frontend moet je een API key hebben. Volgens de [best practices](https://cloud.google.com/docs/authentication/api-keys-best-practices) van Google hierover, moet je deze niet op je code opslaan. Om te veiligheid te vergroten, zijn er twee aparte keys: één voor lokaal gebruik (dev) en één op de Ichthus website (production). Beide sleutels staan in LastPass en in de [google cloud console](console.cloud.google.com). De sleutel voor production kan iedereen uiteindelijk gewoon vinden, omdat door vite in de bundle terecht komt. Dat maakt wat minder uit, omdat deze alleen op de website ichthusutrecht.nl gebruikt kan worden. 
+
+De dev sleutel kan echter op elk domein gebruikt worden, en moet daarom zorgvuldig behandeld worden.
+
+## .env
+In het .env bestand kun je geheimen zetten of andere variabelen. Om dit lokaal te gebruiken, moet je het `.env.local-example` kopiëren en hernoemen naar `.env.local`. Nu kun je de waarden invullen en wordt het genegeerd door Git.

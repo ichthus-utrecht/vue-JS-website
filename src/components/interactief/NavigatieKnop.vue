@@ -1,9 +1,8 @@
 <script setup lang="ts">
-// eslint-disable-next-line
-defineProps({
-    tekst: String,
-    koppeling: String
-})
+defineProps<{
+    tekst: string,
+    koppeling: string
+}>()
 </script>
 
 

@@ -2,8 +2,6 @@
 // Hier importeren we de componenten die we nodig hebben
 import NavigatieKnop from '../interactief/NavigatieKnop.vue'
 import NavigatieDropdown from '../interactief/NavigatieDropdown.vue'
-
-import { ref } from 'vue'
 </script>
 
 <template>
@@ -17,27 +15,27 @@ import { ref } from 'vue'
             </router-link>
         </div>
         <div class="menu-item">
-            <NavigatieDropdown tekst="Vereniging" :inhoud="ref([
+            <NavigatieDropdown tekst="Vereniging" :inhoud="[
                 { tekst: 'Bestuur', koppeling: 'bestuur' },
                 { tekst: 'Jaarthema', koppeling: 'jaarthema' },
                 { tekst: 'Waar wij voor staan', koppeling: 'visie-missie' },
                 { tekst: 'Geschiedenis', koppeling: 'geschiedenis' }
-            ])" />
+            ]" />
         </div>
         <div class="menu-item">
-            <NavigatieDropdown tekst="Activiteiten" :inhoud="ref([
+            <NavigatieDropdown tekst="Activiteiten" :inhoud="[
                 { tekst: 'Agenda', koppeling: 'agenda' },
                 { tekst: 'Geloof', koppeling: 'activiteiten-geloof' },
                 { tekst: 'Praktisch', koppeling: 'activiteiten-praktisch' }
-            ])" />
+            ]" />
         </div>
         <div class="menu-item">
-            <NavigatieDropdown tekst="Over" :inhoud="ref([
+            <NavigatieDropdown tekst="Over" :inhoud="[
                 { tekst: 'Extern', koppeling: 'extern' },
                 { tekst: 'Vrienden van Ichthus', koppeling: 'vrienden' },
                 { tekst: 'Adverteren', koppeling: 'adverteren' },
                 { tekst: 'Contact', koppeling: 'contact' }
-            ])" />
+            ]" />
         </div>
         <div class="menu-item">
             <NavigatieKnop tekst="Lid worden" koppeling="lid-worden" />

@@ -3,11 +3,15 @@ import { ref } from 'vue'
 
 import NavigatieKnop from './NavigatieKnop.vue'
 
-// eslint-disable-next-line
-defineProps({
+class DropDownTekst {
+  tekst: string = "";
+  koppeling: string = "";
+}
+
+defineProps<{
     tekst: String,
-    inhoud: Object
-})
+    inhoud: DropDownTekst[]
+}>()
 // 'tekst' is wat weergegeven wordt op de uitklapknop, 'inhoud' is een lijst met paren van knoptitels en koppelingen
 
 const uitgeklapt = ref(false) // Houdt bij of de uitklapknop is uitgeklapt of niet
@@ -27,7 +31,7 @@ function inklappen() {
         <a class="uitklapknop" href="#">{{ tekst }}</a>
         <ul class="dropdowninhoud" v-if="uitgeklapt">
             <!-- De inhoud van de dropdown wordt alleen weergegeven als hij uitgeklapt is -->
-            <li v-for="knop in inhoud!.value" :key="knop.tekst">
+            <li v-for="knop in inhoud" :key="knop.tekst">
                 <!-- We gebruiken een lijst om de knoppen onder elkaar weer te geven -->
                 <NavigatieKnop class="inhoudsknop" :tekst="knop.tekst" :koppeling="knop.koppeling" />
             </li>

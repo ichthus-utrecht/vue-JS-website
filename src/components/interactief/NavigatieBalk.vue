@@ -6,6 +6,11 @@ const isNavbarOpen = ref(false)
 const vereniging = ref(false)
 const activiteiten = ref(false)
 const over = ref(false)
+const allPages = {
+    vereniging: vereniging,
+    activiteiten: activiteiten,
+    over: over
+}
 
 onMounted(() => {
     window.addEventListener("scroll", handleScroll)
@@ -31,14 +36,13 @@ function toggleNavbar() {
 
 function uitklappen(sectie: string) {
     /** @ts-ignore */
-    this[sectie] = true
+    allPages[sectie].value = true
 }
 
 function inklappen(sectie: string) {
     /** @ts-ignore */
-    this[sectie] = false
+    allPages[sectie].value = false
 }
-
 </script>
 
 

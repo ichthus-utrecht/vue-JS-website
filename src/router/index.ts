@@ -17,6 +17,7 @@ import AgendaPagina from '../views/activiteiten/AgendaPagina.vue'
 import Error404Pagina from '../views/Error404Pagina.vue'
 import PrivacyPagina from '../views/over/PrivacyPagina.vue'
 import NieuwsPagina from '../views/NieuwsPagina.vue'
+import LustrumPagina from '@/views/LustrumPagina.vue'
 
 const routes = [
   {
@@ -136,6 +137,14 @@ const routes = [
       titel: "NieuwsPagina",
     },
     props: true
+  },
+  {
+    path: '/lustrum',
+    name: 'Lustrum',
+    component: LustrumPagina,
+    meta: {
+      titel: "Lustrum"
+    }
   },
   // Als geen van bovenstaande gematcht worden:
   {

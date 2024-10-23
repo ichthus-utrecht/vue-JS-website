@@ -14,9 +14,11 @@ onUnmounted(() => {
 <template>
   <div class="lustrum-pagina">
     <div class="container-fluid">
-      <div>
-        <img class="lustrum-logo m-4" :src="logo"/>
+       <!-- Logo -->
+       <div class="logo-container text-center">
+        <img class="lustrum-logo m-4" :src="logo" alt="Lustrum logo"/>
       </div>
+      
       <div>
         <h1><strong>Lustrum</strong></h1>
           <p>

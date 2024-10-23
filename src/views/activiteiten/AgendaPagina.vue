@@ -1,156 +1,103 @@
 <script setup lang="ts">
-import BasisLayout from '@/components/layouts/BasisLayout.vue';
+import BasisLayout from '@/components/layouts/BasisLayout.vue'
 import FooterBalk from '../../components/interactief/FooterBalk.vue'
-import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
+import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue'
+import { ref, useTemplateRef } from 'vue'
+import FullCalendar from '@fullcalendar/vue3'
+import dayGridPlugin from '@fullcalendar/daygrid'
+import nlLocale from '@fullcalendar/core/locales/nl'
+import googleCalendarPlugin from '@fullcalendar/google-calendar'
+/** @ts-ignore */
+import { Modal } from 'bootstrap'
+import type { CalendarOptions, EventClickArg, FormatterInput } from '@fullcalendar/core/index.js'
 
-// $(document).ready(function () {
-//     var events = {!! json_encode($events, JSON_HEX_TAG) !!};
+const modalTitle = ref('')
+const modalStartDate = ref(new Date())
+const modalEndDate = ref(new Date())
+const modalLocation = ref('')
+const locale = 'nl-NL' // The locale you want the dates to be shown in.
 
-//     var date = new Date();
-//     fillCalendar(date);
-//     fillEvents(events, date);
-//     changeMonthName(date);
+const myModal = useTemplateRef('myModal')
+const googleApiKey = import.meta.env.VITE_GOOGLE_CALENDAR_API_KEY
+// Calendar options
+const calendarOptions = ref<CalendarOptions>({
+  plugins: [dayGridPlugin, googleCalendarPlugin ],
+  googleCalendarApiKey: googleApiKey,
+  events: {
+    googleCalendarId: 'id5f59r2sp5c76qkghkvbh5l6bjom84v@import.calendar.google.com'
+  },
+  initialView: 'dayGridMonth',  // Set the initial view (dayGridMonth, timeGridWeek, etc.)
+  locale: nlLocale,
+  eventTimeFormat: { // like '14:30'
+    hour: '2-digit',
+    minute: '2-digit',
+    meridiem: false
+  } as FormatterInput,
+  eventClick: showModal,
+});
 
-//     $("#agendaCalendarMonthBtnPrev").click(function () {
-//         date.setMonth(date.getMonth() - 1);
-//         fillCalendar(date);
-//         changeMonthName(date);
-//         fillEvents(events, date);
-//     });
+function showModal(info: EventClickArg) {
+  info.jsEvent.preventDefault(); // don't let the browser navigate
+  console.log(info.event)
+  info.event.extendedProps.location
+  modalTitle.value = info.event.title
+  modalStartDate.value = info.event.start!
+  modalEndDate.value = info.event.end!
+  modalLocation.value = info.event.extendedProps.location
+  
+  // not sure what this does, ChatGPT made it work
+  const modalInstance = new Modal(myModal.value)
+  modalInstance.show()
+}
 
-//     $("#agendaCalendarMonthBtnNext").click(function () {
-//         date.setMonth(date.getMonth() + 1);
-//         fillCalendar(date);
-//         changeMonthName(date);
-//         fillEvents(events, date);
-//     });
-
-//     $("#calendarEventWrapper").height($("#calendarWrapper").height());
-// });
-
-// function changeMonthName(d) {
-//     var m = getMonthName(d.getMonth());
-//     $(".agenda-calendar-month-caption").last().html(m + ' ' + d.getFullYear());
-// }
-
-// function getMonthName(m) {
-//     const monthNames = ["januari", "februari", "maart", "april", "mei", "juni",
-//         "juli", "augustus", "september", "oktober", "november", "december"
-//     ];
-
-//     return (monthNames[m])
-// }
-
-// function fillCalendar(date) {
-//     var calendar = [];
-
-//     var daysAreActive = 0;
-
-//     var firstDay = new Date(date.getFullYear(), date.getMonth(), 1).getDay();
-//     var lastDay = new Date(date.getFullYear(), date.getMonth() + 1, 0).getDate();
-
-//     for (i = 0; calendar.length < 42; i++) {
-//         if (i === firstDay) {
-//             for (j = 1; j < lastDay + 1; j++) {
-//                 calendar.push(j);
-//             }
-//         } else if (i < firstDay) {
-//             calendar.unshift(new Date(date.getFullYear(), date.getMonth(), i * -1).getDate())
-//         } else {
-//             for (k = 1; calendar.length < 42; k++) {
-//                 calendar.push(new Date(date.getFullYear(), date.getMonth() + 1, k).getDate())
-//             }
-//         }
-//     }
-
-//     $(".agenda-calendar-day").each(function (index) {
-//         if (calendar[index] === 1) {
-//             daysAreActive++;
-//         }
-//         if (daysAreActive === 1) {
-//             $(this).addClass('day-active');
-//         } else {
-//             $(this).removeClass('day-active');
-//         }
-
-//         $(this).empty();
-
-//         const span = document.createElement('span');
-
-//         span.innerText = calendar[index];
-
-//         $(this).append(span);
-//     });
-// }
-
-// function getEventsByMonth(events, month, year) {
-
-//     eventList = [];
-
-//     for (i = 0; i < events.length; i++) {
-//         eventDate = new Date(events[i]['begin_time']);
-//         if ((eventDate.getMonth() == month) && (eventDate.getFullYear() == year)) {
-//             eventList.push(events[i]);
-//         }
-//     }
-
-//     return eventList;
-// }
-
-// function fillEvents(events, date) {
-//     var jsonArray = getEventsByMonth(events, date.getMonth(), date.getFullYear());
-//     document.getElementById("agendaHighlightedEvents").innerHTML = '';
-//     if (jsonArray) {
-//         if (jsonArray.length > 0) {
-//             for (i = 0; i < jsonArray.length; i++) {		
-//                 eventDate = new Date(jsonArray[i]['begin_time']); // Geeft weer in tijdzone van gebruiker
-
-//                 $(".day-active").each(function (index) {
-//                     if ($(this).text() === eventDate.getDate().toString()) {
-//                         $(this).children(":first").css('border-bottom', 'solid 2px #1e2258');
-//                     }
-
-//                 });
-
-//                 const div = document.createElement('div');
-
-//                 div.className = 'row agenda-highlighted-item';
-
-//                 eventHtml =
-//                     '<div class="row-st">' +
-//                     '<div class="agenda-highlighted-item-caption">' + jsonArray[i]['title'] + '</div>' +
-//                     '<p class="agenda-highlighted-item-description">' + eventDate.toLocaleString('nl-NL')
-
-//                 if (jsonArray[i]['location']) {
-//                     eventHtml += ', ' + jsonArray[i]['location'] + '</p></div>';
-//                 } else {
-//                     eventHtml += '</p></div>';
-//                 }
-
-//                 div.innerHTML = eventHtml;
-
-//                 document.getElementById("agendaHighlightedEvents").appendChild(div);
-//             }
-//         } else {
-//             document.getElementById("agendaHighlightedEvents").innerHTML = '<div style="color: gray; position: absolute; top: 50%; width: 100%; text-align: center">Er staan geen activiteiten gepland.</div>'
-//         }
-//     }
-
-// }
-        
 </script>
 
 <template>
-    <NavigatieBalk/>
-    <BasisLayout>
-        <iframe src="https://calendar.google.com/calendar/embed?src=c_98ce21d2eb002125a3fbd530f72d4a91a84745227f418dd61024e494dccb1337%40group.calendar.google.com&ctz=Europe%2FAmsterdam" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-    </BasisLayout>
-    <FooterBalk />
+  <NavigatieBalk/>
+  <BasisLayout>
+    <div class="d-grid gap-4">
+      <div>
+        Hieronder staat de agenda der C.S.V. Ichthus Utrecht.
+      </div>
+      <div class="pb-4">
+        <FullCalendar
+          :options="calendarOptions"
+        />
+      </div>
+    </div>
+  </BasisLayout>
+  <FooterBalk />
+  <!-- Modal -->
+  <div class="modal fade" ref="myModal" id="eventDetailModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-4">{{ modalTitle}}</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-start">
+          Begin: {{ modalStartDate.toLocaleDateString(locale) }} om {{ modalStartDate.toLocaleTimeString(locale) }} <br/>
+          Einde: {{ modalEndDate.toLocaleDateString(locale) }} om {{ modalEndDate.toLocaleTimeString(locale) }} <br/>
+          Locatie: {{ modalLocation }}
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <style lang="css">
 @import '../../assets/css/app.css';
 
+a.fc-col-header-cell-cushion {
+  text-decoration: none;
+  color: black;
+}
+a.fc-daygrid-day-number {
+  text-decoration: none
+}
+:root {
+  --fc-event-border-color: var(--bs-blue) !important
+}
 .centered-image {
     display: block;
     margin: 0 auto !important;

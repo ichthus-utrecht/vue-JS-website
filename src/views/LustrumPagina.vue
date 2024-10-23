@@ -19,12 +19,33 @@ onUnmounted(() => {
         <img class="lustrum-logo m-4" :src="logo" alt="Lustrum logo"/>
       </div>
       
-      <div>
-        <h1><strong>Lustrum</strong></h1>
-          <p>
-            <em> Het lustrum komt eraan. Net zoals deze website. Nou ja, die is er eigenlijk al.</em>
-          </p>
+       <!-- Titel en introductie -->
+       <div class="text-center">
+        <h1><strong>Lustrumviering</strong></h1>
+        <p>
+          <em>Het lustrum komt eraan. Net zoals deze website. Nou ja, die is er eigenlijk al.</em>
+        </p>
       </div>
+      
+      <!-- Agenda sectie -->
+      <div class="agenda-section">
+        <h2 class="text-center mt-5">Agenda</h2>
+        <ul class="agenda-list">
+          <li><strong>25 oktober 2024</strong> - Openingsceremonie</li>
+          <li><strong>26 oktober 2024</strong> - Lezingen & Workshops</li>
+          <li><strong>27 oktober 2024</strong> - Slotfeest</li>
+        </ul>
+      </div>
+
+      <!-- Poster -->
+      <div class="poster-section text-center">
+        <h2 class="mt-5">Poster</h2>
+        <div class="poster-container">
+          <img src="" alt="Poster 1" class="lustrum-foto"/>
+          
+        </div>
+      </div>
+    
     </div>
   </div>
 </template>

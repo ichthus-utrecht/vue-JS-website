@@ -18,10 +18,10 @@ onUnmounted(() => {
         <img class="lustrum-logo m-4" :src="logo"/>
       </div>
       <div>
-        <h1>LUSTRUM</h1>
-        <p>
-          Het lustrum komt eraan. Net zoals deze website. Nou ja, die er er eigenlijk al.
-        </p>
+        <h1><strong>Lustrum</strong></h1>
+          <p>
+            <em> Het lustrum komt eraan. Net zoals deze website. Nou ja, die is er eigenlijk al.</em>
+          </p>
       </div>
     </div>
   </div>

@@ -32,9 +32,11 @@ onUnmounted(() => {
       <div class="agenda-section">
         <h2 class="text-center mt-5">Agenda</h2>
         <ul class="agenda-list">
-          <li><strong>25 oktober 2024</strong> - Openingsceremonie</li>
-          <li><strong>26 oktober 2024</strong> - Lezingen & Workshops</li>
-          <li><strong>27 oktober 2024</strong> - Slotfeest</li>
+          <li><strong>31 oktober 2024</strong> - Lustrum I</li>
+          <li><strong>13 februari 2025</strong> - Lustrummaaltijd</li>
+          <li><strong>20 februari 2025</strong> - Lustrum II </li>
+          <li><strong>27 februari 2025</strong> - Lustrum III</li>
+          <li><strong>28 februari </strong> - Lustrum gala</li>
         </ul>
       </div>
 

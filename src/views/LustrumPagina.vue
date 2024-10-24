@@ -20,7 +20,7 @@ onUnmounted(() => {
   <div class="logo-titel">
     <img src="@/assets/images/lustrum/lustrum-logo.jpeg" alt="Lustrum Logo" class="lustrum-logo"/>
     <h1 class="lustrum-titel"><Strong>Lustrum XIII Ichthus Utrecht</Strong></h1>
-    <img src="@/assets/images/lustrum/lustrum bout.jpg" alt="Extra Foto" class="header-foto"/>
+    <img src="@/assets/images/lustrum/Lustrum Bout.jpg" alt="Extra Foto" class="header-foto"/>
   </div>
 </div>
 
@@ -44,7 +44,7 @@ onUnmounted(() => {
       <div class="poster-section text-center">
         <h2 class="mt-5"><strong>Openingsfeest</strong></h2>
         <div class="poster-container">
-          <img src="@/assets/images/lustrum/poster-lustrum.jpg" alt="Poster 1" class="poster-lustrum"/>
+          <img src="@/assets/images/lustrum/Poster-lustrum.jpg" alt="Poster 1" class="poster-lustrum"/>
           
         </div>
       </div>

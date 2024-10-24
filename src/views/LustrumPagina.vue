@@ -15,11 +15,12 @@ onUnmounted(() => {
   <div class="lustrum-pagina">
     <div class="container-fluid">
        
-<!-- Header met logo en titel -->
+<!-- Header met logo en titel en foto-->
 <div class="header">
   <div class="logo-titel">
     <img src="@/assets/images/lustrum/lustrum-logo.jpeg" alt="Lustrum Logo" class="lustrum-logo"/>
     <h1 class="lustrum-titel"><Strong>Lustrum XIII Ichthus Utrecht</Strong></h1>
+    <img src="@/assets/images/lustrum/lustrum bout.jpg" alt="Extra Foto" class="header-foto"/>
   </div>
 </div>
 
@@ -102,6 +103,13 @@ body.lustrum-body {
   color: var(--lustrum-blue); /* Gouden kleur voor de titel */
   margin: 0;
   
+}
+/* Stijl voor de extra foto */
+.header-foto {
+  max-width: 100px; /* Pas de grootte van de foto aan */
+  height: auto;
+  border-radius: 5px; /* Optioneel: afgeronde hoeken */
+  margin-left: 15px; /* Ruimte tussen de titel en de foto */
 }
 
 .lustrum-pagina {

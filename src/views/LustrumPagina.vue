@@ -99,7 +99,7 @@ body.lustrum-body {
 /* Stijl voor de titel */
 .lustrum-titel {
   font-size: 24px;
-  color: var(--lustrum-gold); /* Gouden kleur voor de titel */
+  color: var(--lustrum-blue); /* Gouden kleur voor de titel */
   margin: 0;
   
 }

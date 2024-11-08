@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import logo from '@/assets/images/lustrum/lustrum-logo.jpeg'
 import { onUnmounted } from 'vue';
 
 // Add the body to class lustrum-body. Now, style can be applied to the body on the lustrum page only.
@@ -18,7 +17,7 @@ onUnmounted(() => {
 <!-- Header met logo en titel en foto-->
 <div class="header">
   <div class="logo-titel">
-    <img src="@/assets/images/lustrum/lustrum-logo.jpeg" alt="Lustrum Logo" class="lustrum-logo"/>
+    <img src="@/assets/images/lustrum/lustrum-logo.jpg" alt="Lustrum Logo" class="lustrum-logo"/>
     <h1 class="lustrum-titel"><Strong>Lustrum XIII Ichthus Utrecht</Strong></h1>
     <img src="@/assets/images/lustrum/lustrum-bout.jpg" alt="Extra Foto" class="header-foto"/>
   </div>

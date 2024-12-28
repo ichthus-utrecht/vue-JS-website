@@ -41,9 +41,9 @@ onUnmounted(() => {
 
       <!-- Poster -->
       <div class="poster-section text-center">
-        <h2 class="mt-5"><strong>Openingsfeest</strong></h2>
+        <h2 class="mt-5"><strong>Lustrum agenda</strong></h2>
         <div class="poster-container">
-          <img src="@/assets/images/lustrum/poster-lustrum.jpg" alt="Poster 1" class="poster-lustrum"/>
+          <img src="@/assets/images/lustrum/lustrum-agenda.jpg" alt="lustrum agenda" class="poster-lustrum"/>
           
         </div>
       </div>

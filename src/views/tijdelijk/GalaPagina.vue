@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"></meta>  -->
 
 <template>
-    <div class="bg-img"></div>
+    <!--<div class="bg-img"></div> dit hield alles nae gucci-->
     <div class="container-fluid">
         <div class="row pr-5 pl-5 pt-5">
             <div class="col-sm-6 align-self-center">

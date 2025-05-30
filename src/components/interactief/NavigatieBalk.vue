@@ -154,6 +154,11 @@ function inklappen(sectie: string) {
                                 <div class="dropdown-item">Contact</div>
                             </router-link>
                         </li>
+                                                <li>
+                            <router-link to="/lhbtiq" style="text-decoration: none;">
+                                <div class="dropdown-item">LHBTIQ+</div>
+                            </router-link>
+                        </li>
                     </ul>
 
                 </li>

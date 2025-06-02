@@ -18,6 +18,7 @@ import Error404Pagina from '../views/Error404Pagina.vue'
 import PrivacyPagina from '../views/over/PrivacyPagina.vue'
 import NieuwsPagina from '../views/NieuwsPagina.vue'
 import LustrumPagina from '@/views/LustrumPagina.vue'
+import LHBTIQ from "../views/over/LHBTIQ+.vue"
 
 const routes = [
   {
@@ -103,6 +104,14 @@ const routes = [
     component: ExternPagina,
     meta: {
       titel: "Extern",
+    },
+  },
+  {
+    path: "/lhbtiq",
+    name: "LHBTIQ+",
+    component: LHBTIQ,
+    meta: {
+      titel: "LHBTIQ+",
     },
   },
   {

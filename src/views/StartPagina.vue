@@ -8,7 +8,7 @@ import homePage1 from '@/assets/images/home-page-1.jpg'
 import SponsorTabel from '@/components/details/SponsorTabel.vue'
 import NieuwsOverzicht from '@/components/interactief/NieuwsOverzicht.vue'
 //eruit halen als er geen lightboxes zijn:
-//import LightBox from '@/components/interactief/LightBox.vue'
+import LightBox from '@/components/interactief/LightBox.vue'
 </script>
 
 <template>
@@ -195,18 +195,16 @@ import NieuwsOverzicht from '@/components/interactief/NieuwsOverzicht.vue'
               </section>
           </div>
       </div>
-    <!-- 
       <LightBox>
         <div id="elementSelection" class="rounded">
             <h1 class="intro-text-title">Hey!</h1>
-            <div class="intro-text-subtitle">Wat leuk dat je een kijkje neemt op onze website! Ben je geïnteresseerd om volgend jaar mogelijk lid te worden of simpelweg een keertje langs te komen uit nieuwsgierigheid, dan is dit je kans om de sfeer te proeven en zelf mee te maken wie we als Ichthus Utrecht zijn. Je kunt je aanmelden via <i><b><a class="link-inv" href="https://forms.gle/syYeeR3kG6o3F9286">dit formuliertje</a></b></i>.</div>
-            <div class="intro-text-subtitle">We hebben in week 25 een open week, wat betekent dat je van harte welkom bent om op (maandagavond 17 juni of) dinsdagavond 18 juni bij een (bijbelstudie-) kringavond aan te haken en/of op donderdagavond 20 juni bij onze gezamenlijke maaltijd gratis te komen eten en naar wens mee te doen met de Ichthusspelen of te blijven hangen voor de borrel.</div>
-            <div class="intro-text-subtitle">De deadline voor het opgeven voor een kringavond bijwonen is 14 juni. Voor de donderdag mag je aan komen waaien, maar kun je ook het formulier invullen zodat wij een schatting kunnen maken van het aantal gasten.</div>
+            <div class="intro-text-subtitle">Wat leuk dat je een kijkje neemt op onze website! Ben je geïnteresseerd om volgend jaar mogelijk lid te worden of simpelweg een keertje langs te komen uit nieuwsgierigheid, dan is dit je kans om de sfeer te proeven en zelf mee te maken wie we als Ichthus Utrecht zijn. Je kunt je aanmelden via <i><b><a class="link-inv" href="https://forms.gle/CDcmCYQEBpwB1Uhg8">dit formuliertje</a></b></i>.</div>
+            <div class="intro-text-subtitle">We hebben in week 25 een open week, wat betekent dat je van harte welkom bent om op (maandagavond 16 juni of) dinsdagavond 17 juni bij een (bijbelstudie-) kringavond aan te haken en/of op donderdagavond 19 juni bij onze gezamenlijke maaltijd gratis te komen eten en naar wens mee te doen met Oud-Hollandse spelletjes en/of te blijven hangen voor het feest (hiervoor is een entreeprijs van € 6,50).</div>
+            <div class="intro-text-subtitle">De deadline voor het opgeven voor een kringavond bijwonen is 12 juni. Voor de donderdag mag je aan komen waaien, maar kun je ook het formulier invullen zodat wij een schatting kunnen maken van het aantal gasten.</div>
             <div class="intro-text-subtitle">We zien er naar uit om je te leren kennen!</div>
             <div class="intro-text-subtitle">Meer weten? Klik <i><b><a class="link-inv" href="{{ route('lid-worden') }}">hier</a></b></i>.</div>
         </div>
     </LightBox>
-    -->
 
     <!-- Lightbox IntroWeek -->
     <!-- <LightBox>

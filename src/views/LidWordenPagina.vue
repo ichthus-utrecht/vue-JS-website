@@ -21,20 +21,20 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
                     welke activiteit
                     plaatsvindt. Je bent van harte welkom om een keer langs te komen.
                 </p>
-                <!--Hier staan de stukjes voor open kringavond-->
-                <!--<p>
+            
+                <p>
                     We organiseren ook een open avond, speciaal voor mensen die overwegen lid te worden. 
                     Tijdens die avond leggen we ook wat meer uit over wie wij zijn als vereniging en waar wij voor staan.
-                </p>-->
-                <!--<p>
-                    Wil je weten hoe een kringavond eruitziet? Geef je dan op <a href="https://forms.gle/rGjgdTVnweetGKyaA">hier</a> 
-                    voor de open kringavond. De deadline voor het aanmelden is zaterdag 17 juni.
-                </p>-->
-                <!--<p>
-                    Tijdens de UIT-week, van 14 tot 17 augustus zijn wij van de partij. 
+                </p>
+                <p>
+                    Wil je weten hoe een kringavond eruitziet? Geef je dan op <a href="https://forms.gle/CDcmCYQEBpwB1Uhg8">hier</a> 
+                    voor de open kringavond. De deadline voor het aanmelden is vrijdag 13 juni.
+                </p>
+                <p>
+                    Tijdens de UIT-week, van 11 tot 14 augustus zijn wij van de partij. 
                     Tijdens deze week organiseren we meerdere activiteiten, daar kun je ook kennismaken met Ichthus. Kom je ook langs? 
                     Vergeet je dan niet op te geven voor de UIT via <a href="https://utrechtseintroductietijd.nl/">deze link</a>.
-                </p>    -->
+                </p>
             </div>
         </div>
 
@@ -79,20 +79,20 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
                             <td>Open verenigingsavond. Aanmelden kan via <a href="https://forms.gle/P5yd4B4uvCyz8o587">deze link</a>.</td>
 					</tr>-->
                     <tr>
-                            <td>12–16 augustus 2023</td>
+                            <td>11–14 augustus 2025</td>
                             <td><a href="https://utrechtseintroductietijd.nl/">UIT-week</a></td>
 					</tr>
                     <tr>
-                        <td>9-12 september 2024</td>
+                        <td>8-12 september 2025</td>
                         <td><!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSd4UTW4W6Y7wSZzoWE93wlxu2mSy4bjeFJ2n2vdTySq4nmmQg/viewform?usp=sf_link"> -->
                             Introweek <!-- </a> --> </td>
                     </tr>
                     <tr>
-                        <td>11 september 2024</td>
+                        <td>11 september 2025</td>
                         <td><!-- <a href="https://ichthusutrecht.churchbook.nl/public/join.cfm?kerk_id=1"> -->Aanmeldformulier C.S.V. Ichthus Utrecht<!-- </a> -->  (gesloten)</td>
                     </tr>
                     <tr>
-                        <td>27-29 september 2024</td>
+                        <td>26-28 september 2025</td>
                         <td>Startweekend (aanvang verenigingsjaar)</td>
                     </tr>
                 </tbody>

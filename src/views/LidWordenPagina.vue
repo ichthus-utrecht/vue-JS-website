@@ -22,14 +22,14 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
                     plaatsvindt. Je bent van harte welkom om een keer langs te komen.
                 </p>
             
-                <p>
+                <!-- <p>
                     We organiseren ook een open avond, speciaal voor mensen die overwegen lid te worden. 
                     Tijdens die avond leggen we ook wat meer uit over wie wij zijn als vereniging en waar wij voor staan.
                 </p>
                 <p>
                     Wil je weten hoe een kringavond eruitziet? Geef je dan op <a href="https://forms.gle/CDcmCYQEBpwB1Uhg8">hier</a> 
                     voor de open kringavond. De deadline voor het aanmelden is vrijdag 13 juni.
-                </p>
+                </p> -->
                 <p>
                     Tijdens de UIT-week, van 11 tot 14 augustus zijn wij van de partij. 
                     Tijdens deze week organiseren we meerdere activiteiten, daar kun je ook kennismaken met Ichthus. Kom je ook langs? 

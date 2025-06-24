@@ -195,7 +195,8 @@ import LightBox from '@/components/interactief/LightBox.vue'
               </section>
           </div>
       </div>
-      <LightBox>
+      <!-- Lightbox IntroWeek -->
+      <!-- <LightBox>
         <div id="elementSelection" class="rounded">
             <h1 class="intro-text-title">Hey!</h1>
             <div class="intro-text-subtitle">Wat leuk dat je een kijkje neemt op onze website! Ben je geïnteresseerd om volgend jaar mogelijk lid te worden of simpelweg een keertje langs te komen uit nieuwsgierigheid, dan is dit je kans om de sfeer te proeven en zelf mee te maken wie we als Ichthus Utrecht zijn. Je kunt je aanmelden via <i><b><a class="link-inv" href="https://forms.gle/CDcmCYQEBpwB1Uhg8">dit formuliertje</a></b></i>.</div>
@@ -204,7 +205,7 @@ import LightBox from '@/components/interactief/LightBox.vue'
             <div class="intro-text-subtitle">We zien er naar uit om je te leren kennen!</div>
             <div class="intro-text-subtitle">Meer weten? Klik <i><b><a class="link-inv" href="{{ route('lid-worden') }}">hier</a></b></i>.</div>
         </div>
-    </LightBox>
+    </LightBox> -->
 
     <!-- Lightbox IntroWeek -->
     <!-- <LightBox>

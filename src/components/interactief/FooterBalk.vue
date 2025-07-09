@@ -32,7 +32,7 @@ const currentYear = new Date().getFullYear();
                         <div class="col-12 post-text">
                             <strong>Contactpersoon</strong>
                             <p class="m-0">
-                                Alieke Kunst<br>
+                                Remke van Rijs<br>
                                 abactis@ichthusutrecht.nl<br>
                                 +31 6 - 425 720 29
                             </p>
@@ -59,6 +59,7 @@ const currentYear = new Date().getFullYear();
                                 C.S.V. Ichthus Utrecht, Pnyx<br>
                                 Winthontlaan 30C<br>
                                 3526KV Utrecht<br>
+                                Subadres: Bolognalaan 101, ruimte 3<br>
                             </p>
                             <strong>Locatie</strong>
                             <p>

@@ -136,9 +136,10 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
                     <h5>Contactgegevens</h5>
                     <p>
                         C.S.V. Ichthus Utrecht, Pnyx<br>
-                        t.a.v. A. Kunst<br>
+                        t.a.v. Remke van Rijs<br>
                         Winthontlaan 30C<br>
                         3526KV Utrecht<br>
+                        Subadres: Bolognalaan 101, ruimte 3<br>
                     </p>
                 </div>
             </div>

@@ -4,7 +4,7 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
 import BasisLayout from '@/components/layouts/BasisLayout.vue';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap'
-import photoAbActis from '@/assets/images/bestuur/bestuur-person-2.jpg'
+import photoAbActis from '@/assets/images/bestuur/bestuur-person-2-tijdelijk.jpg'
 </script>
 
 <template>
@@ -177,6 +177,7 @@ import photoAbActis from '@/assets/images/bestuur/bestuur-person-2.jpg'
                     C.S.V. Ichthus Utrecht, Pnyx<br>
                     Winthontlaan 30C<br>
                     3526KV Utrecht<br>
+                    Subadres: Bolognalaan 101, ruimte 3<br>
                 </p>
                 <strong>Locatie</strong>
                 <p>
@@ -193,7 +194,7 @@ import photoAbActis from '@/assets/images/bestuur/bestuur-person-2.jpg'
                             <img class="section-image" :src="photoAbActis" />
                         </div>
                         <div class="col-6">
-                            <div class=" section-header">Alieke Kunst</div>
+                            <div class=" section-header">Remke van Rijs</div>
                             <div class="section-contact">
                                 abactis@ichthusutrecht.nl<br>
                                 +31 6 - 425 720 29

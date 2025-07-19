@@ -4,7 +4,10 @@ import { ref, computed } from 'vue'
 import nieuwsItems from '../../assets/nieuwsItems.json'
 
 const newsItemsPerPage = 3
-const newsItemCount = nieuwsItems.items.length
+
+// The maximum number of news items. Otherwise the bar will get too long on mobile.
+const maximumNumberOfNewsItems = 15
+const newsItemCount = Math.min(nieuwsItems.items.length, maximumNumberOfNewsItems)
 const numberOfPages = Math.ceil(newsItemCount / newsItemsPerPage)
 const currentPageNumber = ref(1)
 

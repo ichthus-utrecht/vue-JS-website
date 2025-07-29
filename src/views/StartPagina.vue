@@ -195,7 +195,7 @@ import LightBox from '@/components/interactief/LightBox.vue'
               </section>
           </div>
       </div>
-      <!-- Lightbox IntroWeek -->
+      <!-- Lightbox Open week -->
       <!-- <LightBox>
         <div id="elementSelection" class="rounded">
             <h1 class="intro-text-title">Hey!</h1>
@@ -208,17 +208,17 @@ import LightBox from '@/components/interactief/LightBox.vue'
     </LightBox> -->
 
     <!-- Lightbox IntroWeek -->
-    <!-- <LightBox>
+    <LightBox>
         <div id="elementSelection" class="rounded">
         <h1 class="intro-text-title">Hey!</h1>
-        <div class="intro-text-subtitle">Wil je meer weten over onze vereniging? Kom dan naar de Introductieweek van 9 tot en met 12 september.</div>
-        <div class="intro-text-subtitle">Deze week zullen er onder het thema 'Safari' elke avond activiteiten zijn  waarbij je de vereniging beter kan leren kennen!</div>
+        <div class="intro-text-subtitle">Wil je meer weten over onze vereniging? Kom dan naar de Introductieweek van 8 tot en met 11 september.</div>
+        <div class="intro-text-subtitle">Deze week zullen er onder het thema 'Most wanted' elke avond activiteiten zijn waarbij je de vereniging beter kan leren kennen!</div>
         <div class="intro-text-subtitle">Meld je snel aan via 
             <i><b><a class="link-inv" target="_blank"
-                href="https://docs.google.com/forms/d/e/1FAIpQLSd4UTW4W6Y7wSZzoWE93wlxu2mSy4bjeFJ2n2vdTySq4nmmQg/viewform?usp=sf_link">
+                href="https://forms.gle/DctM6EUkDLsFRwENA">
                 het formulier hier</a></b></i> en aan het eind van de week kun je je aanmelden als lid van Ichthus Utrecht!</div>
         </div>
-    </LightBox> -->
+    </LightBox>
     <FooterBalk />
   </div>
 </template>

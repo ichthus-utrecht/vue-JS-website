@@ -26,7 +26,7 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
                     We organiseren ook een open avond, speciaal voor mensen die overwegen lid te worden. 
                     Tijdens die avond leggen we ook wat meer uit over wie wij zijn als vereniging en waar wij voor staan.
                 </p>
-                <p>
+                <p>S
                     Wil je weten hoe een kringavond eruitziet? Geef je dan op <a href="https://forms.gle/CDcmCYQEBpwB1Uhg8">hier</a> 
                     voor de open kringavond. De deadline voor het aanmelden is vrijdag 13 juni.
                 </p> -->

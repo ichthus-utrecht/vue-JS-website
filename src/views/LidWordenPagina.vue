@@ -41,20 +41,20 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
         <div class="col-12 col-md-12 section-description">
             <div class="section-header">Lidmaatschapsprocedure</div>
             <div class="post-text">
-                <p>
+                <!-- <p>
                     Natuurlijk wil je zo snel mogelijk lid worden. Helaas kan dat pas in het nieuwe verenigingsjaar. We
                     vragen iedereen die interesse heeft om lid te worden om mee te doen aan onze introductieweek. Dat is
                     een week waarin we elke avond een activiteit organiseren, om elkaar en de vereniging beter te leren kennen.
                     Voor de introductieweek moet je je aanmelden met <!-- <a
                         href="https://docs.google.com/forms/d/e/1FAIpQLSd4UTW4W6Y7wSZzoWE93wlxu2mSy4bjeFJ2n2vdTySq4nmmQg/viewform?usp=sf_link"> -->
-                        het formulier <!-- </a> --> (momenteel gesloten).
-                </p>
-                <!-- <p>
-                    <a href="https://ichthusutrecht.churchbook.nl/public/join.cfm?kerk_id=1">Het aanmeldformulier voor Ichthus Utrecht</a> 
-                    is nu open! Door dit formulier in te vullen, geef je aan dat je lid wilt worden.  Het bestuur zal daarna contact met je opnemen. 
+                        <!-- het formulier </a> (momenteel gesloten). -->
+                <!--/p> -->
+                <p>
+                    <a href="https://forms.gle/GJvRuCEyHvHbEooR8">Het aanmeldformulier voor Ichthus Utrecht</a> 
+                    is nu open! LEES DE INSTRUCTIES GOED! Door dit formulier in te vullen, geef je aan dat je lid wilt worden.  Het bestuur zal daarna contact met je opnemen. 
                     Je hoeft geen ontgroening te doorgaan. En als je al zeker weet dat je lid wordt, houdt dan ook vooral het startweekend vrij! 
                     Dat is de beste manier om de leden te leren kennen en je Ichthuscarrière te beginnen. 
-                </p> -->
+                </p>
                 <p>
                     Belangrijke data op een rijtje:
                 </p>
@@ -78,18 +78,18 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
                             <td>22 juni 2023 </td>
                             <td>Open verenigingsavond. Aanmelden kan via <a href="https://forms.gle/P5yd4B4uvCyz8o587">deze link</a>.</td>
 					</tr>-->
-                    <tr>
+                    <!-- <tr>
                             <td>11–14 augustus 2025</td>
                             <td><a href="https://utrechtseintroductietijd.nl/">UIT-week</a></td>
-					</tr>
-                    <tr>
+					</tr> -->
+                    <tr  v-if="false">
                         <td>8-12 september 2025</td>
                         <td><!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSd4UTW4W6Y7wSZzoWE93wlxu2mSy4bjeFJ2n2vdTySq4nmmQg/viewform?usp=sf_link"> -->
                             Introweek <!-- </a> --> </td>
                     </tr>
                     <tr>
                         <td>11 september 2025</td>
-                        <td><!-- <a href="https://ichthusutrecht.churchbook.nl/public/join.cfm?kerk_id=1"> -->Aanmeldformulier C.S.V. Ichthus Utrecht<!-- </a> -->  (gesloten)</td>
+                        <td><a href="https://forms.gle/GJvRuCEyHvHbEooR8">Aanmeldformulier C.S.V. Ichthus Utrecht</a> LEES DE INSTRUCTIES GOED!  Deadline: maandag 15 september 15:00</td>
                     </tr>
                     <tr>
                         <td>26-28 september 2025</td>

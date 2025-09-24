@@ -208,7 +208,7 @@ import LightBox from '@/components/interactief/LightBox.vue'
     </LightBox> -->
 
     <!-- Lightbox IntroWeek -->
-    <LightBox>
+    <!-- <LightBox>
         <div id="elementSelection" class="rounded">
         <h1 class="intro-text-title">Hey!</h1>
         <div class="intro-text-subtitle">Wil je meer weten over onze vereniging? Kom dan naar de Introductieweek van 8 tot en met 11 september.</div>
@@ -218,7 +218,7 @@ import LightBox from '@/components/interactief/LightBox.vue'
                 href="https://forms.gle/DctM6EUkDLsFRwENA">
                 het formulier hier</a></b></i> en aan het eind van de week kun je je aanmelden als lid van Ichthus Utrecht!</div>
         </div>
-    </LightBox>
+    </LightBox> -->
     <FooterBalk />
   </div>
 </template>

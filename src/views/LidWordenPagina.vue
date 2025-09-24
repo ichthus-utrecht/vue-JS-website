@@ -30,11 +30,11 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
                     Wil je weten hoe een kringavond eruitziet? Geef je dan op <a href="https://forms.gle/CDcmCYQEBpwB1Uhg8">hier</a> 
                     voor de open kringavond. De deadline voor het aanmelden is vrijdag 13 juni.
                 </p> -->
-                <p>
+                <!-- <p>
                     Tijdens de UIT-week, van 11 tot 14 augustus zijn wij van de partij. 
                     Tijdens deze week organiseren we meerdere activiteiten, daar kun je ook kennismaken met Ichthus. Kom je ook langs? 
                     Vergeet je dan niet op te geven voor de UIT via <a href="https://utrechtseintroductietijd.nl/">deze link</a>.
-                </p>
+                </p> -->
             </div>
         </div>
 
@@ -49,12 +49,12 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
                         href="https://docs.google.com/forms/d/e/1FAIpQLSd4UTW4W6Y7wSZzoWE93wlxu2mSy4bjeFJ2n2vdTySq4nmmQg/viewform?usp=sf_link"> -->
                         <!-- het formulier </a> (momenteel gesloten). -->
                 <!--/p> -->
-                <p>
+                <!-- <p>
                     <a href="https://forms.gle/GJvRuCEyHvHbEooR8">Het aanmeldformulier voor Ichthus Utrecht</a> 
                     is nu open! LEES DE INSTRUCTIES GOED! Door dit formulier in te vullen, geef je aan dat je lid wilt worden.  Het bestuur zal daarna contact met je opnemen. 
                     Je hoeft geen ontgroening te doorgaan. En als je al zeker weet dat je lid wordt, houdt dan ook vooral het startweekend vrij! 
                     Dat is de beste manier om de leden te leren kennen en je Ichthuscarrière te beginnen. 
-                </p>
+                </p> -->
                 <p>
                     Belangrijke data op een rijtje:
                 </p>
@@ -87,13 +87,17 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
                         <td><!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSd4UTW4W6Y7wSZzoWE93wlxu2mSy4bjeFJ2n2vdTySq4nmmQg/viewform?usp=sf_link"> -->
                             Introweek <!-- </a> --> </td>
                     </tr>
-                    <tr>
+                    <tr v-if="false">
                         <td>11 september 2025</td>
                         <td><a href="https://forms.gle/GJvRuCEyHvHbEooR8">Aanmeldformulier C.S.V. Ichthus Utrecht</a> LEES DE INSTRUCTIES GOED!  Deadline: maandag 15 september 15:00</td>
                     </tr>
-                    <tr>
+                    <!-- <tr>
                         <td>26-28 september 2025</td>
                         <td>Startweekend (aanvang verenigingsjaar)</td>
+                    </tr> -->
+                    <tr>
+                        <td>22-25 juni 2026</td>
+                        <td>Open week</td>
                     </tr>
                 </tbody>
             </table>

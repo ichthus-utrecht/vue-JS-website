@@ -7,24 +7,22 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
 <template>
     <NavigatieBalk />
     <BasisLayout pageHeader="Jaarthema"
-        description="Dit jaar heeft het bestuur gekozen voor het jaarthema “Koninklijk”.">
+        description="Dit jaar heeft het bestuur gekozen voor het jaarthema “Tegendraads”.">
         <div class="row justify-content-center">
             <div class="col-12 col-md-10 post-text">
-                Bestuur Bout gaat voor Goud! Dit jaar heeft namelijk een gouden randje, wij mogen
-                als vereniging ons XIIIe Lustrum vieren en dit doen wij dan ook royaal. Dat vraagt
-                ook om een royaal thema en daarom hebben wij als jaarthema: Koninklijk. We
-                mogen dit jaar als koningen feest vieren, maar wij weten tegelijkertijd dat er nog een
-                andere Koning boven ons staat, namelijk Jezus Christus. We mogen dit feest ook
-                met Hem vieren en als vereniging achter deze Koning aan gaan. Dit doel jagen wij
-                als vereniging na met kringavonden, gezamenlijke maaltijden, allerlei commissies en
-                heel veel activiteiten. We mogen als vereniging stevig durven gaan staan voor wie
-                we zijn, voor onze identiteit in Jezus Christus en samen achter deze Koning der
-                koningen aan gaan en hem dienen.
+                Wij zijn <b>bestuur Nijenhuis</b>, en dit jaar gaan wij <b>tegendraads!</b>
+                Niet omdat we per se anders willen zijn, maar omdat het volgen van Jezus in deze wereld nu 
+                eenmaal tegendraads is. In een tijd waarin alles draait om prestatie, geld en succes, 
+                kiezen wij ervoor om stil te staan bij wat écht telt: Gods aanwezigheid. 
+                Tegendraads zijn is geen opstandigheid, maar een levensstijl. 
+                Het is een bewuste keuze om anders te leven. Het ‘Dare to Differ’.
+
             </div>
             <div class="col-12 col-md-10 post-text">
-                Wij willen onze leden uitdagen om te gaan voor Go(u)d. Dat vraagt inzet en durf,
-                durven te doen. Hieruit volgen dan ook onze drie speerpunten, zoals verwoord in ons
-                beleid voor het seizoen 2024-2025.
+                Als <b>C.S.V. Ichthus Utrecht</b> vormen we een plek waar studenten elkaar ontmoeten, ondersteunen en troosten. 
+                Een thuis waar God centraal staat, vol geloof, gezelligheid en echtheid. 
+                Vanuit dat vertrouwen bouwen we dit jaar verder aan drie speerpunten:
+
             </div>
 
             <div class="row align-items-center ">
@@ -34,36 +32,29 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
             </div> -->
                 <div class="col-12 col-md-10 post-text-block">
                     <p>
-                        <b>Durf te geloven:</b> Dit speerpunt geeft handen en voeten aan ons verlangen naar een
-                            vereniging die sterk staat in het geloof, waarvan Woord en gebed de wortels vormen.
-                            Daarom houden we – naast kringavonden die hiervoor zijn – twee themaweken: de
-                            Week van gebed en de Week van de naastenliefde, waarin wij omkijken naar onze
-                            naasten. Vervolgens willen we van dit geloof uitdelen, door als christelijke vereniging
-                            zichtbaar te zijn in Utrecht en dat uit te stralen in onze houding.
+                        <b>Een sterk fundament:</b> Ons fundament is Jezus Christus. Vanuit dat geloof willen we 
+                        groeien in diepte en overtuiging, door momenten van gebed, Bijbelstudie en eerlijke 
+                        gesprekken waarin geloof tastbaar wordt in het studentenleven.
                     </p>
                     <p>
-                        <b>Durf te dienen:</b> We willen met dit speerpunt de vereniging uitdagen om zich in te
-                            zetten voor anderen. Hiermee willen wij de onderlinge betrokkenheid en
-                            verbondenheid vergroten. Daarnaast richt dit speerpunt zich op het innoveren van
-                            commissies en niet te vergeten het lustrum, wat dit jaar groots gevierd gaat worden!
+                        <b>Een dragende muur:</b> We hebben elkaar nodig om als één geheel te blijven staan. 
+                        Samen bouwen we aan sterke onderlinge banden en bruisende commissies — een plek 
+                        waar warmte, steun en gezelligheid hand in hand gaan.
                     </p>
                     <p>
-                        <b>Durf te gaan:</b> We willen als Ichthus Utrecht een plek zijn waar we elkaar – maar juist
-                            ook anderen – kunnen ontmoeten. In dit speerpunt maken we duidelijk hoe we deze
-                            externe contacten willen onderhouden, verstevigen en aandacht geven binnen
-                            Ichthus Utrecht.
+                        <b>Een open deur:</b>Tegendraads zijn betekent ook: onze deur openzetten. We willen 
+                        gastvrij zijn, niet alleen voor elkaar, maar ook voor mensen buiten onze eigen kring. 
+                        Jezus roept ons op Zijn licht te laten schijnen, niet te verbergen achter muren.
                     </p>
                 </div>
             </div>
 
             <div class="col-12 col-md-10 post-text">
-                We vertrouwen hierbij op de enige echte Koning, namelijk God, dat Hij ons in Zijn
-                hand zal houden en ons als een Koning zal leiden. Als bestuur Bout hebben we de
-                volgende jaartekst hierbij gekozen:
+                Wij hopen dat Ichthus dit jaar een warm thuis mag zijn, maar ook een plek die haar deuren wijd 
+                openhoudt. Dat we leren leven tegen de stroom in — geleid door Gods liefde.
                 <div class="post-text-quote" style="color: rgb(151, 0, 70); font-size: 18px">
-                    “Heb elkaar hartelijk lief met broederlijke liefde. Ga elkaar voor in eerbetoon. Wees
-                    niet traag wat uw inzet betreft. Wees vurig van Geest. Dien de Heere.” (Romeinen
-                    12:10-11 HSV)
+                   “Laat uw licht zo schijnen voor de mensen, dat zij uw goede werken zien 
+                   en uw Vader, Die in de hemelen is, verheerlijken.” — Mattheüs 5:16 (HSV)
                 </div>
             </div>
         </div>

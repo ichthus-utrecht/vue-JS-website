@@ -63,7 +63,7 @@ import NavigatieBalk from '../../components/interactief/NavigatieBalk.vue';
                             <img class="section-image" src="@/assets/images/bestuur/bestuur-person-6.jpg" alt="'" />
                         </div>
                         <div class="col-6">
-                            <div class="section-header">Alinde van Manen</div>
+                            <div class="section-header">Emma de Heer</div>
                             <div class="section-contact">
                                 herus@ichthusutrecht.nl
                             </div>

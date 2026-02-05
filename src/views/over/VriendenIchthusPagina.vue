@@ -7,112 +7,70 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
 <template>
     <NavigatieBalk />
     <BasisLayout pageHeader="Vrienden van Ichthus">
-        <!-- Er is geen beschrijving op deze pagina -->
         <div class="row justify-content-center">
             <div class="col-12 text-justify">
                 <img class="no-shadow align-top float-right m-3"
                     src="@/assets/images/vrienden-van-ichthus-logo.png" alt="'" />
+                
                 <p>
-                    Om de vereniging draaiende te houden zijn we naast het innen van contributie afhannkelijk van
-                    sponsorinkomsten en donateurs.
-                    Van uw donatie worden activiteiten zoals het verdiepingsweekend en start- en slotweekend betaald.
+                    Om de vereniging draaiende te houden zijn we naast het innen van contributie afhankelijk van sponsorinkomsten en donateurs. 
+                    Dankzij hun bijdragen kunnen wij elke dinsdag en donderdag samenkomen voor Bijbelkring en de gezamenlijke verenigingsmaaltijd en activiteiten organiseren zoals het startweekend, het verdiepingsweekend, en lezingen. 
+                    In al deze activiteiten is het onze doelstelling om Jezus te volgen, op Hem te lijken, en elkaar daarin te bemoedigen.
                 </p>
                 <p>
-                    Omdat wij het belangrijk vinden dat een donateur ook betrokken is bij de vereniging, hebben wij
-                    Vrienden van Ichthus opgezet.
-                    Vrienden van Ichthus is een netwerk waar u bij uw donatie wordt ingedeeld in een trap n.a.v. uw
-                    donatie. Elke trap heeft een uniek geschenk,
-                    en hoe hoger uw donatie, hoe hoger uw trap. De oplettende donateur herkent misschien het Bijbelse
-                    visioen dat in de verschillende trappen is verwerkt.
-                    Daarnaast ontvangt u viermaal per jaar een nieuwsbrief om op de hoogte te blijven, zodat u weet wat
-                    de vereniging met uw geld allemaal kan doen.
-                    Ook zal er een Vrienden van Ichthus avond worden georaniseerd waar u de vereniging kan bezoeken.
+                    Vrienden van Ichthus zijn mensen die willen investeren Ichthus Utrecht d.m.v. een financiële bijdrage. 
+                    Uw bijdrage helpt niet alleen onze vereniging, maar ondersteunt vooral ook de leden in het hebben van een bijzondere en vormende periode van hun leven.
+                </p>
+
+                <h4 class="mt-4">U kunt op verschillende manieren een gift doen:</h4>
+
+                <h5 class="font-weight-bold mt-3">Via een periodieke gift (eventueel fiscaal voordelig)</h5>
+                <p>
+                    Mocht u periodiek willen geven, dan kunt u dat doen door middel van een formulier. 
+                    Deze kunt u opvragen door te mailen naar <a href="mailto:fiscus@ichthusutrecht.nl">fiscus@ichthusutrecht.nl</a>. 
+                    Wij vullen het aan onze kant ook in en vragen u om het retour naar ons te sturen.
+                    Deze manier is fiscaal voordelig, want uw gift is volledig aftrekbaar van de belasting, mits de donatie voor ten minste vijf jaar wordt vastgelegd.
+                </p>
+
+                <h5 class="font-weight-bold mt-3">Via automatische incasso</h5>
+                <p>
+                    U kunt ook het formulier onderaan de pagina invullen of gebruik maken van deze link: <br>
+                    <a href="https://forms.gle/cGwK3YSG72Mb3fo58" target="_blank">https://forms.gle/cGwK3YSG72Mb3fo58</a>
                 </p>
                 <p>
-                    We hopen u als donatuer op deze manier te kunnen betrekken bij de vereniging en we zijn u dankbaar
-                    voor uw donatie!
+                    Op deze manier machtigt u Ichthus Utrecht om maandelijks of jaarlijks een bedrag af te schrijven. 
+                    Deze gift is níet fiscaal aftrekbaar, maar u kunt uw bijdrage op elk moment aanpassen of stopzetten.
                 </p>
-                <div class="table-responsive">
-                    <table class="table" style="table-layout: fixed;">
-                        <thead>
-                            <tr>
-                                <th>Trap</th>
-                                <th>Cadeau</th>
-                                <th>Prijs per jaar</th>
-                                <th>Prijs per maand</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Leem</td>
-                                <td>Sticker & Sleutelhanger</td>
-                                <td>Vanaf €12,-</td>
-                                <td>Vanaf €1,-</td>
-                            </tr>
-                            <tr>
-                                <td>IJzer</td>
-                                <td>Sticker & Sleutelhanger & Linnen tasje</td>
-                                <td>Vanaf €30,-</td>
-                                <td>Vanaf €2,50</td>
-                            </tr>
-                            <tr>
-                                <td>Brons</td>
-                                <td>Kerstkaartje & Bonbons</td>
-                                <td>Vanaf €90,-</td>
-                                <td>Vanaf €7,50</td>
-                            </tr>
-                            <tr>
-                                <td>Zilver</td>
-                                <td>Kerstkaartje & Domtoren kaars</td>
-                                <td>Vanaf €150,-</td>
-                                <td>Vanaf €12,50</td>
-                            </tr>
-                            <tr>
-                                <td>Goud</td>
-                                <td>Kerstkaartje & Vrienden van Ichthus glas</td>
-                                <td>Vanaf €240,-</td>
-                                <td>Vanaf €20,-</td>
-                            </tr>
-                            <tr>
-                                <td>Diamant</td>
-                                <td>Kerstkaartje & Ichthus trui</td>
-                                <td>Vanaf €360,-</td>
-                                <td>Vanaf €30,-</td>
-                            </tr>
-                        </tbody>
-                    </table>
+
+                <h5 class="font-weight-bold mt-3">Eenmalige donatie</h5>
+                <p>
+                    Uiteraard is een eenmalige gift ook van harte welkom. Daarmee steunt u onze vereniging zonder verdere verplichtingen. 
+                    Dit kan door een overschrijving naar het volgende rekeningnummer:<br>
+                    <strong>NL 43 INGB 0000 1959 62</strong>
+                    t.n.v. <i> “Christelijke StudentenVereniging Ichthus Utrecht” </i>.
+                </p>
+
+                <div class="mt-4">
+                    <p>
+                        Wij willen u hartelijk bedanken voor uw steun, financieel maar ook in gebed, wij ervaren echt een zegen over de vereniging daarvoor enorm bedankt.
+                    </p>
+                    <p>
+                        <strong>Met hartelijke groet,</strong><br>
+                        Het bestuur der C.S.V. Ichthus Utrecht
+                    </p>
                 </div>
-                <p>
-                    <i>
-                        De keuze voor de cadeaus is optioneel. U kunt dus zelf aangeven of u het wel of niet wilt
-                        ontvangen.
-                    </i>
-                </p>
+
             </div>
+            
             <div class="row col-12">
                 <div class="col-div-non-xl"></div>
             </div>
+            
             <div class="row">
-                <div class="col-12">
-                    <strong>
-                        Bent u geïnteresseerd in het worden van Vriend van Ichthus?
-                    </strong>
-                    <p>
-                        Vul dan onderstaand formulier in.<br> Bij vragen kunt u contact opnemen met
-                        vriendenvanichthus@ichthusutrecht.nl
-                    </p>
-                    <strong>
-                        Met hartelijke groet,
-                    </strong>
-                    <p>
-                        Commissie Vrienden van Ichthus
-                    </p>
-                </div>
                 <div class="col-12">
                     <hr class="divider divider-gray" />
                 </div>
             </div>
-
 
             <div class="row w-100">
                 <iframe class="w-100" height="740px"

@@ -21,7 +21,7 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
                     Uw bijdrage helpt niet alleen onze vereniging, maar ondersteunt vooral ook de leden in het hebben van een bijzondere en vormende periode van hun leven.
                 </p>
 
-                <h4 class="mt-4">U kunt op verschillende manieren een gift doen:</h4>
+                <h4 class="mt-4">U kunt op de volgende manieren doneren:</h4>
 
                 <h5 class="font-weight-bold mt-3">Via een periodieke gift (eventueel fiscaal voordelig)</h5>
                 <p>

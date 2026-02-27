@@ -13,16 +13,15 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
                     src="@/assets/images/vrienden-van-ichthus-logo.png" alt="'" />
                 
                 <p>
-                    Om de vereniging draaiende te houden zijn we naast het innen van contributie afhankelijk van sponsorinkomsten en donateurs. 
-                    Dankzij hun bijdragen kunnen wij elke dinsdag en donderdag samenkomen voor Bijbelkring en de gezamenlijke verenigingsmaaltijd en activiteiten organiseren zoals het startweekend, het verdiepingsweekend, en lezingen. 
-                    In al deze activiteiten is het onze doelstelling om Jezus te volgen, op Hem te lijken, en elkaar daarin te bemoedigen.
+                    Zoals waarschijnlijk bekend zijn we om de vereniging draaiende te houden naast het innen van contributie afhankelijk van sponsorinkomsten en donateurs. 
+                    Dankzij hun bijdragen kunnen wij elke dinsdag en donderdag samenkomen voor Bijbelkring en de gezamenlijke verenigingsmaaltijd en activiteiten organiseren.
                 </p>
                 <p>
                     Vrienden van Ichthus zijn mensen die willen investeren Ichthus Utrecht d.m.v. een financiële bijdrage. 
                     Uw bijdrage helpt niet alleen onze vereniging, maar ondersteunt vooral ook de leden in het hebben van een bijzondere en vormende periode van hun leven.
                 </p>
 
-                <h4 class="mt-4">U kunt op verschillende manieren een gift doen:</h4>
+                <h4 class="mt-4">U kunt op de volgende manieren doneren:</h4>
 
                 <h5 class="font-weight-bold mt-3">Via een periodieke gift (eventueel fiscaal voordelig)</h5>
                 <p>

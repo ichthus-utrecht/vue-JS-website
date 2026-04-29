@@ -60,7 +60,7 @@ import NavigatieBalk from '../../components/interactief/NavigatieBalk.vue';
                 <div class="person-card">
                     <div class="row w-100 person-section">
                         <div class="col-6">
-                            <img class="section-image" src="@/assets/images/bestuur/bestuur-person-6.jpg" alt="'" />
+                            <img class="section-image" src="@\assets\images\bestuur\bestuur-person-6-BA9BZy6a.jpg" alt="'" />
                         </div>
                         <div class="col-6">
                             <div class="section-header">Emma de Heer</div>

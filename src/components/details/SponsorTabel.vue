@@ -8,6 +8,9 @@
                 <a href="https://www.kleine-rijopleidingen.nl/">
                     <img src="@/assets/images/sponsors/kleine-rijopleidingen-maar-dan-beter.jpeg">
                 </a>
+                <a href="https://www.drukbedrijf.nl/">
+                    <img src="@\assets\images\sponsors\drukbedrijf-logo-zwart.png">
+                </a>
             </div>
         </div>
     </div>

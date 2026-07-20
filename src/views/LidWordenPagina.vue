@@ -30,11 +30,11 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
                     Wil je weten hoe een kringavond eruitziet? Geef je dan op <a href="https://forms.gle/CDcmCYQEBpwB1Uhg8">hier</a> 
                     voor de open kringavond. De deadline voor het aanmelden is vrijdag 13 juni.
                 </p> -->
-                <!-- <p>
-                    Tijdens de UIT-week, van 11 tot 14 augustus zijn wij van de partij. 
+                <p>
+                    Tijdens de UIT-week, van 10 tot 13 augustus zijn wij van de partij. 
                     Tijdens deze week organiseren we meerdere activiteiten, daar kun je ook kennismaken met Ichthus. Kom je ook langs? 
                     Vergeet je dan niet op te geven voor de UIT via <a href="https://utrechtseintroductietijd.nl/">deze link</a>.
-                </p> -->
+                </p>
             </div>
         </div>
 

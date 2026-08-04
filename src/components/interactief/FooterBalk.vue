@@ -32,7 +32,7 @@ const currentYear = new Date().getFullYear();
                         <div class="col-12 post-text">
                             <strong>Contactpersoon</strong>
                             <p class="m-0">
-                                Remke van Rijs<br>
+                                Jaëlle Mourik<br>
                                 abactis@ichthusutrecht.nl<br>
                                 +31 6 - 425 720 29
                             </p>

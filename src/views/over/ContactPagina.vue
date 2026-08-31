@@ -4,7 +4,7 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
 import BasisLayout from '@/components/layouts/BasisLayout.vue';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap'
-import photoAbActis from '@/assets/images/bestuur/bestuur-person-2-tijdelijk.jpg'
+import photoAbActis from '@/assets/images/bestuur/bestuur-person-2.jpg'
 </script>
 
 <template>

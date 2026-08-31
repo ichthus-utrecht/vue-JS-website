@@ -7,54 +7,48 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
 <template>
     <NavigatieBalk />
     <BasisLayout pageHeader="Jaarthema"
-        description="Dit jaar heeft het bestuur gekozen voor het jaarthema “Tegendraads”.">
+        description="Dit jaar heeft het bestuur gekozen voor het jaarthema “Sprong in het diepe”.">
         <div class="row justify-content-center">
             <div class="col-12 col-md-10 post-text">
-                Wij zijn <b>bestuur Nijenhuis</b>, en dit jaar gaan wij <b>tegendraads!</b>
-                Niet omdat we per se anders willen zijn, maar omdat het volgen van Jezus in deze wereld nu 
-                eenmaal tegendraads is. In een tijd waarin alles draait om prestatie, geld en succes, 
-                kiezen wij ervoor om stil te staan bij wat écht telt: Gods aanwezigheid. 
-                Tegendraads zijn is geen opstandigheid, maar een levensstijl. 
-                Het is een bewuste keuze om anders te leven. Het ‘Dare to Differ’.
-
+                Dit jaar wagen we samen een sprong in het diepe! Geloven in een seculiere samenleving, 
+                nieuwe verantwoordelijkheden opnemen, keuzes maken over je toekomst, er zijn allerlei dingen 
+                in je studentenleven die spannend of onzeker kunnen zijn. Samen willen we die uitdagingen 
+                vol vertrouwen en samen met God aangaan.
             </div>
             <div class="col-12 col-md-10 post-text">
-                Als <b>C.S.V. Ichthus Utrecht</b> vormen we een plek waar studenten elkaar ontmoeten, ondersteunen en troosten. 
-                Een thuis waar God centraal staat, vol geloof, gezelligheid en echtheid. 
-                Vanuit dat vertrouwen bouwen we dit jaar verder aan drie speerpunten:
-
+                Als <b>C.S.V. Ichthus Utrecht</b> vormen we een plek van eenheid, vriendschap en kookkunst, maar ook van ontmoeting, 
+                studentikoziteit en dienstbaarheid. Ichthus is een plek waar je wordt uitgedaagd en meer leert over 
+                God, jezelf en de wereld om je heen. Vanuit het jaarthema 'Sprong in het diepe' werken we dit jaar aan drie speerpunten:
             </div>
 
-            <div class="row align-items-center ">
+            <div class="row align-items-center">
                 <!-- <div class="col-12 col-md-5">
-                <img class="post-image no-shadow p-4" src="https://www.ichthusutrecht.nl/images/bestuur-logo-2022.png"
-                    alt="'" />
-            </div> -->
+                    <img class="post-image no-shadow p-4" src="https://www.ichthusutrecht.nl/images/bestuur-logo-2022.png" alt="" />
+                </div> -->
                 <div class="col-12 col-md-10 post-text-block">
                     <p>
-                        <b>Een sterk fundament:</b> Ons fundament is Jezus Christus. Vanuit dat geloof willen we 
-                        groeien in diepte en overtuiging, door momenten van gebed, Bijbelstudie en eerlijke 
-                        gesprekken waarin geloof tastbaar wordt in het studentenleven.
+                        <b>Vertrouwen:</b> Om de sprong te durven wagen is vertrouwen belangrijk. Daarom willen we een plek zijn 
+                        waar leden zich veilig en vertrouwd voelen, liefdevol met elkaar omgaan en zich vol enthousiasme inzetten. 
+                        Daarbinnen staan openheid en transparantie centraal en worden we uitgedaagd om ieder onze unieke talenten tot uiting te brengen.
                     </p>
                     <p>
-                        <b>Een dragende muur:</b> We hebben elkaar nodig om als één geheel te blijven staan. 
-                        Samen bouwen we aan sterke onderlinge banden en bruisende commissies — een plek 
-                        waar warmte, steun en gezelligheid hand in hand gaan.
+                        <b>Verbinding:</b> Een gemeenschap van christelijke studenten is niet vanzelfsprekend in onze steeds meer polariserende samenleving. 
+                        Daarom willen we de eenheid in onze verscheidenheid zoeken en staat verbinding centraal: met elkaar, met nieuwe leden en ook buiten de vereniging.
                     </p>
                     <p>
-                        <b>Een open deur:</b>Tegendraads zijn betekent ook: onze deur openzetten. We willen 
-                        gastvrij zijn, niet alleen voor elkaar, maar ook voor mensen buiten onze eigen kring. 
-                        Jezus roept ons op Zijn licht te laten schijnen, niet te verbergen achter muren.
+                        <b>Verdieping:</b> Ons fundament is Jezus Christus. Gods liefde wordt bij onze vereniging zichtbaar in hoe wij deze liefde uitdelen 
+                        naar de mensen om ons heen. Kringen spelen hierin bij Ichthus een centrale rol, net als themaweken, verdiepende weekenden en andere momenten van ontmoeting. 
+                        We willen groeien in onze relatie met God en ons door Hem laten leiden, in vertrouwen dat Hij erbij is.
                     </p>
                 </div>
             </div>
 
             <div class="col-12 col-md-10 post-text">
-                Wij hopen dat Ichthus dit jaar een warm thuis mag zijn, maar ook een plek die haar deuren wijd 
-                openhoudt. Dat we leren leven tegen de stroom in — geleid door Gods liefde.
-                <div class="post-text-quote" style="color: rgb(151, 0, 70); font-size: 18px">
-                   “Laat uw licht zo schijnen voor de mensen, dat zij uw goede werken zien 
-                   en uw Vader, Die in de hemelen is, verheerlijken.” — Mattheüs 5:16 (HSV)
+                We hopen dat Ichthus dit jaar een plek vol vertrouwen, verbinding en verdieping mag zijn en kijken uit naar een spetterend jaar. Plons!
+                <div class="post-text-quote" style="color: #3b82c6; font-size: 18px">
+                    “Moet je door het water gaan – Ik ben bij je; of door rivieren – je wordt niet meegesleurd. 
+                    Moet je door het vuur gaan – het zal je niet verteren, de vlammen zullen je niet verschroeien. 
+                    Want Ik, de HEER, ben je God, de Heilige van Israël, je redder.” — Jesaja 43:2-3a (NBV21)
                 </div>
             </div>
         </div>

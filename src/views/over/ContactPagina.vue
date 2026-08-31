@@ -4,7 +4,7 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
 import BasisLayout from '@/components/layouts/BasisLayout.vue';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap'
-import photoAbActis from '@/assets/images/bestuur/bestuur-person-2-tijdelijk.jpg'
+import photoAbActis from '@/assets/images/bestuur/bestuur-person-2.jpg'
 </script>
 
 <template>
@@ -194,7 +194,7 @@ import photoAbActis from '@/assets/images/bestuur/bestuur-person-2-tijdelijk.jpg
                             <img class="section-image" :src="photoAbActis" />
                         </div>
                         <div class="col-6">
-                            <div class=" section-header">Remke van Rijs</div>
+                            <div class=" section-header">Jaëlle Mourik</div>
                             <div class="section-contact">
                                 abactis@ichthusutrecht.nl<br>
                                 +31 6 - 425 720 29

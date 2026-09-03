@@ -82,23 +82,23 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
                             <td>11–14 augustus 2025</td>
                             <td><a href="https://utrechtseintroductietijd.nl/">UIT-week</a></td>
 					</tr> -->
-                    <tr  v-if="false">
-                        <td>8-12 september 2025</td>
-                        <td><!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSd4UTW4W6Y7wSZzoWE93wlxu2mSy4bjeFJ2n2vdTySq4nmmQg/viewform?usp=sf_link"> -->
-                            Introweek <!-- </a> --> </td>
+                    <tr> <!-- v-if="false"> -->
+                        <td>14-17 september 2026</td>
+                        <td> <a href="https://docs.google.com/forms/d/1JghpmpAH_IZnbLmSGXLacmj2A3J5zZrhbMsWxXB6JX0/preview">
+                            Introweek </a> </td>
                     </tr>
                     <tr v-if="false">
                         <td>11 september 2025</td>
                         <td><a href="https://forms.gle/GJvRuCEyHvHbEooR8">Aanmeldformulier C.S.V. Ichthus Utrecht</a> LEES DE INSTRUCTIES GOED!  Deadline: maandag 15 september 15:00</td>
                     </tr>
-                    <!-- <tr>
-                        <td>26-28 september 2025</td>
-                        <td>Startweekend (aanvang verenigingsjaar)</td>
-                    </tr> -->
                     <tr>
+                        <td>25-27 september 2026</td>
+                        <td>Startweekend (aanvang verenigingsjaar)</td>
+                    </tr>
+                    <!-- <tr>
                         <td>22-25 juni 2026</td>
                         <td>Open week</td>
-                    </tr>
+                    </tr> -->
                 </tbody>
             </table>
         </div>

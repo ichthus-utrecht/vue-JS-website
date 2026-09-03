@@ -46,7 +46,7 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
                     vragen iedereen die interesse heeft om lid te worden om mee te doen aan onze introductieweek. Dat is
                     een week waarin we elke avond een activiteit organiseren, om elkaar en de vereniging beter te leren kennen.
                     Voor de introductieweek moet je je aanmelden met 
-                    <a href="https://docs.google.com/forms/d/1JghpmpAH_IZnbLmSGXLacmj2A3J5zZrhbMsWxXB6JX0/preview"> </a>
+                    <a href="https://docs.google.com/forms/d/1JghpmpAH_IZnbLmSGXLacmj2A3J5zZrhbMsWxXB6JX0/preview"> deze link. </a>
                         <!-- het formulier (momenteel gesloten). -->
                 </p>
                 <!-- <p>

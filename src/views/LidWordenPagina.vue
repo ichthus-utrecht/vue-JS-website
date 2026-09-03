@@ -26,29 +26,29 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
                     We organiseren ook een open avond, speciaal voor mensen die overwegen lid te worden. 
                     Tijdens die avond leggen we ook wat meer uit over wie wij zijn als vereniging en waar wij voor staan.
                 </p>
-                <p>S
+                <p>
                     Wil je weten hoe een kringavond eruitziet? Geef je dan op <a href="https://forms.gle/CDcmCYQEBpwB1Uhg8">hier</a> 
                     voor de open kringavond. De deadline voor het aanmelden is vrijdag 13 juni.
                 </p> -->
-                <p>
+                <!-- <p>
                     Tijdens de UIT-week, van 10 tot 13 augustus zijn wij van de partij. 
                     Tijdens deze week organiseren we meerdere activiteiten, daar kun je ook kennismaken met Ichthus. Kom je ook langs? 
                     Vergeet je dan niet op te geven voor de UIT via <a href="https://utrechtseintroductietijd.nl/">deze link</a>.
-                </p>
+                </p> -->
             </div>
         </div>
 
         <div class="col-12 col-md-12 section-description">
             <div class="section-header">Lidmaatschapsprocedure</div>
             <div class="post-text">
-                <!-- <p>
+                <p>
                     Natuurlijk wil je zo snel mogelijk lid worden. Helaas kan dat pas in het nieuwe verenigingsjaar. We
                     vragen iedereen die interesse heeft om lid te worden om mee te doen aan onze introductieweek. Dat is
                     een week waarin we elke avond een activiteit organiseren, om elkaar en de vereniging beter te leren kennen.
-                    Voor de introductieweek moet je je aanmelden met <!-- <a
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSd4UTW4W6Y7wSZzoWE93wlxu2mSy4bjeFJ2n2vdTySq4nmmQg/viewform?usp=sf_link"> -->
-                        <!-- het formulier </a> (momenteel gesloten). -->
-                <!--/p> -->
+                    Voor de introductieweek moet je je aanmelden met 
+                    <a href="https://docs.google.com/forms/d/1JghpmpAH_IZnbLmSGXLacmj2A3J5zZrhbMsWxXB6JX0/preview"> </a>
+                        <!-- het formulier (momenteel gesloten). -->
+                </p>
                 <!-- <p>
                     <a href="https://forms.gle/GJvRuCEyHvHbEooR8">Het aanmeldformulier voor Ichthus Utrecht</a> 
                     is nu open! LEES DE INSTRUCTIES GOED! Door dit formulier in te vullen, geef je aan dat je lid wilt worden.  Het bestuur zal daarna contact met je opnemen. 

@@ -41,12 +41,12 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
         <div class="col-12 col-md-12 section-description">
             <div class="section-header">Lidmaatschapsprocedure</div>
             <div class="post-text">
-                <!-- <p>
+                <p>
                     Natuurlijk wil je zo snel mogelijk lid worden. Helaas kan dat pas in het nieuwe verenigingsjaar. We
                     vragen iedereen die interesse heeft om lid te worden om mee te doen aan onze introductieweek. Dat is
                     een week waarin we elke avond een activiteit organiseren, om elkaar en de vereniging beter te leren kennen.
-                    Voor de introductieweek moet je je aanmelden met <!-- <a
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSd4UTW4W6Y7wSZzoWE93wlxu2mSy4bjeFJ2n2vdTySq4nmmQg/viewform?usp=sf_link"> -->
+                    Voor de introductieweek moet je je aanmelden met <a
+                        href="https://docs.google.com/forms/d/1JghpmpAH_IZnbLmSGXLacmj2A3J5zZrhbMsWxXB6JX0/preview">
                         <!-- het formulier </a> (momenteel gesloten). -->
                 <!--/p> -->
                 <!-- <p>

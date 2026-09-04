@@ -9,7 +9,7 @@ import NavigatieBalk from "@/components/interactief/NavigatieBalk.vue";
   <NavigatieBalk />
   <BasisLayout
     pageHeader="Bestuur der C.S.V. Ichthus Utrecht"
-    description="Zoals elke studentenvereniging heeft ook Ichthus Utrecht een bestuur! Onderstaand stellen zij zich aan jou voor."
+    description="Zoals elke studentenvereniging heeft ook Ichthus Utrecht een bestuur! Hieronder stellen zij zich aan jou voor."
   >
     <div class="row justify-content-center">
       <BestuursPersoon

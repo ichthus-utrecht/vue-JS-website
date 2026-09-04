@@ -91,14 +91,14 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
                         <td>11 september 2025</td>
                         <td><a href="https://forms.gle/GJvRuCEyHvHbEooR8">Aanmeldformulier C.S.V. Ichthus Utrecht</a> LEES DE INSTRUCTIES GOED!  Deadline: maandag 15 september 15:00</td>
                     </tr>
-                    <tr>
+                    <tr> <!-- v-if="false"> -->
                         <td>25-27 september 2026</td>
                         <td>Startweekend (aanvang verenigingsjaar)</td>
                     </tr>
-                    <!-- <tr>
-                        <td>22-25 juni 2026</td>
-                        <td>Open week</td>
-                    </tr> -->
+                    <tr> <!-- v-if="false"> -->
+                            <td>13–15 november 2026</td>
+                            <td>Eerstejaarsweekend</td>
+					</tr>
                 </tbody>
             </table>
         </div>

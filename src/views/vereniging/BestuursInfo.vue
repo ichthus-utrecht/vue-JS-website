@@ -73,8 +73,12 @@ import NavigatieBalk from "@/components/interactief/NavigatieBalk.vue";
         function="Assessor Extern"
         email="assessor.extern@ichthusutrecht.nl"
       >
-        <p></p>
-        <!-- No description provided yet -->
+        <p>
+          Hallo daar! Ik ben Chris en ik heb de beste functie. Ik ben namelijk assessor extern. Dat betekent dat ik de samenwerking met andere christelijke verenigingen in Utrecht, Ichthusverenigingen in Nederland, en allerlei andere instanties onderhoud. Ik vertegenwoordig Ichthus Utrecht op al die plekken en ontmoet op die manier veel leuke mensen. 
+        </p>
+        <p>
+          Ik studeer Wiskunde aan de UU. Verder ben ik verzot op katten (ik heb er twee!). Ook houd ik ontzettend van (het maken van) muziek, van klassiek tot metal. Hoewel mijn studentenleven al lang duurt, ben ik er zeker nog niet klaar mee en hoop ik je binnenkort misschien wel langs te zien komen :) tot ziens!
+        </p>
       </BestuursPersoon>
       <BestuursPersoon
         imageNumber="6"

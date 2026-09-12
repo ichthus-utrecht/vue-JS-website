@@ -47,7 +47,7 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
                 <hr class="divider-small divider-thin divider-gray" />
             </div>
             <p>
-                Ichthus Landelijk is het overkoepelende verband voor alle 15 Ichthusverenigingen en de RSK. Naast
+                Ichthus Landelijk is het overkoepelende verband voor alle 14 Ichthusverenigingen en de RSK. Naast
                 ondersteuning van de plaatselijke Ichthusverenigingen, is het Landelijk Bestuur bezig met sponsoring en PR
                 op landelijk vlak. Ook worden er vanuit Ichthus Landelijk een aantal activiteiten georganiseerd. De
                 belangrijkste hiervan zijn de Retraite, het f.t.-bestuurstoerustingsweekend, het Landelijk Gala en de

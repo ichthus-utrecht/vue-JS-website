@@ -68,6 +68,8 @@ import photoAbActis from '@/assets/images/bestuur/bestuur-person-2.jpg'
                                 dat
                                 70% van de vereniging bestaat uit studenten aan de HU of UU. Om erkend te worden als
                                 studentenvereniging moeten we voldoen aan deze eis.
+                                Soms kan echter een uitzondering gemaakt worden voor MBO-studenten, waardoor zij wel lid kunnen worden van de vereniging. 
+                                Het bestuur bepaalt of het mogelijk is om een uitzondering te maken. Neem bij vragen hierover contact op <a href="mailto:abactis@ichthusutrecht.nl">abactis@ichthusutrecht.nl</a>.
                             </div>
                         </div>
                     </div>

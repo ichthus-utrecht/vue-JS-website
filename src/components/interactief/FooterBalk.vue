@@ -56,10 +56,8 @@ const currentYear = new Date().getFullYear();
                         <div class="col-12 post-text">
                             <strong>Postadres</strong>
                             <p>
-                                C.S.V. Ichthus Utrecht, Pnyx<br>
-                                Winthontlaan 30C<br>
-                                3526KV Utrecht<br>
-                                Subadres: Bolognalaan 101, ruimte 3<br>
+                                C.S.V. Ichthus Utrecht<br>
+                                Bolognalaan 101, 3584 CJ Utrecht
                             </p>
                             <strong>Locatie</strong>
                             <p>

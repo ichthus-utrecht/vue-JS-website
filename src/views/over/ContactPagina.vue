@@ -174,10 +174,8 @@ import photoAbActis from '@/assets/images/bestuur/bestuur-person-2.jpg'
                 <p class="post-text">Ichthus Utrecht is te benaderen via de onderstaande gegevens.</p>
                 <strong>Postadres</strong>
                 <p>
-                    C.S.V. Ichthus Utrecht, Pnyx<br>
-                    Winthontlaan 30C<br>
-                    3526KV Utrecht<br>
-                    Subadres: Bolognalaan 101, ruimte 3<br>
+                    C.S.V. Ichthus Utrecht<br>
+                    Bolognalaan 101, 3584 CJ Utrecht
                 </p>
                 <strong>Locatie</strong>
                 <p>

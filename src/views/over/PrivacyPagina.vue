@@ -135,11 +135,10 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
                 <div class="col-12 col-md-5">
                     <h5>Contactgegevens</h5>
                     <p>
-                        C.S.V. Ichthus Utrecht, Pnyx<br>
-                        t.a.v. Remke van Rijs<br>
-                        Winthontlaan 30C<br>
-                        3526KV Utrecht<br>
-                        Subadres: Bolognalaan 101, ruimte 3<br>
+                        C.S.V. Ichthus Utrecht<br>
+                        t.a.v. Jaëlle Mourik<br>
+                        Bolognalaan 101<br>
+                        3584 CJ Utrecht<br>
                     </p>
                 </div>
             </div>

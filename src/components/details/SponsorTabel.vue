@@ -8,6 +8,9 @@
                 <a href="https://www.kleine-rijopleidingen.nl/">
                     <img src="@/assets/images/sponsors/kleine-rijopleidingen-maar-dan-beter.jpeg">
                 </a>
+                <a href="https://studentensteden.nl/utrecht">
+                    <img src="@/assets/images/sponsors/studentensteden-utrecht.svg">
+                </a>
             </div>
         </div>
     </div>

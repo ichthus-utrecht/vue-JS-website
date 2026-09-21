@@ -45,7 +45,7 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
                     Natuurlijk wil je zo snel mogelijk lid worden. Helaas kan dat pas in het nieuwe verenigingsjaar. We
                     vragen iedereen die interesse heeft om lid te worden om mee te doen aan onze introductieweek. Dat is
                     een week waarin we elke avond een activiteit organiseren, om elkaar en de vereniging beter te leren kennen.
-                    Voor de introductieweek moet je je aanmelden met 
+                    <!-- Voor de introductieweek moet je je aanmelden met 
                     <a href="https://docs.google.com/forms/d/1JghpmpAH_IZnbLmSGXLacmj2A3J5zZrhbMsWxXB6JX0/preview"> deze link. </a>
                         <!-- het formulier (momenteel gesloten). -->
                 </p>
@@ -82,7 +82,7 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
                             <td>11–14 augustus 2025</td>
                             <td><a href="https://utrechtseintroductietijd.nl/">UIT-week</a></td>
 					</tr> -->
-                    <tr> <!-- v-if="false"> -->
+                    <tr v-if="false"> 
                         <td>14-17 september 2026</td>
                         <td> <a href="https://docs.google.com/forms/d/1JghpmpAH_IZnbLmSGXLacmj2A3J5zZrhbMsWxXB6JX0/preview">
                             Introweek </a> </td>

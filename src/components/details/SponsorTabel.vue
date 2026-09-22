@@ -5,12 +5,12 @@
                 <a href="https://www.mistersteven.nl/">
                     <img src="@\assets\images\sponsors\Logo De Heerenkamer 1764x758.png">
                 </a>
-                <a href="https://www.kleine-rijopleidingen.nl/">
-                    <img src="@/assets/images/sponsors/kleine-rijopleidingen-maar-dan-beter.jpeg">
-                </a>
                 <a href="https://studentensteden.nl/utrecht">
                     <img src="@/assets/images/sponsors/studentensteden-utrecht.svg">
                 </a>
+                <a href="https://www.flowmotive.nl/">
+                    <img src="@/assets/images/sponsors/flowmotive-logo.png">
+                </a>            
             </div>
         </div>
     </div>

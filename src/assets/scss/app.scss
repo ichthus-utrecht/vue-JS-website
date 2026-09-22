@@ -809,10 +809,14 @@ body {
         font-size: 1rem !important;
     }
     .sponsor-frame {
-        margin: 0 !important;
+        align-items: center;
     }
-    #sponsorContainer {
-        margin: 0 !important;
+    #sponsorContainer img {
+        height: auto;
+        max-height: 8vh;
+        width: auto;
+        max-width: 15vw;
+        object-fit: contain;
     }
     .sponsor-frame img {
         max-width: 40vw !important;

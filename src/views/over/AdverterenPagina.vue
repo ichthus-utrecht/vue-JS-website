@@ -21,7 +21,7 @@ import NavigatieBalk from '../../components/interactief/NavigatieBalk.vue';
                     bij
                     al onze leden en andere Utrechtse studenten. Wij bieden verschillende
                     advertentiemogelijkheden aan.
-                    Zo kunt u een banner plaatsen op onze website en adverteren in ons maandelijkse
+                    Zo kunt u een banner plaatsen op onze website en adverteren in ons vierjaarlijkse
                     verenigingsblad of
                     de jaarlijkse almanak. Daarnaast zijn er in de introweek ook adverteermogelijkheden.
                     Uiteraard kunt

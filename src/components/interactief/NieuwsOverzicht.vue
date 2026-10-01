@@ -22,11 +22,15 @@ function updateWindowWidth() { windowWidth.value = window.innerWidth }
 onMounted(() => window.addEventListener('resize', updateWindowWidth))
 onUnmounted(() => window.removeEventListener('resize', updateWindowWidth))
 
+// Estimate how many page buttons fit based on actual button width instead of fixed breakpoints.
+const estimatedButtonWidth = 44 // approx. width in px of a .page-link button including margin
+const reservedForArrows = estimatedButtonWidth * 2 // prev/next buttons
+
 const maxVisiblePageButtons = computed(() => {
-  if (windowWidth.value < 400) return 3
-  if (windowWidth.value < 576) return 5
-  if (windowWidth.value < 768) return 7
-  return numberOfPages
+  const available = Math.max(0, windowWidth.value * 0.8 - reservedForArrows) // col-10 ≈ 80% of viewport
+  const fitting = Math.floor(available / estimatedButtonWidth)
+  const max = Math.min(numberOfPages, Math.max(3, fitting))
+  return max % 2 === 0 ? max - 1 : max // keep it odd so the current page can be centered
 })
 
 // Only display the maximum fitted pages

@@ -26,7 +26,7 @@ const url = "/nieuws/" + nummer
 
 <template>
   <div v-if="nummer >= 0" class="col-12 border-bottom border-bottom-primary m-0 mb-2">
-    <div class="col-12 container p-0 mb-2 row">
+    <div class="col-12 container p-0 mb-2 row justify-content-center">
       <div class="col-12 col-md-6">
         <h4 class="h4 font-primary text-primary">{{ titel }}</h4>
         <p class="text-justify">

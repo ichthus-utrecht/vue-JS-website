@@ -137,7 +137,7 @@ import LightBox from '@/components/interactief/LightBox.vue'
                           </div>
                           <div class="row">
                               <h1 class="quote">
-                                  "Dé gezelligste studentenvereniging in Utrecht!"
+                                  "Dé gezelligste studenten&shy;vereniging in Utrecht!"
                               </h1>
                               <p class="quote-origin">
                                   &mdash; Betrouwbare bron

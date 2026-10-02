@@ -15,7 +15,6 @@
 .carousel-item {
     background-size: cover;
     background-position: top;
-    background-attachment: fixed;
 }
 
 .carousel-caption-top {
@@ -42,9 +41,6 @@
 }
 
 @media screen and (max-width: 600px) {
-    .carousel-item {
-        transform: filter .5s
-    }
     .carousel-image {
         width: 100vw;
         height: 100%;

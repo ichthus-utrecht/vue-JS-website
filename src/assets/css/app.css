@@ -12780,7 +12780,6 @@ hr.divider-blue {
 }
 
 .carousel-item {
-    background-attachment: fixed;
     background-position: top;
     background-size: cover
 }
@@ -13338,7 +13337,6 @@ a.btn-social {
 }
 
 .quote-container {
-    background-attachment: fixed;
     background-position: top;
     background-size: cover
 }

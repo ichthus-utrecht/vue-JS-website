@@ -1,56 +1,63 @@
-# Ichthus Utrecht Vue JS website
-Dit is de repository voor de statische website van Ichthus Utrecht, het ontwikkelen waarvan gestart is in januari 2024. Voor het ontwikkelen van deze website maken we gebruik van Vue JS. Er is gekozen voor deze taal, omdat deze simpel te leren is en tegelijkertijd nog veel flexibiliteit biedt om complexere features te programmeren voor de website.
+# Ichthus Utrecht Vue JS website🐟
 
-Voor de documentatie van Vue verwijzen we u naar hun website: https://vuejs.org/
+Dit is de repository van de statische website van Ichthus Utrecht. Aan deze website wordt sinds januari 2024 gewerkt. We gebruiken het framework [Vue JS](https://vuejs.org/): dat is simpel te leren en biedt tegelijk genoeg flexibiliteit om complexere features voor de website te programmeren.
 
-## Customize configuration
+## Documentatie
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+> [!TIP]
+> **Nieuw in de WebCie? Begin hier⤵︎**
+>
+> - **[Installatie](docs/Installatie.md)**: de website op je eigen computer zetten, Git en GitHub instellen en werken met branches en pull requests.
+> - **[Website aanpassen](docs/WebsiteAanpassen.md)**: waar je wat vindt, en hoe je de meest voorkomende aanpassingen doet (bestuur, nieuws, pagina's).
 
-## Project Setup
+Voor Vue zelf, zie de [officiële documentatie van Vue](https://vuejs.org/guide/introduction.html).
 
-```sh
-npm install
-```
+## Snel starten
 
-Soms moet je ook de dev dependencies installeren. Dit kan op de volgende manier:
-```sh
-npm install --include=dev
-```
-
-### Compile and Hot-Reload for Development
+Heb je alles al geïnstalleerd (zie [Installatie](docs/Installatie.md))? Dan zijn dit de belangrijkste commando's:
 
 ```sh
-npm run dev
+npm install --include=dev   # afhankelijkheden installeren (eerste keer, en na wijzigingen in package.json)
+npm run dev                 # testserver starten met hot-reload
+npm run build               # type-check en productieversie bouwen
 ```
 
-### Type-Check, Compile and Minify for Production
+> [!TIP]
+> Draai `npm run build` voordat je een pull request maakt. Zo zie je meteen of er TypeScript-fouten in je code zitten.
 
-```sh
-npm run build
-```
+## Technische achtergrond
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Vite
 
-## TypeScript
-Dit project maakt gebruik van [TypeScript](https://www.typescriptlang.org/). Daarmee kun je de codekwaliteit verbeteren. Als je code niet klopt krijg je een error en kun je niet builden. Je kunt een error onderdrukken met `/** @ts-ignore */`. TypeScript is een laag over JavaScript heen. Je kunt dus nog steeds gewoon JavaScript code schrijven, maar als je wilt wel gebruik maken van TypeScript features.
+De website wordt gebouwd met [Vite](https://vitejs.dev/). De instellingen staan in `vite.config.ts`; zie de [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Nieuws
-Op de voorpagina is een overzicht van nieuws. Om hier items toe te voegen, moet je in /src/assets/nieuwsItems.json een item toe voegen aan het einde van de array. Dit heeft de volgende structuur:
-```json
-{
-    "titel": "Hier staat de titel",
-    "inhoud": "Hier staat de inhoud"
-}
-```
+### TypeScript
 
-Je kunt een tekst op een nieuwe regel beginnen door '\n' toe te voegen op de plek waar je dat wilt.
+Dit project gebruikt [TypeScript](https://www.typescriptlang.org/), een laag over JavaScript heen die helpt de codekwaliteit te verbeteren. Je kunt dus nog steeds gewone JavaScript schrijven, maar ook TypeScript-features gebruiken. Klopt je code niet, dan krijg je een foutmelding en kun je niet builden. Een fout onderdrukken kan met `/** @ts-ignore */`, maar doe dat alleen als je zeker weet dat de code klopt.
 
-## Agenda
-Voor de agenda is gebruikt gemaakt van FullCalender icm Google Calendar. Zie hiervoor de [documentatie van FullCalendar](https://fullcalendar.io/docs/google-calendar). De google agenda wordt gevuld met data uit publieke agenda van churchbook (https://ichthusutrecht.churchbook.nl/public/ical_all.cfm). Dit is nodig omdat dit problemen opleverde met CORS: Je kunt vanaf het ichthusutrecht.nl domein niet zomaar dingen ophalen van het churchbook.nl domein. 
+### Agenda
 
-Om gebruik te maken van de Google Calendar API in de frontend moet je een API key hebben. Volgens de [best practices](https://cloud.google.com/docs/authentication/api-keys-best-practices) van Google hierover, moet je deze niet in je code opslaan. Om te veiligheid te vergroten, zijn er twee aparte keys: één voor lokaal gebruik (dev) en één op de Ichthus website (production). De API key voor op de website kan alleen op het ichthusutrecht.nl domein gebruikt worden. Deze key in de bundle terecht die gemaakt wordt door Vite: je kunt de key dan ook achterhalen. Dat moet ook, want die heb je ook nodig om de agenda op de halen. Door de beperking kun je die key niet lokaal gebruiken. Daarvoor is de key voor lokaal gebruik, die je ook gewoon op localhost kunt gebruiken. De dev sleutel kan dus echter op elk domein gebruikt worden, en moet daarom zorgvuldig behandeld worden. Beide keys staan in LastPass en in de [google cloud console](console.cloud.google.com).
+De agenda gebruikt [FullCalendar](https://fullcalendar.io/docs/google-calendar) in combinatie met Google Calendar. De Google-agenda wordt gevuld met de [publieke agenda van Churchbook](https://ichthusutrecht.churchbook.nl/public/ical_all.cfm).
 
-## .env
-In het .env bestand kun je geheimen zetten of andere variabelen. Om dit lokaal te gebruiken, moet je het `.env.local-example` kopiëren en hernoemen naar `.env.local`. Nu kun je de waarden invullen en wordt het genegeerd door Git.
+Die omweg via Google is nodig vanwege CORS: de website op het domein ichthusutrecht.nl mag niet zomaar gegevens ophalen van het domein churchbook.nl.
+
+#### API-keys
+
+> [!NOTE]
+> Onderstaande is alleen nodig als je de agenda zelf lokaal wil testen.
+
+Om de Google Calendar API te gebruiken, is een API-key nodig. Volgens de [best practices van Google](https://cloud.google.com/docs/authentication/api-keys-best-practices) hoort die niet in de code te staan. Daarom zijn er twee aparte keys:
+
+- **Production:** werkt alleen op het domein ichthusutrecht.nl. Deze key komt via Vite in de gebouwde website terecht en is daar dus voor iedereen te vinden. Dat is onvermijdelijk, want de browser heeft hem nodig om de agenda op te halen. Door de domeinbeperking kan niemand er elders iets mee.
+- **Dev:** voor lokaal gebruik, werkt ook op localhost. Deze key werkt op **elk** domein en moet daarom zorgvuldig behandeld worden. **Zet hem nooit in de code of in een commit.**
+
+Beide keys staan in LastPass en in de [Google Cloud Console](https://console.cloud.google.com).
+
+### Omgevingsvariabelen (`.env`)
+
+Geheimen en andere instellingen, zoals de dev-key voor de agenda, staan in omgevingsvariabelen. Om lokaal te werken:
+
+1. Kopieer `.env.local-example` en noem de kopie `.env.local`.
+2. Vul de waarden in.
+
+`.env.local` wordt door Git genegeerd, dus je geheimen komen niet op GitHub.

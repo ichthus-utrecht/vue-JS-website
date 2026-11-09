@@ -118,7 +118,7 @@ Hier vind je voor elk bestuurslid:
 </BestuursPersoon>
 ```
 
-> [!WARNING]
+> [!IMPORTANT]
 > **Contactpersonen op meerdere pagina's**
 >
 > Sommige contactpersonen staan op **meerdere pagina's** en moeten daarom overal bijgewerkt worden!

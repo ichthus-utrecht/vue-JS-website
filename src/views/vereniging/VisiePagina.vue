@@ -50,7 +50,7 @@ import NavigatieBalk from '@/components/interactief/NavigatieBalk.vue';
             </div>
 
             <div class="col-12 col-md-10 post-text">
-                De ongeschreven vierde doelstelling is gezelligheid. Onderlinge contacten en vriendschappen groeien
+                De onofficiële vierde doelstelling is gezelligheid. Onderlinge contacten en vriendschappen groeien
                 op bijvoorbeeld de kringen, de maaltijd en soos. Een belangrijk punt, want als er binnen Ichthus
                 sprake is van gemeenschap, kan dit een 'broedplaats' worden voor nieuwe ideeën en activiteiten.
                 <br><br>
